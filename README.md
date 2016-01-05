@@ -22,7 +22,7 @@ Pokud chcete něco doplnit či upravit, naklonujte si repozitář, nastartujte Z
 </p>
 
 <p>
-Normou je jazyk <a href="https://en.wikipedia.org/wiki/Markdown" title="Markdown" class="https">Markdown</a>. Dále lze vkládat materiály v PDF, obrázky, nebo i myšlenkové mapy ve formátu <a href="https://en.wikipedia.org/wiki/FreeMind" title="FreeMind" class="https">FreeMind</a>. Podmínkou je odkaz na daný materiál v textu. Odkazy vkládejte přímo do samotného textu, žádné poznámky pod čarou! Obrázky lze navíc díky ZIM vkládat přímo do textu.
+Normou je jazyk <a href="https://en.wikipedia.org/wiki/Markdown" title="Markdown" class="https">Markdown</a>. Dále lze vkládat materiály v PDF, obrázky, nebo i myšlenkové mapy ve formátu <a href="https://en.wikipedia.org/wiki/FreeMind" title="FreeMind" class="https">FreeMind</a>. Podmínkou je odkaz na daný materiál v textu. Odkazy vkládejte přímo do samotného textu, žádné poznámky pod čarou! Obrázky lze navíc díky Zim vkládat přímo do textu.
 </p>
 
 <p>
