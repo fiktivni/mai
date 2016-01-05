@@ -7,14 +7,14 @@ Toto je [otevřená](https://www.gnu.org/licenses/gpl-2.0.html) wiki k magisters
 Jak wiki používat
 -----------------
 
-  1. Nainstalujte si program Zim - [http://zim-wiki.org/](http://zim-wiki.org/)
+  1. Nainstalujte si program [Zim](http://zim-wiki.org/)
   2. Naklonujte si repozitář - `git clone https://github.com/fiktivni/mszz.uai.prf.jcu.cz.git`
   3. Spusťe **notebook.zim**
 
 Jak přispívat
 -------------
 
-Pokud chcete něco doplnit či upravit, naklonujte si repozitář, nastartujte Zim a pusťte se do toho!
+Pokud chcete něco doplnit či upravit, [vytvořte si vlastní fork](https://help.github.com/articles/fork-a-repo/), nastartujte Zim a pusťte se do toho!
 
 Wiki používá formát [ZIM](https://en.wikipedia.org/wiki/ZIM_%28file_format%29). Díky programu [Zim](https://en.wikipedia.org/wiki/Zim_%28software%29) se ho ale učit nepotřebujete.
 
