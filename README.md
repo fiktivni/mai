@@ -16,8 +16,10 @@ Jak přispívat
 
 Pokud chcete něco doplnit či upravit, naklonujte si repozitář, nastartujte Zim a pusťte se do toho!
 
-Wiki používá jazyk podobný [Markdown](https://en.wikipedia.org/wiki/Markdown). To řeší Zim. Dále lze vkládat materiály v PDF, obrázky, nebo i myšlenkové mapy ve formátu [FreeMind](https://en.wikipedia.org/wiki/FreeMind). Podmínkou je odkaz na daný materiál v textu, ale žádné poznámky pod čarou! Zim navíc umožňuje vkládat přímo do textu i obrázky.
+Wiki používá formát [ZIM](https://en.wikipedia.org/wiki/ZIM_%28file_format%29). Díky programu [Zim](https://en.wikipedia.org/wiki/Zim_%28software%29) se ho ale učit nepotřebujete.
 
-Pro uplatnění vašich změn použijte standardní [pull-request](https://help.github.com/articles/using-pull-requests/)
+Mimo samotný text je dovoleno vkládat materiály v PDF, obrázky a myšlenkové mapy ve formátu [FreeMind](https://en.wikipedia.org/wiki/FreeMind). Podmínkou je odkaz na daný materiál v textu. Zim také umožňuje vkládat obrázky přímo do textu.
+
+Až budete se svými změnami naprosto spokojeni, použijte standardní [pull-request](https://help.github.com/articles/using-pull-requests/)
 
 Úplným nováčkům s Git doporučuji knihu [Pro Git](http://knihy.nic.cz/files/nic/edice/scott_chacon_pro_git.pdf) od Scotta Chacona.
