@@ -3,7 +3,7 @@ Wiki-Format: zim 0.4
 Creation-Date: 2016-01-05T10:33:34+01:00
 
 ====== mszz.uai.prf.jcu.cz ======
-Toto je [[../LICENSE|otevřená]] wiki k magisterským státním závěrečný zkouškám z oboru [[http://www.prf.jcu.cz/uai/|Aplikovaná informatika]] na [[http://www.prf.jcu.cz/|Přírodovědecké fakultě]] [[http://www.jcu.cz/|Jihočeské univerzity]] v Českých Budějovicích. Cílem je shromáždit zde materiály a odpovědět na otázky u předmětů z [[../okruhy.pdf|okruhů]].
+Toto je [[../LICENSE|otevřená]] wiki k magisterským státním závěrečný zkouškám z oboru [[http://www.prf.jcu.cz/uai/|Aplikovaná informatika]] na [[http://www.prf.jcu.cz/|Přírodovědecké fakultě]] [[http://www.jcu.cz/|Jihočeské univerzity]] v Českých Budějovicích. Cílem je shromáždit zde materiály a odpovědi na otázky z [[../okruhy.pdf|okruhů]].
 
 ===== Teoretická informatika =====
 [ ] [[+Algoritmy|Algoritmy]]
