@@ -8,7 +8,7 @@ Jak wiki používat
 -----------------
 
   1. Nainstalujte si program Zim - [http://zim-wiki.org/](http://zim-wiki.org/)
-  2. Naklonujte si repozitář - 'git clone https://github.com/fiktivni/mszz.uai.prf.jcu.cz.git'
+  2. Naklonujte si repozitář - `git clone https://github.com/fiktivni/mszz.uai.prf.jcu.cz.git`
   3. Spusťe **notebook.zim**
 
 Jak přispívat
