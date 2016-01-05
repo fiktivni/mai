@@ -1,6 +1,5 @@
-
-mszz.uai.prf.jcu.cz
-===================
+MAI
+===
 
 Toto je [otevřená](https://www.gnu.org/licenses/gpl-2.0.html) wiki k magisterským státním závěrečný zkouškám z oboru [Aplikovaná informatika](http://www.prf.jcu.cz/uai/) na [Přírodovědecké fakultě](http://www.prf.jcu.cz/) [Jihočeské univerzity](http://www.jcu.cz/) v Českých Budějovicích. Cílem je shromáždit zde materiály a odpovědi na otázky z [okruhů](http://www.prf.jcu.cz/data/files/7/1294okruhy-szz-pro-navazujici-magisterske-studium.pdf).
 
@@ -8,7 +7,7 @@ Jak wiki používat
 -----------------
 
   1. Nainstalujte si program [Zim](http://zim-wiki.org/)
-  2. Naklonujte si repozitář - `git clone https://github.com/fiktivni/mszz.uai.prf.jcu.cz.git`
+  2. Naklonujte si repozitář - `git clone https://github.com/fiktivni/mai.git`
   3. Spusťe **notebook.zim**
 
 Jak přispívat
