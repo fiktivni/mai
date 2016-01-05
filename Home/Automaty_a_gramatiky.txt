@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-05T13:40:17+01:00
+
+====== Automaty a gramatiky ======
+Created Úterý 05 leden 2016
+
+===== Zadání =====
+* Konečný automat – deterministický a nedeterministický automat, regulární jazyk, konstrukce ekvivalentního deterministického automatu.
+* Formální gramatiky - regulární a bezkontextové gramatiky, syntaktická analýza.
+
+===== Materiály =====
+[[../Teoretická informatika.pdf|Teoretická informatika od Ladislava Lhotky]]
