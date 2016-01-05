@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-05T19:03:23+01:00
+
+====== Strategické řízení firemních informací ======
+Created Úterý 05 leden 2016
+
+===== Zadání =====
+
+==== Velké otázky ====
+* Jste před úkolem navrhnout novou IS/IT strategii firmy. Které dokumenty si k tomu vyžádáte? A které z nich pro Vás budou závazné? Zdůvodněte.
+* Máte navrhnout IS/IT strategii pro vaši fakultu. Jaké analýzy provedete a co bude jejich hlavním účelem?
+* Co podle Vás znamená IS/IT strategie? Pokuste se ji definovat tak, aby bylo možné si pod definicí něco představit, a uveďte vztah k ostatním úrovním řízení firmy. Pozor na definici kruhem.
+
+==== Menší otázky ====
+* V jakém kritériu je hlavní rozdíl mezi taktickým, strategickým a operativním řízením? Seřaďte tyto úrovně řízení dle tohoto kritéria.
+* Jaké kategorie IS byste použili na následující úlohy?
+	a) správa nabídek a objednávek spojená s účetnictvím;
+	b) vyhledání klientů s aktuálně nadprůměrným odběrem zboží, kteří se zajímají o novinky.
+* Znázorněte / popište vztah provozních systémů, datového skladu a nástroje tzv. business intelligence. Čím se datový sklad liší od provozních databází?
+
+===== Materiály =====
+[[../Strategické řízení firemních IS.pdf|Strategické řízení firemních IS od Martina Čížka]]

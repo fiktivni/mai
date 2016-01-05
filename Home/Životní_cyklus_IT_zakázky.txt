@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-05T15:48:15+01:00
+
+====== Životní cyklus IT zakázky ======
+Created Úterý 05 leden 2016
+
+===== Zadání =====
+* Představte si, že jste nominován jako manažer přípravy nabídky pro dodávku libovolného IT řešení. Jak budete postupovat do okamžiku předání nabídky
+* zákazníkovi?
+* Co je obvykle součástí nabídek IT řešení? Představte si, že jste na straně zákazníka a máte na starosti výběrové řízení. Jak budete postupovat a na co musíte reflektovat, aby toto Vámi řízené výběrové řízení proběhlo transparentním způsobem?
+* Jak se liší výběrové řízení vypsané dle zákona o veřejných zakázkách a vypsané standardním způsobem?
+* Pokud budete auditorem komerčního informačního systému, jaké vlastnosti či atributy budete sledovat a hodnotit?
+
+===== Materiály =====
+[[../Životní cyklus IT zakázky.pdf|Životní cyklus IT zakázky od Miroslava Skokana]]

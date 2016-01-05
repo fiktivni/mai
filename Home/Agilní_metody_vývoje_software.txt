@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-05T16:49:47+01:00
+
+====== Agilní metody vývoje software ======
+Created Úterý 05 leden 2016
+
+===== Zadání =====
+* Jako zástupce systémového integrátora máte přesvědčit zákazníka, abyste společně řešili projekty pomocí agilního přístupu. Jaké argumenty použijete, na co se zaměříte?
+* Představte si, že jako odpovědná osoba dodavatele informačního systému máte řídit projekt u zákazníka s daným rozpočtem a termínem, rozsah (funkcionalita) se může měnit. Vyberte si některou z agilních metodik a navrhněte způsob vývoje IS.
+* Jste projektový manažer ve firmě, u které si můžete vybrat metodiku vývoje podle vlastního uvážení. Na jaké parametry případného nového projektu se zaměříte při výběru vhodné metodiky vývoje?
+
+===== Materiály =====
+[[+Agilní metodiky - poznámky|Agilní metodiky - poznámky]]
+[[https://en.wikipedia.org/wiki/Agile_software_development#The_Agile_Manifesto|@Wikipedia: Agile Software Development]]
