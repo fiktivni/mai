@@ -13,4 +13,8 @@ Created Úterý 05 leden 2016
 * V řadě oblastí například logistice nebo robotice je třeba řešit různé optimalizační úlohy. Řada úspěšných optimalizačních metod je založena na přírodou inspirovaných algoritmech. Popište několik z nich. Na jaké úlohy byste je použili?
 
 ===== Materiály =====
+<<<<<<< HEAD
 [[../Neuronové sít a výpočetní inteligence.pdf|Neuronové sít a výpočetní inteligence od Miroslava Skrbka v1.0]]
+=======
+[[../Neuronové sít a výpočetní inteligence.pdf|Neuronové sít a výpočetní inteligence od Miroslava Skrbka]]
+>>>>>>> f8b9cf630d9fe9f0793f59c0a92c18721b522dd8
