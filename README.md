@@ -11,7 +11,7 @@ Toto je otevřená wiki k magisterským státním závěrečný zkouškám z obo
 <ol type="1" start="1">
 <li>Nainstalujte si program Zim - <a href="http://zim-wiki.org/" title="http://zim-wiki.org/" class="http">http://zim-wiki.org/</a></li>
 <li>Naklonujte si repozitář - <tt>git clone https://github.com/fiktivni/mszz.uai.prf.jcu.cz.git</tt></li>
-<li>Spusťe notebook.zim</li>
+<li>Spusťe <strong>notebook.zim</strong></li>
 </ol>
 </p>
 
