@@ -2,7 +2,7 @@
 mszz.uai.prf.jcu.cz
 ===================
 
-Toto je otevřená wiki k magisterským státním závěrečný zkouškám z oboru Informační management na Přírodovědecké fakultě Jihočeské univerzity v Českých Budějovicích.
+Toto je [otevřená](https://www.gnu.org/licenses/gpl-2.0.html) wiki k magisterským státním závěrečný zkouškám z oboru [Aplikovaná informatika](http://www.prf.jcu.cz/uai/) na [Přírodovědecké fakultě](http://www.prf.jcu.cz/) [Jihočeské univerzity](http://www.jcu.cz/) v Českých Budějovicích.
 
 Jak wiki používat
 -----------------
