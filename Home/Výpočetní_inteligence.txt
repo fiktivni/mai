@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-05T13:48:48+01:00
+
+====== Výpočetní inteligence ======
+Created Úterý 05 leden 2016
+
+===== Zadání =====
+* Neuronové sítě jsou výpočetním paradigmatem, který byl významně inspirován strukturou lidského mozku. Popište nejčastěji užívané typy umělých neuronů a jejich vlastnosti. Do jakých topologií se spojují a jak topologie určuje jejich vlastnosti? Popište základní principy jejich učení.
+* Máte pro dataminigovou úlohu vytvořit klasifikátor. Jaký typ neuronové sítě použijete? Jak připravíte trénovací a testovací množiny? Popište proces učení a nastavení jeho parametrů. Jak klasifikátor vyhodnotíte?
+* Potřebujete provést prvotní analýzu na základě podobnosti dat. Jakou neuronovou síť použijete? Popište vybavení i učení. Jak budete interpretovat odezvy naučené neuronové sítě?
+* Máte klasifikovat nebo predikovat posloupnosti dat. V posloupnostech hraje důležitou roli čas. Jaké možnosti v oblasti neuronových sítí máte? Jaké typy sítí a jakým způsobem použijete?
+* V řadě oblastí například logistice nebo robotice je třeba řešit různé optimalizační úlohy. Řada úspěšných optimalizačních metod je založena na přírodou inspirovaných algoritmech. Popište několik z nich. Na jaké úlohy byste je použili?
+
+===== Materiály =====
+[[../Neuronové sít a výpočetní inteligence.pdf|Neuronové sít a výpočetní inteligence od Miroslava Skrbka v1.0]]

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-05T13:44:17+01:00
+
+====== Teorie informace ======
+Created Úterý 05 leden 2016
+
+===== Zadání =====
+* Informace je základním pojmem teorie informace. Jak je definována Shannonova míra informace a dále podmíněná, sdružená a vzájemná informace? Co je entropie, jak je definována a co vyjadřuje? Za jakých podmínek je entropie nulová a kdy dosahuje svého maxima?
+* V informatice se neobejdeme bez reprezentace čísel v různých číselných soustavách. Co jsou polyadické číselné soustavy, jak se vzájemně převádějí a jak se v nich provádějí základní početní operace? Co jsou soustavy příbuzné a jak se vzájemně převádějí? Jak jsou v počítačích reprezentována čísla celá kladná i záporná, čísla desetinná a čísla reálná v plovoucí řádové čárce?
+* Při racionálním uchování dat hraje velkou úlohu komprese dat. Jaké druhy komprese máme k dispozici a na jaké druhy dat jsou vhodné? Vysvětlete principy nejběžnějších kompresních algoritmů.
+
+===== Materiály =====
+[[../Teorie informace.pdf|Teorie informace od Miroslava Skrbka v0.1]]
