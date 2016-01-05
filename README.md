@@ -18,7 +18,7 @@ Toto je otevřená wiki k magisterským státním závěrečný zkouškám z obo
 <h2>Jak přispívat</h2>
 
 <p>
-Pokud chcete něco doplňit či úpravit, naklonujte si repozitář, nastartujte Zim a pusťte se do toho!
+Pokud chcete něco doplnit či úpravit, naklonujte si repozitář, nastartujte Zim a pusťte se do toho!
 </p>
 
 <p>
