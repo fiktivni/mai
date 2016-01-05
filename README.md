@@ -2,7 +2,7 @@
 mszz.uai.prf.jcu.cz
 ===================
 
-Toto je [otevřená](https://www.gnu.org/licenses/gpl-2.0.html) wiki k magisterským státním závěrečný zkouškám z oboru [Aplikovaná informatika](http://www.prf.jcu.cz/uai/) na [Přírodovědecké fakultě](http://www.prf.jcu.cz/) [Jihočeské univerzity](http://www.jcu.cz/) v Českých Budějovicích.
+Toto je [otevřená](https://www.gnu.org/licenses/gpl-2.0.html) wiki k magisterským státním závěrečný zkouškám z oboru [Aplikovaná informatika](http://www.prf.jcu.cz/uai/) na [Přírodovědecké fakultě](http://www.prf.jcu.cz/) [Jihočeské univerzity](http://www.jcu.cz/) v Českých Budějovicích. Cílem je shromáždit zde materiály a odpovědět na otázky u předmětů z [okruhů](http://www.prf.jcu.cz/data/files/7/1294okruhy-szz-pro-navazujici-magisterske-studium.pdf).
 
 Jak wiki používat
 -----------------
