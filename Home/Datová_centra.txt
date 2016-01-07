@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-07T00:50:01+01:00
+
+====== Datová centra ======
+Created Čtvrtek 07 leden 2016
+
+===== Témata =====
+[ ] Co patří mezi základní parametry datových center?
+[ ] Vysvětlete, co v terminologii datových center znamená: TIER I – TIER 4?
+[ ] Datové centrum koncentruje celou řadu technologií, které můžeme rozdělit do dvou oblastí: IT a NON IT technologie. Uveďte hlavní významné technologie z obou oblastí (min. 3) a podrobně je popište.
+[ ] Popište úrovňový model Disaster Recovery a vysvětlete, k čemu slouží Business Continuity a Disaster Recovery plán?
+[ ] Navrhněte optimalizaci IT infrastruktury pro firmu, která provozuje informační systém na vlastním hardware. Servery (cca 10 fyzických serverů), které jsou umístěny v samostatné místnosti běžné kancelářské budovy a jejich stáří se pohybuje od 2 do 5 let. Cílem optimalizace je snížení nákladů a zvýšení spolehlivosti. Popište, jak budete postupovat, jaké technologie navrhnete využít.
+[ ] Jaké parametry/služby/garance vás budou zajímat v případě migrace podnikového informačního systému do datového centra a jaké v případě migrace do Cloudu.
+[ ] Jaké prostředky (HW, SW, infrastruktura, finance) potřebujete pro nasazení virtualizace. Popište detailně hlavní komponenty, které potřebujete pro provoz virtuální farmy pro 100 – 200 virtuálních počítačů.
+
+===== Materiály =====
+[[https://en.wikipedia.org/wiki/Data_center|Data center @Wikipedia]]

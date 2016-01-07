@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-07T00:02:20+01:00
+
+====== Architektura počítačů ======
+Created Čtvrtek 07 leden 2016
+
+===== Témata =====
+[ ] Jaké jsou stavební prvky počítačů? Jaké obvody realizují logické funkce a které mají paměťovou funkci? Začněte od základních prvků až po funkční bloky.
+[ ] V současnosti se můžeme setkat s von Neumannovou a Harvardskou architekturou počítačů. Popište je. Jaké jsou jejich funkční bloky a jaká je jejich funkce? Co je instrukční cyklus počítače, jaké má fáze a jakou činnost procesor v těchto fázích vykonává?
+[ ] Architektura instrukční sady (Instruction Set Architecture) tvoří rozhraní mezi software a hardware. Co vše zahrnuje, s jakými typy se můžeme setkat a jaké mají vlastnosti? Jaké typické skupiny instrukcí najdeme v instrukčních sadách, jaké operace reprezentují a jak jsou kódovány? Uveďte příklady různých adresních módů využívaných v instrukcích.
+[ ] Existuje velmi silná podobnost mezi voláním podprogramu a vyvoláním obsluhy přerušení. Vysvětlete princip přerušení, jaké typy rozeznáváme a jak je implementováno. Jaké mohou být zdroje přerušení, jak se vybírá konkrétní zdroj přerušení k obsloužení v daném okamžiku a jak jsou u obslužných podprogramů přerušení určeny jejich počátky?
+[ ] Procesory pro tablety a mobilní telefony typicky obsahují procesory typu RISC, které s výhodou využívají proudové zpracování instrukcí. Vysvětlete, jak se tyto procesory liší od procesorů typu CISC. Jaký je princip proudového zpracování, jak se jím dosahuje vysokého výkonu a co jej může narušit?
+[ ] Výkon počítače může výrazně ovlivnit hierarchie paměťového podsystému. Vysvětlete strukturu a funkci jednotlivých komponent. Jak ovlivňuje přítomnost skrytých pamětí (cache) výkon počítače, co je časová a prostorová lokalita? Jaká je konstrukce skryté paměti? Je výhodnější nižší nebo vyšší stupeň asociativity? Jak mohou instrukce prefetch, které nahrávají data do skryté paměti na žádost programátora, snížit počet výpadků?
+[ ] V současných počítačových architekturách se setkáváme s paralelismem na mnoha úrovních. Od paralelismu na úrovni instrukcí až po víceprocesorové systémy. Vysvětlete, jaké typy paralelismu lze nalézt ve skalárních, superskalárních, vícevláknových a vícejádrových a VLIW procesorech. Popište tyto architektury a co, případně kdo, provádí paralelizaci. Jaký vliv má optimalizace kódu překladačem na dosažení maximálního reálného výkonu?
+[ ] Nejčastěji se setkáváme se systémy SMP (Symetric Multiprocessing). Existují ale jiné více či méně odlišné jako je NUMA (Non-uniform memory access) nebo architektury hybridní. Vysvětlete, co je pro tyto architektury typické, a naopak v čem se odlišují. Co je a jakými metodami se dosahuje paměťové koherence v SMP systémech?
+[ ] Máte pro výběrové řízení stanovit výkonnostní kritéria pro nákup počítačů. Tato kritéria musíte nejen stanovit, ale i umožnit dodavatelům jejich systémy změřit. Jaké máte možnosti výběru výkonnostních testů, co budete brát v úvahu při jejich výběru, případně jak je budete kombinovat, aby byl výběr co nejobjektivnější a dodané počítače splnily vaše požadavky?
+[ ] Navrhněte typově základní parametry hardware implementující IT systém zákazníka: Malíř pokojů, využívající web pro prodej spotřebního materiálu. Zásobník práce tedy plánování činností v rezervačním systému. Vazba na mobilní
+[ ] telefon. Není požadováno vedení účetnictví jen fakturace (objednávky, výdej a příjem faktur, správa skladu apod.). Roční obrat 5 000 000,- Kč.
+[ ] Vyberte architekturu a parametry počítačů pro provoz firmy.
+[ ] Navrhněte typově základní parametry hardware pro IT systému zákazníka:
+	[ ] Internetová rozhlasová stanice. Je požadován výkonný stream server, databázový sklad zvukových nahrávek, napojení na telefonní centrálu umožňující přebírat hovory do vysílání.
+	[ ] Vyberte architekturu a parametry počítačů pro provoz rádia.
+	[ ] Navrhněte typově základní parametry hardware implementující IT systém pro malé obecní knihovny. Je potřeba registrovat knihy a související činnosti.
+
+===== Materiály =====
+[[../Architektura počítačových systémů.pdf|Architektura počítačových systémů od Miroslava Skrbka]]

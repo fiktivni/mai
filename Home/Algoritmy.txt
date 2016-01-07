@@ -5,13 +5,13 @@ Creation-Date: 2016-01-05T13:28:57+01:00
 ====== Algoritmy ======
 Created Úterý 05 leden 2016
 
-===== Zadání =====
-* Algoritmus A1 pro řešení úlohy použije 10000n + 40000 operací, algoritmus A2 pro řešení téže úlohy použije 12n 2 + 9 operací. Pro jakou velikost úlohy je výhodnější použít algoritmus A2?
-* Popište algoritmy pro prohledávání grafů a ukažte, kdy a proč použijete datovou strukturu zásobník a kdy datovou strukturu frontu.
-* Máte za úkol propojit několik lokalit datovým kabelem, přičemž spotřeba kabelů má být minimální. Jak budete postupovat při výpočtu tras?
-* Jaký algoritmus byste navrhli použít při odhalování plagiátorství? Uvažte, že je zde velké množství hledaných řetězců.
-* Turingův stroj – struktura a výpočty.
-* Algoritmická řešitelnost – Turingova hypotéza, pojem algoritmu. Algoritmicky neřešitelné problémy.
+===== Témata =====
+[ ] Algoritmus A1 pro řešení úlohy použije 10000n + 40000 operací, algoritmus A2 pro řešení téže úlohy použije 12n 2 + 9 operací. Pro jakou velikost úlohy je výhodnější použít algoritmus A2?
+[ ] Popište algoritmy pro prohledávání grafů a ukažte, kdy a proč použijete datovou strukturu zásobník a kdy datovou strukturu frontu.
+[ ] Máte za úkol propojit několik lokalit datovým kabelem, přičemž spotřeba kabelů má být minimální. Jak budete postupovat při výpočtu tras?
+[ ] Jaký algoritmus byste navrhli použít při odhalování plagiátorství? Uvažte, že je zde velké množství hledaných řetězců.
+[ ] Turingův stroj – struktura a výpočty.
+[ ] Algoritmická řešitelnost – Turingova hypotéza, pojem algoritmu. Algoritmicky neřešitelné problémy.
 
 ===== Materiály =====
 [[../Algoritmy.pdf|Základní algoritmy od Arnošta Večerky]]

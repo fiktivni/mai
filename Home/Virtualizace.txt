@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-07T00:17:00+01:00
+
+====== Virtualizace ======
+Created Čtvrtek 07 leden 2016
+
+===== Témata =====
+[ ] Jaké přináší hlavní výhody virtualizace a konsolidace?
+[ ] Popište základní rozdělení virtualizace dle druhu (typu). Zaměřte se především na způsob obsluhy procesoru a jeho privilegovaných instrukcí.
+[ ] Uveďte základní definici virtualizace v serverovém prostředí. Jaké jsou její hlavní výhody a přínosy. Doplňující otázka: co je to virtualizace desktopů?
+[ ] Popište komponenty a techniky, které se používají v oblasti virtualizace pro zajištění vysoké dostupnosti (High Availability).
+
+===== Materiály =====
+[[http://www.linux-kvm.org/page/Main_Page|Kernel Virtual Machine]]
+[[http://virt-tools.org/|virt tools: open source virtualization management tool]]
+[[https://en.wikipedia.org/wiki/Virtualization|Virtualization @Wikipedia]]
