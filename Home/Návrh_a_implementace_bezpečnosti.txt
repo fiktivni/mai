@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-07T15:37:31+01:00
+
+====== Návrh a implementace bezpečnosti ======
+Created Čtvrtek 07 leden 2016
+
+===== Témata =====
+[ ] Jaké metody ochrany DDOS navrhujete pro poskytovatele internetu, jaké pro firmu? Zabezpečení portů, autentizační mechanismy, podvržení síťových nastavení, kontrolu síťového provozu, ACL, VPN, bezpečnost WiFi.
+
+===== Materiály =====
+[[../Návrh a implementace bezpečnosti v podnikových aplikacích.pdf|Návrh a implementace bezpečnosti v podnikových aplikacích od Pavla Horala]]

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-07T14:54:30+01:00
+
+====== PKI ======
+Created Čtvrtek 07 leden 2016
+
+===== Témata =====
+[ ] Základní pojmy asymetrické kryptografie (myšlenka, princip, algoritmy a jejich síla, standardy, podpisové schéma, hybridní systémy).
+[ ] Certifikát a elektronický podpis.
+
+===== Materiály =====
+[[../PKI.pdf|PKI od Libora Dostálka]]

@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-07T14:33:29+01:00
+
+====== Počítačová grafika ======
+Created Čtvrtek 07 leden 2016
+
+===== Témata =====
+[ ] Vámi vyvinutá 3D hra pro PC má problémy s rychlostí vykreslování na slabším HW. Čím může být tento problém způsoben a jak ho budete řešit?
+[ ] Vaším úkolem je navrhnout SW pro počítání lahví v přepravce. Jak budete postupovat při plnění tohoto úkolu? Jaké algoritmy a v jakém pořadí použijete?
+[ ] Porovnejte výhody a nevýhody různých typů snímačů, které se využívají ve fotoaparátech, videokamerách a skenerech.
+
+===== Materiály =====
+[[../Počítačová grafika - Vladimír Rambousek.pdf|Počítačová grafika od Vladimíra Rambouska]]
+[[../Počítačová grafika - Petr Vaněk, Miloš Prokýšek.pdf|Počítačová grafika od Petra Vaňka a Miloše Prokýška]]

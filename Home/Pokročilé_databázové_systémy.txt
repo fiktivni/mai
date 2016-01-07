@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-07T14:17:28+01:00
+
+====== Pokročilé databázové systémy ======
+Created Čtvrtek 07 leden 2016
+
+===== Témata =====
+[ ] Vaše firma dostane zakázku na vytvoření nového informačního systému na klíč. Navrhněte vhodnou databázovou a aplikační platformu a porovnejte její výhody a nevýhody alespoň se dvěma dalšími variantami.
+[ ] V existující webové aplikaci, která pracuje s relační databází, dochází v některých případech k velmi pomalé odezvě. Čím by tento typ problému mohl být způsoben a jak byste ho odstranil.
+
+===== Materiály =====
+[[../Databázové systémy.pdf|Databázové systémy]]
+[[https://en.wikipedia.org/wiki/Database|Database @Wikipedia]]
