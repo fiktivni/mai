@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-08T18:42:31+01:00
+
+====== Turingův stroj ======
+Created Pátek 08 leden 2016
+
+**Turingův stroj – struktura a výpočty.**
+
+{{../Turingův_stroj.png}}
+__Turingův stroj M je definován jako uspořádaná sedmice__
+__M = (Q, Σ, Γ, δ, q 0 ,_ , F),__
+kde
+* Q je konečná množina stavů řídící jednotky,
+* Σ je vstupní abeceda,
+* Γ je konečná množina symbolů – abeceda pásky
+* δ: Q × Γ → Q × Γ × {L, R} je přechodová funkce,
+* q 0 ∈ Q je počáteční stav,
+* _ ∈ Γ je speciální prázdný symbol (blank)
+* F ⊂ Q je množina koncových stavů.
+Turingův stroj nemá žádný „vstupní soubor”, veškerá vstupní data musí být napsána na pásku. Proto předpokládáme, že Σ ⊂ Γ − {_}.
+Přechodová funkce na základě aktuálního stavu a přečteného symbolu změní stav, přepíše symbol a posune hlavu na pásce o políčko vlevo nebo vpravo.
+{{../Turingův_stroj_příklad_44.png}}
+(^^ [[../../Teoretická informatika.pdf|Teoretická informatika.pdf str. 162]])

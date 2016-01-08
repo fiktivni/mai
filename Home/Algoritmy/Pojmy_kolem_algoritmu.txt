@@ -1,0 +1,64 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-08T18:10:59+01:00
+
+====== Pojmy kolem algoritmu ======
+Created Pátek 08 leden 2016
+
+**Algoritmická řešitelnost – Turingova hypotéza, pojem algoritmu. Algoritmicky neřešitelné problémy.**
+
+===== Algoritmus =====
+Algoritmus je přesný návod či postup, kterým lze vyřešit daný typ úlohy. Pojem algoritmu se nejčastěji objevuje při programování, kdy se jím myslí __teoretický princip řešení problému__ (oproti přesnému zápisu v konkrétním programovacím jazyce). Obecně se ale algoritmus může objevit v jakémkoli jiném vědeckém odvětví. Jako jistý druh algoritmu se může chápat i např. kuchařský recept. V užším smyslu se slovem algoritmus rozumí takové postupy, které splňují některé silnější požadavky:
+
+==== Vlastnosti algoritmů ====
+
+=== Konečnost (finitonost) ===
+__Každý algoritmus musí skončit v konečném počtu kroků.__ Tento počet kroků může být libovolně velký (podle rozsahu a hodnot vstupních údajů), ale pro každý jednotlivý vstup musí být konečný. Postupy, které tuto podmínku nesplňují, se mohou nazývat výpočetní metody. Speciálním příkladem nekonečné výpočetní metody je reaktivní proces, který průběžně reaguje s okolním prostředím. Někteří autoři však mezi algoritmy zahrnují i takovéto postupy.
+
+=== Obecnost (hromadnost, masovost, univerzálnost) ===
+__Algoritmus neřeší jeden konkrétní problém__ (např. „jak spočítat 3×7“)__, ale obecnou třídu obdobných problémů__ (např. „jak spočítat součin dvou celých čísel“), má širokou množinu možných vstupů.
+
+=== Determinovanost ===
+__Každý krok algoritmu musí být jednoznačně a přesně definován; v každé situaci musí být naprosto zřejmé, co a jak se má provést, jak má provádění algoritmu pokračovat, takže pro stejné vstupy dostaneme pokaždé stejné výsledky.__ Protože běžný jazyk obvykle neposkytuje naprostou přesnost a jednoznačnost vyjadřování, byly pro zápis algoritmů navrženy programovací jazyky, ve kterých má každý příkaz jasně definovaný význam. Vyjádření výpočetní metody v programovacím jazyce se nazývá program. Některé algoritmy ale determinované nejsou, pravděpodobnostní algoritmy v sobě mají zahrnutu náhodu.
+
+=== Výstup (resultativnost) ===
+__Algoritmus má alespoň jeden výstup, veličinu, která je v požadovaném vztahu k zadaným vstupům, a tím tvoří odpověď na problém, který algoritmus řeší__ (algoritmus vede od zpracování hodnot k výstupu)
+
+=== Elementárnost ===
+__Algoritmus se skládá z konečného počtu jednoduchých__ (elementárních) __kroků.__
+
+V praxi jsou proto předmětem zájmu hlavně takové algoritmy, které jsou v nějakém smyslu kvalitní. Takové algoritmy splňují různá kritéria, měřená např. počtem kroků potřebných pro běh algoritmu, jednoduchost, efektivitu či eleganci. Problematikou efektivity algoritmů, tzn. metodami, jak z několika známých algoritmů řešících konkrétní problém vybrat ten vhodný, se zabývají odvětví informatiky nazývané algoritmická analýza a teorie složitosti.
+
+===== Algoritmická složitost =====
+Je třeba poznamenat, že abstraktní kritérium konečnosti je pro praktické použití ještě příliš slabé__. V praxi je třeba zajistit, aby algoritmus skončil „v rozumném“ čase.__ __Za rozumný čas lze v praxi považovat takový čas, který nám umožní smysluplně využít výsledek.__
+
+Např. existuje jednoduchý algoritmus, který dokáže určit, zda v dané šachové pozici může hráč na tahu vynutit vítězství a zároveň dokáže určit nejlepší možný tah. Tento algoritmus se však nedá použít, protože by na svou činnost potřeboval ohromné množství času, jakkoli je toto množství konečné. Mimoto by takový algoritmus spotřeboval ohromné množství paměti, což je další praktický zřetel, který se uplatňuje při volbě algoritmu. I když průměrná počítačová paměť stále narůstá, pro některé algoritmy jí nebude nikdy dost.
+
+__Pro vyčíslení výpočetní složitosti algoritmů v závislosti na velikosti vstupních dat se používá asymptotický zápis závislosti výpočetního času na rozsahu úlohy__ (typicky na počtu vstupních údajů). __Například O(log N) znamená, že počet kroků algoritmu závisí logaritmicky na velikosti vstupních dat.__ Pokud u takového algoritmu zdvojnásobíme rozsah vstupních údajů, doba výpočtu se zvýší o jednu jednotku času, pokud bude vstupních dat čtyřikrát více, doba výpočtu se prodlouží o dvě jednotky času, a tak dále. To je třeba případ nalezení jednoho prvku o určité hodnotě v seznamu prvků seřazeném podle hodnoty (např. nalezení jména v telefonním seznamu).
+
+(^^ https://cs.wikipedia.org/wiki/Algoritmus)
+
+===== Churchova-Turingova teze =====
+__„Ke každému algoritmu existuje ekvivalentní Turingův stroj.“__
+
+V teorii vyčíslitelnosti se pojmy Churchova-Turingova teze, Churchova teze a Turingova teze označuje hypotéza o povaze a výpočetní síle mechanických strojů počítajících matematické funkce. Teze je pojmenována po Alonzu Churchovi a Alanu Turingovi.
+
+__Hypotéza říká, že každý možný výpočet lze úspěšně uskutečnit algoritmem běžícím na počítači, je-li k dispozici dostatek času a paměti.__
+
+Algoritmus musí splňovat následující požadavky:
+
+1. Algoritmus se skládá z konečného počtu instrukcí, které jsou přesně definovány použitím konečného počtu symbolů.
+2. Algoritmus vždy vrátí výsledek po konečném počtu kroků.
+3. Algoritmus může provádět i člověk s tužkou a papírem.
+4. Spuštění algoritmu nepotřebuje lidskou inteligenci, s výjimkou té, která je třeba na pochopení a vykonání instrukcí.
+
+Tento popis algoritmu je sice intuitivně zřejmý, ale postrádá formální zázemí, jelikož není přesně popsáno, co znamená „přesně definovaná instrukce“ a co je „lidská inteligence potřebná na pochopení instrukcí“.
+
+Neformálně řečeno hypotéza tvrdí, že naše chápaní algoritmu je správné: vše, co lze počítačem (např. Turingovým strojem) vypočítat, lze vypočítat pomocí algoritmu a naopak. Navíc říká, že naše počítače jsou stejně „schopné“ jako jakékoli jiné stroje, které lze sestrojit. (Toto tvrzení ale nebere v úvahu rychlost a velikost paměti, což jsou v praxi velice důležité faktory)
+
+(^^ https://cs.wikipedia.org/wiki/Churchova-Turingova_teze)
+
+===== Algoruitmincky neřešitelné problémy =====
+Skutečnost, že algoritmy pro řešení některých úloh mají __exponenciální časovou složitost__, nám komplikuje život. Prakticky se použít nedají, musíme pro ně hledat náhradní, přibližné algoritmy. Obecně je to tedy nepříznivý jev. Má to ale i jednu kladnou stránku – __tyto algoritmy lze velmi efektivně využít k ochraně informací pomocí šifrování__.
+
+(^^[[../../Algoritmy.pdf|Algoritmy.pdf - str. 7]])

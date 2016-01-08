@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-08T18:09:30+01:00
+
+====== Algoritmus A1 vs A2 ======
+Created Pátek 08 leden 2016
+
+**Algoritmus A1 pro řešení úlohy použije 10000n + 40000 operací, algoritmus A2 pro řešení téže úlohy použije 12n^2 + 9 operací. Pro jakou velikost úlohy je výhodnější použít algoritmus A2?**
+
+{{../A1vsA1.png}}
+
+Z tabulky jasně vyplývá, že __A2 je efektivnější pro úlohy do velikosti n < 1000__.
