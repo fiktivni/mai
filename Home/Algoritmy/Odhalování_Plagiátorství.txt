@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T10:59:37+01:00
+
+====== Odhalování Plagiátorství ======
+Created Sobota 09 leden 2016
+
+**Jaký algoritmus byste navrhli použít při odhalování plagiátorství? Uvažte, že je zde velké množství hledaných řetězců.**
+
+===== Rabinův-Karpův algoritmus =====
+Rabin–Karpův algoritmus je v informatice jedním z algoritmů pro vyhledávání textu. Vytvořili ho Michael O. Rabin a Richard M. Karp v roce 1987. __Algoritmus hledá řadu vzorků najednou a používá k tomu hašovací funkci. Pro text délky n a p vzorků společné délky m je jeho průměrná a nejlepší složitost O(n+m) v prostoru O(p) a jeho nejhorší složitost je O(nm).__
+__Praktické využití Rabinova-Karpova algoritmu je odhalování plagiátorství. Vzhledem k množství hledaných řetězců jsou algoritmy, které vyhledávají jeden řetězec, nepraktické.__
+
+==== Použití hašovací funkce ====
+__Klíčem k výkonu Rabinova-Karpova algoritmu je efektivní výpočet vrácených hodnot hašovací funkce u podřetězců v textu.__ Jedna populární a efektivní hašovací funkce považuje každý podřetězec jako číslo nějakého základu obvykle velikosti prvočísla. Například když máme podřetězec "hi" a základ je 101, tak bude vrácená hodnota 104 × 1011 + 105 × 1010 = 10609 (v ASCII je za 'h' 104 a za 'i' je 105).
+
+==== Příklad Rabinova-Karpova algoritmu ====
+Pokud chceme najít některé z velkých čísel k s pevnou délkou vzorků v textu, můžeme vytvořit jednoduchou variantu Rabinova-Karpova algoritmu použitím [[https://cs.wikipedia.org/wiki/Bloom%C5%AFv_filtr|Bloomova filtru]].
+'''
+function RabinKarpSet(string s[1..n], set of string subs, m):
+     set hsubs := emptySet
+     for each sub in subs
+         insert hash(sub[1..m]) into hsubs
+     hs := hash(s[1..m])
+     for i from 1 to n-m+1
+         if hs ∈ hsubs and s[i..i+m-1] ∈ subs
+             return i
+         hs := hash(s[i+1..i+m])
+     return not found
+'''
+Předpokládáme, že všechny podřetězce mají pevnou délku m.
+
+===== Bloomův filtr =====
+Prostorově efektivní pravděpodobnostní datová struktura, která __se používá na ověřování příslušnosti prvků do množiny.__ Protože __je__ tato struktura __pravděpodobnostní__, __můžou při tomto ověřování nastat chyby. Při této chybě se o prvku, který ve skutečnosti do dané množiny nepatří, dozvíme, že tam patří, ale nikdy ne naopak.__ To znamená, že při odpovědi, že daný prvek do množiny nepatří, se dá na Bloomův filtr spolehnout na 100%. Pravděpodobnost chyby roste s větším počtem prvků v dané množině.
+
+(^^ https://cs.wikipedia.org/wiki/Rabin%C5%AFv-Karp%C5%AFv_algoritmus)

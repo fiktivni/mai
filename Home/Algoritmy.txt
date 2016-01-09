@@ -7,9 +7,9 @@ Created Úterý 05 leden 2016
 
 ===== Témata =====
 [*] [[+Algoritmus A1 vs A2|Algoritmus A1 pro řešení úlohy použije 10000n + 40000 operací, algoritmus A2 pro řešení téže úlohy použije 12n^2 + 9 operací. Pro jakou velikost úlohy je výhodnější použít algoritmus A2?]]
-[ ] [[+Prohledávání grafů|Popište algoritmy pro prohledávání grafů a ukažte, kdy a proč použijete datovou strukturu zásobník a kdy datovou strukturu frontu.]]
-[ ] Máte za úkol propojit několik lokalit datovým kabelem, přičemž spotřeba kabelů má být minimální. Jak budete postupovat při výpočtu tras?
-[ ] Jaký algoritmus byste navrhli použít při odhalocd vání plagiátorství? Uvažte, že je zde velké množství hledaných řetězců.
+[*] [[+Prohledávání grafů|Popište algoritmy pro prohledávání grafů a ukažte, kdy a proč použijete datovou strukturu zásobník a kdy datovou strukturu frontu.]]
+[*] [[+Kostra grafu|Máte za úkol propojit několik lokalit datovým kabelem, přičemž spotřeba kabelů má být minimální. Jak budete postupovat při výpočtu tras?]]
+[*] [[+Odhalování Plagiátorství|Jaký algoritmus byste navrhli použít při odhalování plagiátorství? Uvažte, že je zde velké množství hledaných řetězců.]]
 [*] [[+Turingův stroj|Turingův stroj – struktura a výpočty.]]
 [*] [[+Pojmy kolem algoritmu|Algoritmická řešitelnost – Turingova hypotéza, pojem algoritmu. Algoritmicky neřešitelné problémy.]]
 

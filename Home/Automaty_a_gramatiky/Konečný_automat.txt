@@ -1,0 +1,75 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T14:16:06+01:00
+
+====== Konečný automat ======
+Created Sobota 09 leden 2016
+
+**Konečný automat – deterministický a nedeterministický automat, regulární jazyk, konstrukce ekvivalentního deterministického automatu.**
+
+===== Konečný automat =====
+{{../Konečný_automat.png}}
+* Konečný automat __čte sekvenčně znaky vstupního řetězu, podle přečteného znaku a aktuálního stavu řídící jednotky přechází do nového stavu.__
+* Konečný automat __nemá žádnou paměť__.
+
+===== Deterministický konečný automat =====
+Deterministickým konečným automatem (DFA) nazýváme uspořádanou pětici M = (Q, Σ, δ, q_{0} , F), kde
+* Q je neprázdná konečná množina zvaná množina vnitřních stavů,
+* Σ je konečná množina zvaná vstupní abeceda,
+* δ: Q × Σ → Q je totální funkce zvaná přechodová funkce,
+* q_{0} ∈ Q je počáteční stav,
+* F ⊆ Q je množina koncových stavů (cílová množina)
+
+==== Činnost konečného automatu ====
+1. Na počátku je automat v počátečním stavu q_{0} a na začátku vstupního souboru (čte první symbol vstupního řetězu).
+2. V každém kroku se přečte jeden symbol v pořadí ze vstupního souboru a podle tohoto symbolu a aktuálního vnitřního stavu přejde automat do nového vnitřního stavu.
+3. Pokud je automat na konci vstupního souboru a nachází se v koncovém stavu, je vstupní řetěz přijat, v opačném případě (tj. když automat je v jiném než koncovém stavu) je vstupní řetěz odmítnut.
+
+===== Regulární jazyk =====
+Uvažujeme-li všechny možné DFA, tvoří jimi přijímané jazyky určitou třídu jazyků se specifickými vlastnostmi.
+
+__Jazyk L se nazývá regulární, pokud existuje takový deterministický konečný automat M, že platí L = L(M).__
+
+(^^ [[../../Teoretická informatika.pdf|Teoretická informatika.pdf str. 24]])
+
+Regulární jazyky jsou nejjednodušší formální jazyky v rámci Chomského hierarchie. Regulární jazyky nad abecedou Σ lze zavést následujícím způsobem:
+* prázdný jazyk Ø je regulární.
+* pro každé a z abecedy, jazyk { a } je regulární.
+* pokud A a B jsou regulární jazyky, jsou A ∪ B (sjednocení), A • B (konkatenace), a A* (iterace) také regulární.
+* žádné další jazyky regulární nejsou.
+
+O regulárních jazycích lze dokázat řadu tvrzení. Např. formální jazyk je regulární, právě když:
+* je akceptovaný nějakým deterministickým konečným automatem,
+* je akceptovaný nějakým nedeterministickým konečným automatem,
+* může být popsán regulárním výrazem nebo
+* může být vygenerován regulární gramatikou
+
+(^^ https://cs.wikipedia.org/wiki/Regul%C3%A1rn%C3%AD_jazyk)
+
+===== Nedeterministický konečný automat =====
+Nedeterministickým konečným automatem (NFA) nazýváme uspořádanou pětici M = (Q, Σ, δ, q_{0}, F), kde Q, Σ, q_{0} a F jsou definovány stejně jako u DFA, liší se pouze předpis pro přechodovou funkci: δ: Q × (Σ ∪ {λ}) → 2^{Q}.
+
+==== Rozdíly: ====
+1. NFA může mít pro daný stav a vstupní symbol na výběr několik možných tahů.
+2. Druhým argumentem přechodové funkce může být λ, tj. δ(q_{i}, λ) = q_{j} . NFA tedy může přejít do nového stavu, aniž by zkonzumoval vstupní symbol.
+3. Hodnotou přechodové funkce může být prázdná množina, tj. δ(q_{i} , a) = ∅. Pro takovou dvojici q_{i} a a tedy není definován žádný přechod. V přechodovém grafu takové hrany vynecháváme.
+
+==== Jak NFA rozpoznává řetězy? ====
+Vstupní řetěz je přijat nedeterministickým konečným automatem právě tehdy, když existuje nějaká posloupnost možných tahů, které
+* načtou celý vstupní řetěz,
+* přivedou NFA do některého koncového stavu.
+Pokud žádná taková posloupnost neexistuje, vstupní řetěz je odmítnut.
+
+(^^ [[../../Teoretická informatika.pdf|Teoretická informatika.pdf str. 34]])
+
+===== Ekvivalence konečných automatů =====
+Řekneme, že dva konečné automaty M 1 a M 2 jsou ekvivalentní, pokud oba přijímají stejný jazyk, tj. L(M_{1}) = L(M_{2}).
+
+===== Procedura NFA → DFA =====
+1. Vytvoř graf G D s jediným (počátečním) vrcholem označeným {q 0 }. Pokud M N přijímá λ, označ {q 0 } také jako koncový vrchol.
+2. Opakuj následující kroky i–iv tak dlouho, dokud chybí některá z hran:
+	1. Vezmi libovolný vrchol {q i , q j , . . . , q k } jemuž chybí výstupní hrana pro nějaké a ∈ Σ.
+	2. Urči δ ∗ N (q i , a), δ ∗ N (q j , a), . . . , δ ∗ N (q k , a). Nechť δ ∗ N (q i , a) ∪ δ ∗ N (q j , a) ∪ δ ∗ N (q k , a) = {q l , q m , . . . , q n }.
+	3. Vytvoř nový vrchol grafu G D označený {q l , q m , . . . , q n }, pokud ještě neexistuje.
+	4. Přidej do grafu G D hranu z {q i , q j , . . . , q k } do {q l , q m , . . . , q n } a označ ji symbolem a.
+3. Každý vrchol grafu G D jehož označení obsahuje aspoň jeden q f ∈ F N označ jako koncový vrchol.

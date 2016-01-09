@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T10:59:27+01:00
+
+====== Kostra grafu ======
+Created Sobota 09 leden 2016
+
+**Máte za úkol propojit několik lokalit datovým kabelem, přičemž spotřeba kabelů má být minimální. Jak budete postupovat při výpočtu tras?**
+
+===== Kruskaluv algoritmus pro minimální kostru grafu =====
+Kruskalův algoritmus je jeden z algoritmů využívaných v teorii grafů k nalezení minimální kostry grafu, jehož hrany mají nezáporné ohodnocení (délku). __U souvislého grafu hledá podmnožinu hran, která tvoří strom obsahující všechny uzly, s tím, že celková váha (součet délek) hran grafu je minimální. V případě grafu o více komponentách, __algoritmus__ hledá les minimálních koster, tedy minimální kostru každé komponenty. Kruskalův algoritmus je příkladem hladového algoritmu.__
+
+==== Postup A': ====
+
+* Opakuj následující kroky, dokud je to možné:
+* Z hran G, které dosud nebyly vybrány, vyber nejdelší, která je nerozpojí.
+* Množina nevybraných hran je minimální kostrou grafu G.
+
+Tento alternativní postup byl v roce 1961 nezávisle popsán A. Kotzigem.
+
+(^^ https://cs.wikipedia.org/wiki/Kruskal%C5%AFv_algoritmus)

@@ -7,3 +7,34 @@ Created Pátek 08 leden 2016
 
 **Popište algoritmy pro prohledávání grafů a ukažte, kdy a proč použijete datovou strukturu zásobník a kdy datovou strukturu frontu.**
 
+===== Prohledávání do hloubky =====
+Prohledávání do hloubky (v angličtině označované jako depth-first search nebo zkratkou DFS) je __grafový algoritmus pro procházení grafů metodou backtrackingu__. __Pracuje tak, že vždy expanduje prvního následníka každého vrcholu, pokud jej ještě nenavštívil. Pokud narazí na vrchol, z nějž už nelze dále pokračovat __(nemá žádné následníky nebo byli všichni navštíveni)__, vrací se zpět backtrackingem.__
+
+==== Popis algoritmu ====
+Celý algoritmus začíná inicializací všech uzlů grafů hodnotami stavů uzlů a nastavením jejich předchůdců. Každý uzel je nastaven jako FRESH uzel a žádný zatím nemá určeného svého předchůdce. To znamená, že v poli předchůdců jsou všechny hodnoty prvků nastaveny na null. Index (dále již časový index), který budeme dále využívat pro zapisování časových značek, nastavíme na nulu. Poté je pro všechny uzly, které jsou dosud ve stavu FRESH, vyvolána metoda DFS-Projdi.
+
+Metoda DFS-Projdi realizuje vlastní prohledávání do hloubky. V této metodě je na počátku stav uzlu u, pro který byla tato metoda volána, nastaven na OPEN a do časové značky otevření uzlu se zapíše hodnota časového indexu, který se ve stejné době i inkrementuje, abychom mohli o jedna větší index použít pro další uzel. Poté se pro každého následníka (značíme jej v) uzlu u zjistí, zda tento následník v je ještě ve stavu FRESH, a pokud ano, zapíše se pro něj do pole p hodnota předchůdce a zavolá se pro něj rekurzivně metoda DFS-Projdi. Jestliže byli zpracováni všichni následníci uzlu u, tento uzel se prohlásí za uzavřený (přiřadí se mu stav CLOSE) a nastaví se pro něj časová značka uzavření použitím námi využívaného časového indexu, který se následně o jedna zvětší.
+
+=== Použité datové struktury ===
+* Pole stav — v tomto poli jsou uloženy stavy jednotlivých uzlů.
+* Pole d časových značek otevření — v tomto poli jsou uloženy časové značky otevření, kdy se z uzlů stavu FRESH stanou uzly stavu OPEN.
+* Pole f časových značek uzavření — v tomto poli jsou uloženy časové značky uzavření, kdy se z uzlu stavu OPEN stanou uzly stavu CLOSE.
+* Pole p předchůdců — v tomto poli jsou uloženi předchůdci jednotlivých uzlů ve stromě cest.
+* __Lze využít datovou strukturu zásobník. Pak získáme topologické uspořádání uzlů grafu.__
+
+(^^ https://cs.wikipedia.org/wiki/Prohled%C3%A1v%C3%A1n%C3%AD_do_hloubky)
+
+===== Prohledávání do šířky =====
+Prohledávání do šířky (anglicky Breadth-first search, zkráceně BFS) je __grafový algoritmus, který postupně prochází všechny vrcholy v dané komponentě souvislosti. Algoritmus nejprve projde všechny sousedy startovního vrcholu, poté sousedy sousedů atd. až projde celou komponentu souvislosti.__
+
+==== Popis algoritmu ====
+Na počátku algoritmu se provede inicializace. Poté se nastaví počáteční hodnoty pro jediný uzel, u kterého známe všechny informace a to pro počáteční uzel (viz stav při inicializaci). Nyní se rozběhne cyklus, který běží dokud je FIFO fronta neprázdná. Neprázdná fronta znamená, že máme stále uzly s kterými pracujeme, jelikož do této fronty jsou vkládány pouze uzly s kterými nyní pracujeme. Na počátku cyklu z fronty vyjmeme uzel. Pro všechny následníky tohoto uzlu budeme zjišťovat jestli mají stav FRESH. Stav FRESH znamená, že uzel nebyl ještě nalezen ani prozkoumán. Když bude tato podmínka týkající se stavu splněna, nastaví se informace pro tyto uzly. Stav OPEN, vzdálenost od počátku o jedna větší než uzel kterého je tento uzel následník. Vzdálenost je větší právě o jedna z důvodu, že je mezi těmito uzly pouze jedna hrana. Naposled se pro tyto následníky uzlu (u) nastaví předchůdce právě na hodnotu (u). Po nastavení všech těchto vlastností je uzel vložen do fronty. Když jsou prohledáni všichni následníci daného uzlu, tak se uzel uzavře, stav uzlu se bude rovnat CLOSE.
+
+=== Použité datové struktury ===
+* __FIFO fronta - fronta, do které jsou ukládány uzly s kterými právě pracujeme. To znamená, ve frontě jsou uzly, které představují jakoby "vlnu" provádění algoritmu.__
+* Pole vzdáleností - V tomto poli jsou uloženy vzdálenosti (počty hran na nejkratší cestě mezi uzly) jednotlivých uzlů od počátku.  
+* Pole předchůdců - V tomto poli jsou uloženy předchůdci jednotlivých uzlů. Z tohoto pole se poté konstruuje strom nejkratších cest.
+* Pole stavů - V tomto poli jsou uloženy stavy jednotlivých uzlů.
+
+
+(^^ https://cs.wikipedia.org/wiki/Prohled%C3%A1v%C3%A1n%C3%AD_do_%C5%A1%C3%AD%C5%99ky)

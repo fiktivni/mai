@@ -1,0 +1,63 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T14:15:52+01:00
+
+====== Formální gramatiky ======
+Created Sobota 09 leden 2016
+
+**Formální gramatiky - regulární a bezkontextové gramatiky, syntaktická analýza.**
+
+===== Gramatika =====
+Gramatika G je definována jako uspořádaná čtveřice G = (V, T, S, P), kde
+* V je neprázdná konečná množina proměnných,
+* T je konečná množina koncových (terminálních) symbolů,
+* S ∈ V je speciální symbol zvaný počáteční (startovní) proměnná,
+* P je konečná množina přepisovacích pravidel (produkcí).
+
+==== Přepisovací pravidla ====
+Přepisovací pravidla se zapisují stylem x → y, kde x ∈ (V ∪ T )^{+} a y ∈ (V ∪ T )^{∗}.
+Používají se takto: Máme-li řetěz w ve tvaru w = uxv,
+říkáme, že produkce x → y je aplikovatelná na w a w můžeme přepsat na nový řetěz z = uyv.
+V takovém případě říkáme, že řetěz z lze přímo odvodit z w. Zápis: w ⇒ z.
+Pokud má gramatika více produkcí, můžeme pro přepis v každém kroku použít kteroukoli z nich (nedeterminismus!). Posloupnost odvození w_{1 }⇒ w_{2 }⇒ · · · ⇒ w_{n}
+znamená, že w_{n} lze odvodit z w_{1} . Zápis: w_{1} ⇒^{∗ }w_{n} .
+
+(^^ [[../../Teoretická informatika.pdf|Teoretická informatika.pdf str. 15]])
+
+===== Regulární gramatiky =====
+1. Gramatika G = (V, T, S, P) se nazývá pravá lineární, pokud jsou všechny její produkce v jednom z následujících dvou tvarů:
+	A → xB,
+	A → x.
+kde A, B ∈ V a x ∈ T^{∗}.
+2. Gramatika se nazývá levá lineární, pokud jsou všechny její produkce v jednom z následujících dvou tvarů:
+	A → Bx,
+	A → x.
+3. Gramatika se nazývá regulární, pokud je buď pravá lineární nebo levá lineární.
+
+==== Regulární gramatiky a regulární jazyky ====
+Nechť G = (V, T, S, P) je pravá lineární gramatika. Potom L(G) je regulární jazyk.
+
+(^^ [[../../Teoretická informatika.pdf|Teoretická informatika.pdf str. 70]])
+
+===== Syntaktická analýza (parsing) =====
+Teorie formálních jazyků má největší uplatnění při návrhu programovacích jazyků. Rozlišují se syntaktická a sémantická pravidla.
+ckar c;
+c = 3.14;
+Pro syntaktická pravidla se využívají (bezkontextové) gramatiky (Backus-Naurova Forma), pro sémantická zatím žádný obecně přijatý formalismus neexistuje.
+Pro syntaktickou analýzu je třeba kromě určení, zda w ∈ L(G), také najít odvození S ⇒^{∗}w, tj. určit, z jakých syntaktických celků se w skládá (klíčové slovo, operátor, číslo, . . .).
+
+==== Analýza všech možností ====
+1. Vezmeme všechna pravidla tvaru S → x_{1} , kde x_{1} ∈ (V ∪ T )^{∗} .
+2. Pro všechna taková x_{1} vezmeme všechna pravidla tvaru A_{1} → x_{2} , kde A_{1} je první proměnná v x_{1} (nejvíc vlevo).
+3. ...
+Pokud se některou cestou dostaneme až ke slovu w, máme hledané (levé) odvození. Dospějeme-li k řetězu, z něhož určitě nelze w odvodit, větev ukončíme.
+Tento přístup se též nazývá analýza hrubou silou. Jde o typ analýzy shora dolů.
+
+=== Nevýhoda #1: hledání nemusí skončit ===
+Pokud w !∈ L(G), můžeme vytvářet stále delší cesty a nikdy nedospět k cíli.
+Tento problém nenastane, pokud gramatiku upravíme tak, aby neobsahovala žádná vypouštějící a jednotková pravidla.
+
+=== Nevýhoda #2: exponenciální složitost ===
+V každém kroku algoritmu můžeme v nejhorším případě použít všechna přepisovací pravidla gramatiky. V prvním kroku tak můžeme mít až |P| větví, ve druhém |P| 2 , ve druhém |P| 3 , atd.
+
+(^^ [[../../Teoretická informatika.pdf|Teoretická informatika.pdf str. 100]])

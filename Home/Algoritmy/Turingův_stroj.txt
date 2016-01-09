@@ -7,6 +7,14 @@ Created Pátek 08 leden 2016
 
 **Turingův stroj – struktura a výpočty.**
 
+Turingův stroj (TS) je __teoretický model počítače__ popsaný matematikem Alanem Turingem. __Skládá se z procesorové jednotky, tvořené konečným automatem, programu ve tvaru pravidel přechodové funkce a pravostranně nekonečné pásky pro zápis mezivýsledků__. Využívá se pro modelování algoritmů v teorii vyčíslitelnosti.
+
+Jeden ze způsobu vyjádření __Churchovy-Turingovy teze říká, že ke každému algoritmu existuje ekvivalentní Turingův stroj.__
+
+Od výpočetní síly Turingova stroje se odvozuje __turingovská úplnost: turingovsky úplné jsou právě ty programovací jazyky nebo počítače, které mají stejnou výpočetní sílu jako Turingův stroj__.
+
+(^^ https://cs.wikipedia.org/wiki/Turing%C5%AFv_stroj)
+
 {{../Turingův_stroj.png}}
 __Turingův stroj M je definován jako uspořádaná sedmice__
 __M = (Q, Σ, Γ, δ, q 0 ,_ , F),__

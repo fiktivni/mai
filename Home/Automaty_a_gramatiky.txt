@@ -6,8 +6,8 @@ Creation-Date: 2016-01-05T13:40:17+01:00
 Created Úterý 05 leden 2016
 
 ===== Témata =====
-[ ] Konečný automat – deterministický a nedeterministický automat, regulární jazyk, konstrukce ekvivalentního deterministického automatu.
-[ ] Formální gramatiky - regulární a bezkontextové gramatiky, syntaktická analýza.
+[*] [[+Konečný automat|Konečný automat – deterministický a nedeterministický automat, regulární jazyk, konstrukce ekvivalentního deterministického automatu.]]
+[*] [[+Formální gramatiky|Formální gramatiky - regulární a bezkontextové gramatiky, syntaktická analýza.]]
 
 ===== Materiály =====
 [[../Teoretická informatika.pdf|Teoretická informatika od Ladislava Lhotky]]
