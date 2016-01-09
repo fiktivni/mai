@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T15:58:29+01:00
+
+====== Komprese dat ======
+Created Sobota 09 leden 2016
+
+**Při racionálním uchování dat hraje velkou úlohu komprese dat. Jaké druhy komprese máme k dispozici a na jaké druhy dat jsou vhodné? Vysvětlete principy nejběžnějších kompresních algoritmů.**
+
+{{../komprese_dat_blokové_schéma.png}}
+
+===== Bezestrátová komprese =====
+Např. ZIP, GZIP, BZIP, GZ
+* Shannon-Fanovo kódování
+* Huffmanovo kódování
+* Aritmetické kódování
+* Run length encoding (RLE)
+
+==== Run length encoding ====
+{{../rle.png}}
+Používá se jako pomocný algoritmus pro kompresi obrázků, zejména účinné pro kreslené obrázky (velké plochy stejné barvy)
+
+===== Ztrátová komprese =====
+* Komprese obrázků (využívá např. JPEG)
+* Při kompresi se část informace ztratí (například koeficienty Fourierovy transformace nebo DCT menší než daná hodnota se považují za nulové)
+* Informace obsažená v původních je větší než datech, která prošla kompresí a dekompresí.
+* Hodí se například pro kompresi fotek, ale nevhodné pro obrázky kreslené s velkými jednobarevnými plochami.
+{{../ztrátová_komprese_blokové_schéma.png}}
+
+==== Fourierova transformace ====
+Fourierova transformace (v JPEG diskrétní kosínová transformace) převádí signál z časové oblasti do frekvenční, tj y=f(t) → Y=F(ω). Tato transformace koncetruje podstatnou informaci do několika prvních koeficientů (výrazně se liší od nuly), ostatní koeficienty jsou malé a mohou se zanedbat.

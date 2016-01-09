@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T15:57:19+01:00
+
+====== Informace ======
+Created Sobota 09 leden 2016
+
+**Informace je základním pojmem teorie informace. Jak je definována Shannonova míra informace a dále podmíněná, sdružená a vzájemná informace? Co je entropie, jak je definována a co vyjadřuje? Za jakých podmínek je entropie nulová a kdy dosahuje svého maxima?**
+
+===== Informace =====
+Definice: Nechť (U,P) je konečný pravděpodobnostní prostor. Jestliže A je nějaký jev v tomto prostoru, pak množství informace obsažené v tomto jevu je:
+I(A) = log(1/P(A)) = −log(P(A))
+Na základu logaritmu v principu nezáleží. Základ logaritmu pouze určuje jednotku množství informace. Pro základ logaritmu 2 je množství informace měřeno v bitech, tj.
+I(A) = log_{2}(1/P(A)) = −log_{2}(P(A))
+
+(^^ [[../../Teorie informace.pdf|Teorie informace str. 44]])
+
+==== Shannonova míra informace ====
+Shannon's main result, the Noisy-channel coding theorem showed that, __in the limit of many channel uses, the rate of information that is asymptotically achievable is equal to the Channel capacity, a quantity dependent merely on the statistics of the channel over which the messages are sent.__
+
+(^^ https://en.wikipedia.org/wiki/Information_theory)
+
+__The Shannon limit or Shannon capacity of a communications channel is the theoretical maximum information transfer rate of the channel, for a particular noise level.__
+
+(^^ https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem)
+
+==== Podmíněná informace ====
+Nechť (U,P) je konečný pravděpodobnostní prostor. Jestliže A a B jsou jevy v tomto prostoru a P(B)>0, pak podmíněná informace, která je podmíněná jevem B, je dána:
+I(A|B) = −log(P(A|B)) = −log{[P(A∩B )]/[P(B)]}
+
+Pro P (A∩B) = 0 je I(A|B) = ∞
+
+(^^ [[../../Teorie informace.pdf|Teorie informace str. 46]])
+
+==== Sdružená informace ====
+__Sdružená informace je informace, kterou nese výsledek experimentu, ve které nastanou oba jevy A a B současně.__
+
+Nechť (U,P) je konečný pravděpodobnostní prostor. Jestliže A a B jsou jevy v tomto prostoru, pak sdružená informace je dána:
+I(A,B) = −log(P(A∩B))
+Pro dva nezávislé jevy, pro které platí P(A∩B) = P(A)P(B) je sdružená informace dána:
+I(A,B) = −log(P(A)P(B)) = I(A)+I(B)
+
+(^^ [[../../Teorie informace.pdf|Teorie informace str. 47]])
+
+==== Vzájemná informace ====
+__Vzájemná informace je informace, která spojuje jevy A a B.__
+
+Nechť (U,P) je konečný pravděpodobnostní prostor. Jestliže A a B jsou jevy v tomto prostoru a P(A)>0 a P(B)>0, pak vzájemná informace je dána:
+I_{m}(A,B) = log{[P(A∩B)]/[P(A)P(B)]}
+
+Pro dva nezávislé jevy A , B , kdy P(A∩B) = P(A)P(B), je I_{m}(A,B) = 0
+
+(^^ [[../../Teorie informace.pdf|Teorie informace str. 48]])
+
+==== Entropie informace ====
+Definice Nechť (U,P) je konečný pravděpodobnostní prostor a A_{1}, A_{2},... A_{N} jsou podmnožiny U. Jestliže A_{1}, A_{2}, ... A_{N} jsou náhodné jevy na U, pak průměrné množství informace připadající na jeden jev A i je
+{{../Entropoi_informace.png}}
+(^^ [[../../Teorie informace.pdf|Teorie informace str. 49]])
+
+In information theory, systems are modeled by a transmitter, channel, and receiver. The transmitter produces messages that are sent through the channel. The channel modifies the message in some way. __The receiver attempts to infer which message was sent. In this context, entropy __(more specifically, Shannon entropy)__ is the expected value __(average)__ of the information contained in each message.__ 'Messages' can be modeled by any flow of information.
+
+(^^ https://en.wikipedia.org/wiki/Entropy_%28information_theory%29)

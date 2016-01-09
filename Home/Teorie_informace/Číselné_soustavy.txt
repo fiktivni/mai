@@ -1,0 +1,63 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T15:57:59+01:00
+
+====== Číselné soustavy ======
+Created Sobota 09 leden 2016
+
+**V informatice se neobejdeme bez reprezentace čísel v různých číselných soustavách. Co jsou polyadické číselné soustavy, jak se vzájemně převádějí a jak se v nich provádějí základní početní operace? Co jsou soustavy příbuzné a jak se vzájemně převádějí? Jak jsou v počítačích reprezentována čísla celá kladná i záporná, čísla desetinná a čísla reálná v plovoucí řádové čárce?**
+
+===== Polyadické číselné soustavy =====
+= [[https://en.wikipedia.org/wiki/Radix|radix number systems]] 
+radix = root/base → __čísla se základem → dvojková, hexadecimální, desítková apod.__
+
+In any standard positional numeral system, the number x and its base y are conventionally written as (x)_{y}, although for base ten the subscript is usually assumed and not written, as it is the most common way to express value.
+
+===== Početní operace =====
+
+==== Sčítání ====
+{{../sčítání_dvoková_soustava.png}}
+
+==== Násobení ====
+{{../násobení_dvojková_soustava.png}}
+
+==== Dělení ====
+{{../dělení_dvojková_soustava.png}}
+
+===== Převody mezi soustavamy =====
+
+==== Algoritmus převodu desítková → dvojková čísla celá kladná ====
+{{../desítková_do_dvojkové_celé_číslo.png}}
+Algoritmus je platný i pro převod do jiných číselných soustav
+
+==== Algoritmus převodu desítková → dvojková zlomková část v intervalu <0,1) ====
+{{../desítková_do_dvojkové_zlomek.png}}
+Algoritmus je platný i pro převod do jiných číselných soustav
+
+===== Příbuzné soustavy =====
+__Příbuzné číselné soustavy jsou takové soustavy, kde základ jedné soustavy je mocninou základu druhé soustavy__ → např. 2, 4, 8, 16 atd.
+
+===== Reprezentace čísel v počítači =====
+V paměti počítače lze uložit pouze kladná celá čísla. Např. v paměti (nebo registru) o velikosti 1 byte (8 bitů) lze uložit jedno číslo z intervalu <0,255>.
+
+==== Záporná ====
+Záporná čísla se musí tedy mapovat (kódovat, zobrazovat) na kladná celá čísla vhodným typem zobrazení.
+
+=== Doplňkový kód (veškeré celočíselné typy) ===
+{{../doplňkový_kód.png}}
+
+=== Přímý kód (mantisa čísel s pohyblivou řádovou čárkou) ===
+{{../přímý_kód.png}}
+
+=== Aditivní kód (exponent čísel s pohyblivou řádovou čárkou) ===
+{{../aditivní_kód.png}}
+Modul řádové mřížky Z=2^{n}+1
+
+==== Čísla v pevné řádové čárce ====
+{{../čísla_v_pevné_řádové_čárce.png}}
+
+==== Čísla v plovoucí řádové čárce ====
+{{../čísla_v_plovoucí_řádové_čárce.png}}
+
+=== Reprezentace čísel dle normy IEEE754 ===
+{{../reprezentace_podle_ieee754.png}}
