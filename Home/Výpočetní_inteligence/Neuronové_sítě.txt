@@ -1,0 +1,69 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T22:04:23+01:00
+
+====== Neuronové sítě ======
+Created Sobota 09 leden 2016
+
+**Neuronové sítě jsou výpočetním paradigmatem, který byl významně inspirován strukturou lidského mozku. Popište nejčastěji užívané typy umělých neuronů a jejich vlastnosti. Do jakých topologií se spojují a jak topologie určuje jejich vlastnosti? Popište základní principy jejich učení.**
+
+===== Neurony =====
+
+==== Bilogický neuron ====
+{{../biologický_neuron.png}}
+
+==== Model neuronu McCulloch-Pitts ====
+//5//{{../mcculloch-pitts.png}}
+* Neuron pracuje na principu všechno nebo nic (0 – neaktivní (inhibovaný), 1 – aktivní (excitovaný))
+* Neuron je excitován, pokud více než jeden vstup s excita ní synapsí je aktivní
+* Jakmile je alespo jedna inhibi ní synapse aktivní, neuron nem že být nikdy excitován.
+* Struktura zapojení mezi neurony se nem ní
+* Významné zpožd ní mezi neurony je zpožd ní synapsí
+//Převzato z: Freeman, J. A.,Skapura D. M.: Neural networks. Algorithms, applications, and programming techniques.//
+//Addison-Wesley Publishing Company. erven 1992. ISBN 0-201-51376-5//
+Rozlišujeme dva druhy: Perceptrony a RBF neurony
+
+=== Výstupní funkce neuronu ===
+{{../výsputní_funkce_neuronu.png}}
+
+===== Topologie =====
+
+==== Dopředná ====
+* Realizuje mapovací funkci y=f(x)
+* signál se šíří pouze od vstupu k výstupu
+* Jednokrokový výpočet od vstupu k výstupu (každý neuron počítán jen jednou)
+* realizují funkci, která mapuje vstup na výstup bez ohledu na pořadí hodnot přiložených postupně na vstupy
+
+==== Rekurentní ====
+* Má vnitřní stav, mapuje y_{t+1 }= f(q_{t}),g(q_{t}+1,x_{t}) = q_{t}
+* vhodné pro časové řady
+* Krom dopředných spojení mezi neurony existují i zpětné vazby (signál se šíří směrem ke vstupu)
+* Iterativní (opakovaný) výpočet, některé neurony se počítají vícekrát.
+
+===== Učení neureonové sítě =====
+Učení je optimaliza ní úloha, která najde pro danou trénovací množinu dat, takovou konfiguraci vah, kdy je průměrná chyba sítě přes celou trénovací množinu menší než požadované kriterium
+* často používané jsou gradientní metody nebo přírodou inspirované algoritmy (např. genetický algoritmus)
+* Požadavek na příliš nízkou chybu vede k přeučení, tj. nízké chyby pro data v trénovací množině, pro jiná data vysoké chyby.
+
+==== Hebovské učení ====
+Je-li buňka A na pokraji excitace a buňka B je opakovaně nebo trvale excitovaná, pak se posílí vazba mezi buňkou A a B (buňka A se stane citliv jší na signál buňky B)
+//[Donald O. Hebb, Organization of Behavior, 1949]//
+
+==== Učení s učitelem ====
+Učení s učitelem je založeno na minimalizaci chyby mezi momentální a požadovanou odezvou neuronové sít . Roli učitele zde hraje požadovaná odezva sítě, kterou se snažíme neuronovou síť naučit. V průběhu učení změnami vah minimalizujeme chybu
+{{../učení_s_učitelem.png}}
+Kde N je počet výstupů neuronové sítě a M je počet vzorů v trénovací množině. Pozor! y_{i}^{(j)} je i-tý výstup j-tého vzoru z trénovací množiny.
+
+=== Gradientní metoda učení algoritmem Back Propagation ===
+{{../back_propagation.png}}
+
+===== Algoritmus učení =====
+1. Náhodně inicializujeme váhy v neuronové síti
+2. Vezmeme pár vstup-výstup z trénovací množiny dat a část vstup přiložíme na vstup sítě
+3. Vypočteme výstupy sítě
+4. Porovnáme výstup sítě s částí výstup z páru vstup-výstup (vypočteme odchylku)
+5. Na základ odchylky upravíme o kousek váhy sítě (získáme o něco lepší řešení)
+6. Pokud jsme ještě nevyčerpali celou trénovací množinu pokračujeme bodem 2
+7. Pokud je průměrná chyba přes celou trénovací množinu vyšší než požadované kriterium, pokračujeme bodem 2
+8. Síť je naučena, konec
+{{../průběh_učení.png}}

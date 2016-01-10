@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T22:07:03+01:00
+
+====== Predikce ======
+Created Sobota 09 leden 2016
+
+**Máte klasifikovat nebo predikovat posloupnosti dat. V posloupnostech hraje důležitou roli čas. Jaké možnosti v oblasti neuronových sítí máte? Jaké typy sítí a jakým způsobem použijete?**
+
+===== Neuronové sítě zohledňující čas =====
+__Sítě schopné naučit se sekvence.__ Existují __rekurentní neuronové sítě__ - naučí se chování konečného automatu - a __Time-delay-neural-networks__ (TDNN) - výstup generuje na základě historie dat.
+
+Vhodné pro zpracování časových řad (časová řada je posloupnost hodnot x_{t}, kde má t význam času. Stanovíme-li nějké t=t_{0} jako současnost, pak x_{t=t0} je současná hodnota, x_{t<t0} jsou minulé hodnoty (historie) a x_{t>t0} jsou hodnoty budoucí).
+
+==== Rekurentní neuronové sítě ====
+{{../elmanova_síť.png}}
+
+=== Vybavení neuronové sítě ===
+Probíhá tak, že nastavíme hodnoty výstupu rekurentních neuronů na nulu a pak na vstup přikládáme postupně vektory a provedíme výpočet y. Pro hodnoty ve zpětných vazbách použijeme hodnoty z předešlého kroku. Odezva sítě tedy nezávisí jen na vstupech, ale taky na předchozím stavu sítě, tj. předchozích hodnotách ve skryté vrstvě.
+
+=== Učení ===
+Roztrhneme zpětné vazby a učíme [[Neuronové sítě|algoritmem back-propagation.]]
+
+==== Time Delay neural Network (TDNN) ====
+{{../tdnn.png}}

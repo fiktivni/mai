@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T22:06:23+01:00
+
+====== Analýza podobnosti ======
+Created Sobota 09 leden 2016
+
+**Potřebujete provést prvotní analýzu na základě podobnosti dat. Jakou neuronovou síť použijete? Popište vybavení i učení. Jak budete interpretovat odezvy naučené neuronové sítě?**
+
+===== Shluková analýza =====
+* Důležitá metoda analýzy dat
+* řeší problém nalezení podobností v neznámých datech
+* Podobná data typicky leží v prostoru blízko sebe (tvoří shluky)
+* Zajímají nás parametry shluku jako je střed (težiště) a velikost (rozptyl). Vzory v okolí středu můžeme považovat za reprezentanty shluku (typické hodnoty)
+{{../shluky.png}}
+
+===== K-means algoritmus =====
+1. Odhadneme počet shluků
+2. Náhodně vygenerujeme středy shluků. Počet středů je roven počtu shluků, střed je reprezentován vektorem se stejnou dimenzí, jako je dimenze vektorů, které tvoří shlukovaná data.
+3. Určíme, k jakému shluku patří jaký vektor z dat. Daný vektor patří do toho shluku, k jehož středu je nejblíže (minimální Euclideovská vzdálenost od daného středu)
+4. Z dat, která náleží shluku vypočteme nový střed (postupně po složkách průměr přes všechny vektory shluku) a nahradíme jím původní střed shluku. Toto provedeme pro všechny shluky
+5. Body 3 a 4 opakujeme do ustálení (tj. do doby, kdy se středy posunou o mén než je zadaná hodnota), konec
+
+===== Samoorganizující se mapy (SOM) =====
+* SOM se mnohdy nazývá dle autora Kohonenova síť
+__• Reprezentuje neuronovou síť učenou bez učitele__
+* Provádí shlukovou analýzu
+__• Oproti K-means algoritmu není třeba předem znát počet shluků__
+
+===== Algoritmus SOM =====
+1. Inicializujeme váhy neuronů náhodnými hodnotami a nastavíme počáteční hodnotu koeficientu α(t).
+2. Vybereme vektor z učící množiny a přiložíme na vstupy sítě
+3. Vypočteme výstupy neuronů
+{{../som.png}}
+4. Zjistíme neuron s nejmenší odezvou (to je reprezentant pro vstupní vektor)
+5. Pro každý neuron upravíme váhu o ∆w_{ij}
+6. Pokud jsme nevyčerpali učící množinu, pokračujeme bodem 2
+7. Snížíme koeficient α(t). Pokud je α(t) > 0, pokračujeme bodem 2, opět od počátku učící
+množiny.

@@ -1,0 +1,98 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T22:07:43+01:00
+
+====== Optimalizační metody ======
+Created Sobota 09 leden 2016
+
+**V řadě oblastí například logistice nebo robotice je třeba řešit různé optimalizační úlohy. Řada úspěšných optimalizačních metod je založena na přírodou inspirovaných algoritmech. Popište několik z nich. Na jaké úlohy byste je použili?**
+
+===== Genetický algoritmus =====
+* __Algoritmus inspirovaný evolučními teoriemi živočichů__
+* Robustní heuristický optimalizační algoritmus
+* Náročný na výkon a systémové zdroje počítače
+{{../genom_jedinec_populace.png}}
+
+==== Selekce ====
+* __Výběr jedinců do další populace__
+* Často pužívanou metodou je ruletová selekce. Jedinci se vybírají do nové populace náhodně s pravděpodobností danou jejich zdatností (vyšší zdatnost → vyšší pravděpodobnost)
+* Jinou metodou je převzít do nové populace určité procenti jedinců s největší zdatností
+
+==== Mutace ====
+* Mutace je náhodná změna genomu. Jedná se o unární operaci nad genomem.
+* __Pro binárně zakódovaný genom je mutace realizována jako změna náhodně vybraného bitu__ (případně bitů) v genomu.
+* Mutace může také např. prodloužit genom přidáním bitu
+
+==== Křížení ====
+Křížení je rekombinace genetické informace dvou jedinců. Jedná se o binární operaci.
+{{../křížení.png}}
+Jsou možná i vícebodová křížení.
+
+==== Základní algoritmus ====
+1. Náhodně vygenerujeme počáteční populaci jedinců
+2. Vyhodnotíme zdatnost u všech jedinců v populaci
+3. Část jedinců s nejhorší zdatností odstraníme
+4. Populaci doplníme o další jedince (křížení, mutace, reprodukce)
+5. Pokračujeme bodem 2, pokud není splněna podmínka ukončení
+6. Vezmi jedince s nejlepší zdatností jako výsledné řešení
+
+==== Genotyp ====
+Genotyp je soubor všech genetických informací (pro účely GA lze chápat genotyp = genom jako u jednobuněných živočich )
+
+==== Fenotyp ====
+Fenotyp je soubor znak chování jedince. Tyto znaky jsou projevem určité podmnožiny genů (vlohů) z genomu.
+
+==== Výhody GA ====
+* Prověřuje několik ešení najednou (jedno řešení = jeden jedinec v populaci).
+* Na počátku je celá populace rozprostřena po prostoru řešení, tak je velká pravd podobnost, že některý padne do blízkosti globálního minima.
+* Výběr jedinců do populace se děje na základě výpočtu hodnotící funkce bez žádných specifických požadavků, proto je vhodný pro širokou škálu optimalizačních úloh.
+* Mezi genotypem a fenotypem může být matematicky těžko popsatelný vztah.
+
+==== Nevýhody GA ====
+* Vyhodnocení zdatnosti je nutné provést vždy pro všechny jedince → vysoká paměťová operační náročnost
+
+===== Diferenciální evoluce =====
+* __Genetický algotmus se speciálním typem křížení jedinců__
+* Vhodný pro spojitou optimalizaci (genom obsahuje číselné hodnoty)
+
+==== Křížení ====
+Nového jedince vytvoříme ze základního jedince x tak, že jeho některé geny změníme na základě tří náhodně vybraných jedinců a , b, c tak, že jedinec a bude tvořit bázi, ke které přičte vážený rozdíl jedinců b, c.
+
+===== Genetický algoritmus pro učení neuronových sítí =====
+__• Používá se pro šlechtění topologie neuronové sítě ale i vah__
+* Při návrhu algoritmu je třeba zohlednit, že neuronová síť s dobrou topologií, ale špatně nastavenými vahami, může mít horší zdatnost, než neuronová síť s horší topologií, ale dobře nastavenými vahami.
+	* Obvykle se šlechtí dvou úrovňově, nejprve topologie, pak se topologie zmrazí a nechá se as algoritmu doladit váhy. Potom se teprve rozhodne o vyřazení jedince z populace
+	* Kombinací algoritmů: topologie genetickým algoritmem, váhy gradientně (Backpropagation)
+
+===== Particle Swarm Optimalization (PSO) =====
+Přírodou inspirovaný optimalizační algoritmus
+* Modeluje chování hejn pták
+* Vhodný pro spojitou optimalizaci
+* Má čadu podobností s genetickým algoritmem
+{{../pso.png}}
+
+==== Algoritmus PSO ====
+* Základem je hejno částic (jedinců, ptáků)
+* Každá částice se pohybuje po spojitém prostoru, kde hledáme řešení. Má tedy svoji rychlost a směr
+* Každá částice vyhodnocuje fitness svého řešení v každém bodě prostoru, kde se vyskytuje a pamatuje si svoje nejlepší řešení (lbest)
+* Pro všechny částice se udržuje nejlepší dosud nalezené ešení (gbest, to bude potom výsledným řešením po ukončení algoritmu)
+* Algoritmus postupuje po krocích, ve kterých se vyhodnocuje nová pozice částic dle vztahu
+	* x(t+1)=x(t)+v(t), v(t)= ω_{p}v(t-1)+φ_{p}r_{p}(p_{p}-x(t))+φ_{g}r_{g}(g-x(t)),
+	* kde r_{p} a r_{g} jsou náhodné vektory a ω_{p}, φ_{p}, φ_{g} jsou parametry
+* Rychlost částice je ovlivněna vzdáleností částice od jejího nejlepšího řešení lbest (člen p_{p}-x(t)) a vzdáleností od globálního řešení gbest (člen g-x(t)). Jinými slovy částice je směrována jak k jejímu lokálnímu, tak ke globálnímu řešení, přičemž parametry φ_{p}, φ_{g} určují míru ovlivnění. Náhodné vektory r_{p} a r_{g} vnášejí do pohybu náhodnou složku. Parametr ω_{p} je mírou setrvačnosti částice.
+
+===== Ant Colony Optimalization (ACO) =====
+{{../aco.png}}
+
+==== Algoritmus ACO ====
+* Mravenec vytváří řešení tím, že se v určitých krocích (typicky uzlech grafu) náhodně rozhoduje, kterou hranou se vydá. Představte si paket v síti (mravenec), který se rozhoduje, kterým portem se vydat k požadovanému cílovému počíta i.
+* Pravděpodobnost, kterou hranou se vydá je ovlivněna feromonem (těkavá látka, kterou mravenec klade).
+* Feromon mravenec klade na hrany grafu, a to pokud našel cíl (tedy na zpáteční cestě). Klade ho o to víc kolik potravy našel. V případě příkladu s paketem by to byla doba, za kterou dosáhl cíle (čím kratší, tím více feromonu). Pak budou ostatní pakety chodit po feromonové cestě.
+* Feromon v čase vyprchává, tzn. pokud některý mravenec nanese feromon a další ho nenásledují, protože našli lepší řešení, pak z cesty, která není navštěvována feromon vyprchá.
+* Fermomon je určitou formou paměti (akumuluje zkušenost). Těkavost feromonu je určitou formou zapomínání. To umožňuje algoritmu se průběžně adaptovat na nové podmínky.
+
+==== Aplikace ====
+* Logistika
+* Dopravní systémy
+* Směrování v sítích
+* Řešení standardní úlohy obchodního cestujícího (TSP – Travelling Salesman Problem)

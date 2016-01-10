@@ -1,0 +1,45 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-09T22:05:03+01:00
+
+====== Klasifikátor ======
+Created Sobota 09 leden 2016
+
+**Máte pro dataminigovou úlohu vytvořit klasifikátor. Jaký typ neuronové sítě použijete? Jak připravíte trénovací a testovací množiny? Popište proces učení a nastavení jeho parametrů. Jak klasifikátor vyhodnotíte?**
+
+===== Klasifikace =====
+__Klasifikátor zařazuje data do tříd (skupin) na základě nějakého pozorování. Vstupním hodnotám přiřazuje výstupní kategorii.__
+(příznaky-druh nemoci, vlastnosti-zvíře (rostlina, ...), obrázek-písmeno, zvuk-promluva, ...)
+{{../klasifikace.png}}
+
+===== Velikost sítě =====
+Počet neuronů ve vstupní a výstupní vrstvě je dán aplikací, __volíme pouze počty skrytých neuronů__
+* Neexistují jednoznačná pravidla
+* Platí zásada méně je více
+* Začínáme s jednou skrytou vrstvou, více vrstev přidáme, pokud jsme nespokojeni s výsledky
+* Počet neuronů ve skryté vrstvš by měl odpovídat struktuře (členitosti) dat (více shluků potřebuje více neuronů)
+* Více neuronů → snadnější přeučení → malá generalizace → horší model
+{{../počet_neuronů_ve_skryté_vrstvě.png}}
+
+===== Algoritmus učení =====
+1. Náhodně inicializujeme váhy v neuronové síti
+2. Vezmeme pár vstup-výstup z trénovací množiny dat a část vstup přiložíme na vstup sítě
+3. Vypočteme výstupy sítě
+4. Porovnáme výstup sítě s částí výstup z páru vstup-výstup (vypočteme odchylku)
+5. Na základ odchylky upravíme o kousek váhy sítě (získáme o něco lepší řešení)
+6. Pokud jsme ještě nevyčerpali celou trénovací množinu pokračujeme bodem 2
+7. Pokud je průměrná chyba přes celou trénovací množinu vyšší než požadované kriterium, pokračujeme bodem 2
+8. Síť je naučena, konec
+{{../průběh_učení.png}}
+
+===== Příprava trénovací množiny =====
+Dostupná data rozdělíme na
+	* Trénovací množinu
+	* Testovací množinu
+Stejné procentní zastoupení vzorů ze všech tříd
+	* Selektivní výběr vzorů
+		* Nevýhodou je, že neuronová síť se učí jen na zlomku dostupné informace
+	* Duplikace
+Normalizace vstupních dat
+	* Změna měřítka (pozor na dynamicky počítané měítko, trénovací a testovací množina může mít odlišné hodnoty)
+	* Transformace přes nelineární funkci (např. log(x), potlačení velkých hodnot, zdůraznění malých hodnot)
