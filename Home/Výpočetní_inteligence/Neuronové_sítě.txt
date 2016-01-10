@@ -54,10 +54,10 @@ Učení s učitelem je založeno na minimalizaci chyby mezi momentální a poža
 {{../učení_s_učitelem.png}}
 Kde N je počet výstupů neuronové sítě a M je počet vzorů v trénovací množině. Pozor! y_{i}^{(j)} je i-tý výstup j-tého vzoru z trénovací množiny.
 
-=== Gradientní metoda učení algoritmem Back Propagation ===
+==== Gradientní metoda učení algoritmem Back Propagation ====
 {{../back_propagation.png}}
 
-===== Algoritmus učení =====
+=== Algoritmus učení ===
 1. Náhodně inicializujeme váhy v neuronové síti
 2. Vezmeme pár vstup-výstup z trénovací množiny dat a část vstup přiložíme na vstup sítě
 3. Vypočteme výstupy sítě

@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-10T23:32:12+01:00
+
+====== Modely ======
+Created Neděle 10 leden 2016
+
+**Významnou složkou procesu dobývání znalostí je vytváření modelů. Popište základní modely založené na lineární regresi pro jedno čí vícerozměrná data a metodu pro linearizaci nelineárních modelů. Na čem jsou založeny moderní trendy ve vytváření složitých modelů?**
+
+===== Modelování =====
+* Významná součást data mininigu, zejména procesu dobývání znalostí
+* Vstupem modelování jsou předzpracovaná data
+* Výstupem modelování jsou znalosti ve formě
+	* Reprezentant (etalon ve form hodnot nebo vektorů)
+	* Funkcí (jednotlivých nebo směsi funkcí)
+	* Pravidel
+* Modely mohou být
+	* Jednoduché
+	* Komplexní
+* Současný trend v modelování zahrnuje
+	* Kombinování modelů
+	* Volbu modelu na základě meta informací o datech a modelovacích metodách
+
+===== Lineární veličiny a veličiny s lineárním trendem =====
+{{../lineární_veličiny.png}}
+
+===== Lineární regrese =====
+{{../lineární_regrese.png}}
+* Cílem lineární regrese je nalézt takové parametry q_{0} a q_{1}, aby soušet všech odchylek ε_{i} přes všechna data byl minimální.
+* Jedná se o jednoduchou optimalizační úlohu, kterou lze řešit [[https://cs.wikipedia.org/wiki/Metoda_nejmen%C5%A1%C3%ADch_%C4%8Dtverc%C5%AF|metodou nejmenších čtverců]].
+* Data prokládáme rovinou a hledáme takovou orientaci roviny v prostoru, aby se minimalizoval součet chyb pro všechny řádky datové matice.
+{{../vícerozměrná_lineární_regrese.png}}
+
+===== Linearizace nelineárních závislostí =====
+{{../linearizace_nelineárních_závislostí.png}}
+
+===== Kombinování modelů =====
+* Nejlepších výsledk nelze dosáhnout jedním modelem, lepších výsledků se dosahuje kombinováním modelů
+	* Bagging
+		* Všechny modely mají stejnou váhu
+		* Z trénovacích dat se vytvoří podmnožiny (náhodný výběr s opakováním) a na každou množinu se naučí jeden model
+		* Vytvořené modely hlasují o výsledku
+	* Boosting
+		* Modely se vytvářejí postupně
+		* Novější modely mají větší váhu hlasu
+		* Při učení se nově vytvořený model zamřuje na data, která byla špatně klasifikována
+

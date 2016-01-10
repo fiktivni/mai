@@ -10,5 +10,4 @@ Created Čtvrtek 07 leden 2016
 [ ] Jakým způsobem zabezpečíte síťovou část infrastruktury proti neoprávněnému přístupu či zneužití? Zaměřte se na Fyzické zabezpečení, ochranu aktivních prvků.
 
 ===== Materiály =====
-Prosba o materiály k tomuto předmětu byla odeslána ing. Petru Břehovskýmu.
-[[http://www8.hp.com/cz/cs/pdf/kyberneticka_bezpecnost_2013_tcm_141_1456508.pdf|Kritická infrastruktura a zákon o kybernetické bezpečnosti]] 
+

@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-10T19:25:03+01:00
+
+====== Míry podobnosti ======
+Created Neděle 10 leden 2016
+
+**Řada dataminingových algoritmů pro extrakci znalostí je založena na podobnosti dat. Jaké jsou míry podobnosti a na jaké druhy dat je lze použít?**
+
+===== Míry podobnosti =====
+* V data miningu je často třeba data porovnávat (např. při shlukové analýze)
+* Porovnávají se
+	* Vektory
+	* Funkční závislosti (typicky na čase)
+	* Řetězce
+	* Soubory dat (množiny)
+* Skutečná podobnost (Karel je na fotografii podobný Pavlovi, osoba na videu se pohybuje podobně jako náš zločinec, ...) je těžko matematicky popsatelná, řeší se kombinací jednoduchých matematických metod (více či méně úspěšně)
+
+==== Euclideovská vzdálenost ====
+__Vzdálenost dvou vektorů__
+{{../euclidovská_vzdálenost.png}}
+Jedna z nejčastěji užívaných metrik. Shodné vektory mají vzdálenost nula. Více odlišné vektory vykazují větší vzdálenost.
+V porovnání obou vektorů hraje významnou roli velikost rozdílů složek těchto vektorů.
+
+==== Skalární součin ====
+Není metrikou v matematickém slova smyslu, __lze __však__ použít jako míru podobnosti__
+{{../skalární_součin.png}}
+Skalární součin vektorů a, b dělený velikostmi vektorů udává cosinus úhlu mezi těmito vvektory. Shodné vektory vykazují hodnotu 1 a vektory kolmé vykazují hodnotu 0.
+__V porovnání se nebere zřetel na velikost vektorů, ale jejich vzájemný úhel.__
+
+==== Hammingova vzdálenost ====
+Uvažujeme __binární vektory__.
+{{../hammingova_vzdálenost.png}}
+Hamingova vzdálenost je počet složek, ve kterých se dva vektory liší. (Znak ⊕ je XOR)
+'''
+10111010101001
+ |    | | |  |
+11111000000000 → vzdálenost: 5
+'''
+
+
+==== Levensteinova vzdálenost ====
+* Slouží k porovnání dvou řetězců. Jedná se o tzv. editační vzdálenost.
+* Řetězci se postupuje zleva doprava. Pokud je na daném místě shoda ve znacích, vzdálenost se nemění. Je-li nutné pro dosažení shody přidat (nebo odebrat) znak, zvětšuje se vzdálenost o 1.
+'''
+D=0	D=1	D=1
+Ahoj	Aoj	Ahooj
+Ahoj	Ahoj	Ahoj
+'''
+
+

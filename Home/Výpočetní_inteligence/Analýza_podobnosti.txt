@@ -7,6 +7,8 @@ Created Sobota 09 leden 2016
 
 **Potřebujete provést prvotní analýzu na základě podobnosti dat. Jakou neuronovou síť použijete? Popište vybavení i učení. Jak budete interpretovat odezvy naučené neuronové sítě?**
 
+Z pohledu Dataminingu viz [[Home:Data mining:Shluková analýza|Shluková analýza]].
+
 ===== Shluková analýza =====
 * Důležitá metoda analýzy dat
 * řeší problém nalezení podobností v neznámých datech

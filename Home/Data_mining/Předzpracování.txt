@@ -1,0 +1,75 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-10T15:48:43+01:00
+
+====== Předzpracování ======
+Created Neděle 10 leden 2016
+
+**Proces předzpracování dat může významným způsobem ovlivnit výsledek analýzy dat. Popište, jaké algoritmy v tomto procesu uplatníte a jaký budou mít dopad na výsledná data.**
+
+===== Střední hodnota náhodné veličiny =====
+Střední hodnota náhodné veličiny X se označuje E(X) nebo μ.
+{{../střední_hodnota_náhodné_veličiny.png}}
+
+===== Histogram =====
+
+==== Konstrukce ====
+* Pro diskrétní hodnoty spočteme počty výskytu jednotlivých hodnot (četností) v souboru dat, případně vypočteme relativní četnosti tj. poměr četnosti k celkovému objemu dat.
+* Pro spojité náhodné veličiny stanovíme nejprve intervaly a pak počítáme četnosti hodnot spadajících do daného intervalu. Obdobně jako u diskrétní náhodné veličiny počítáme i relativní četnosti.
+
+===== Popisné statistiky =====
+* Velké objemy dat lze redukovat, nahrazujeme-li některé množiny nebo podmnožiny dat popisnými statistikami
+* __Popisná statistika je číselná charakteristika, která popisuje určitý aspekt dat__
+	* Míry centrální tendence (nebo také jinak střední hodnoty, míry střední hodnoty a míry polohy)
+	* Míry rozptýlenosti
+	* Šikmost, špičatost a další
+* __Popisné charakteristiky mají silnou vazbu na histogram a de-fakto popisují jeho tvar__
+
+===== Míry centrální tendece (střední hodnoty) =====
+
+==== Aritmetický průměr ====
+* Nelze použít pro kategoriální (nominální) data
+* Data musí být z určitého číselného intervalu
+* Rozdělení dat je symetrické (= histogram je symetrický)
+* Data neobsahují výrazně odlehlé hodnoty
+* Pro použity statistické testy
+
+==== Medián ====
+* __Poslounost čísel seřadíme vzestupně. Medián je hodnota, která leží uprostřed setříděné posloupnosti.__
+* Množina hodnot, které se v datech nachází musí být minimáln uspořádaná (toto samozřejm splňují číselné hodnoty, ale mohou to být i kategoriální data, kde je možné stavovit uspořádání čísla např. bot, od v S, M, L, XL, XXL).
+* Chceme znát střed rozdšlení dat
+* Pro data obsahují odlehlé hodnoty
+* Pro silně zešikmenérozdělení dat
+
+==== Modus ====
+* __Hodnota s největší relativní četností, pokud má histogram více vrcholů (multimodální rozdělení), pak se uvádí více hodnot.__
+* Pro multi-modální rozdělení (více vrcholů)
+* Pro základní přehled
+
+===== Míry rozptýlenosti =====
+* Míry rozptýlenosti charakterizují jak jsou data rozptýlena
+
+==== Rozptyl a směrová odchylka ====
+{{../rozptyl_a_směrová_odchylka.png}}
+* Používá se za stejných podmínek jako aritmetický průměr, obojí je citlivé na odlehlá data
+* Nevhodné pro silně zešikmená rozdělení
+
+==== Varianční koeficient ====
+VK = s/!x → výběrová směrová odchylka ku doplňku x
+* Vhodný pro porovnání např. různých měření s různými průměry, kdy lze předpokládat, že rozptyl roste lineárn se střední hodnotou veličiny.
+
+==== Empirický kvantil ====
+Empirický kvantil x_{q} je __hodnota, pod kterou leží určité procento údajů.__ q je hladina.
+x_{q};0 < q < 1
+
+==== Centrální momenty ====
+__Charakterizují tvar rozdělení pravděpodobnosti.__
+{{../centrální_momenty.png}}
+* Momenty charakterizují rozdělení pravděpodobnosti diskrétní nebo spojité náhodné veličiny.
+* Pokud máme rozsáhlý soubor dat, tak jej můžeme vizualizovat v podobě histogramu.
+* Pokud ale data chceme dále číselně zpracovávat, můžeme celý soubor dat nahradit centrálními momenty a tím dosáhnout značné redukce dat pro následné zpracování.
+
+===== Korelace =====
+* __Korelace vyjadřuje míru závislosti dvou náhodných veličin.__
+* Pro statisticky nezávislé veličiny je korelace rovna nule. Mluvíme o veličinách, které nejsou korelované.
+* Korelace reflektuje pouze lineární vztah mezi veličinami!

@@ -1,0 +1,60 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-10T20:21:54+01:00
+
+====== Klasifikace dat ======
+Created Neděle 10 leden 2016
+
+**Klasifikace dat je základní úlohou v dataminingu. Vysvětlete princip klasifikace a pro jaký typ dat lze použít. Popište klasifikaci s pomocí rozhodovacích stromů.**
+
+Z pohledu neuronových sítí viz [[Home:Výpočetní inteligence:Klasifikátor|Klasifikátor.]]
+
+===== Rozhodovací stromy =====
+* Znalosti jsou reprezentovány v podobě stromů
+	* Uzly reprezentující určitou třídu dat
+	* Větvení reprezentuje strukturu dané třídy dat
+* Postup metodou rozděl a panuj
+	* Trénovací množina se postupně dělí tak, aby v každé množině převládala data jedné třídy.
+* Algoritmus je vhodný pro kategorická data, po úravách i pro numerická data
+* Rozhodovací stromy se používají pro
+	* Regresi (regresní stromy)
+	* Klasifikaci (klasifikační stromy)
+
+==== Základní algoritmus ====
+1. Zvolit jeden atribut (kořen stromu)
+2. Data rozdělit podle hodnot zvoleného atributu na podmnožiny a každé podmnožině přiřadit nový uzel.
+3. Pokud existuje uzel, kde všechna data nepatří do téže třídy, pak zpět na bod 1
+4. konec
+
+=== Příklad ===
+{{../rozhodovací_strom_příklad.png}}
+
+===== Testování klasifikačních modelů =====
+* na trénovacích datech
+	* má omezenou vypovídací schopnost
+		* říká nám, jak přesně se model přiblížil trénovacím datům
+		* nepostuhuje schopnost modelu zevšeobecňovat
+	* neodhalí přeučení modelu
+	→ nedostatečná metoda pro vytvoření kvalitního metodu
+* křížová valdace
+	* dostupná data se rozdělí na n částí (např n=10)
+	* 9/10 dat se použije pro učení
+	* 1/10 dat se použije pro testování
+	* provede se celkem n testů a výsledky se zprůměrují
+* leave-one-out
+	* Obdoba křížové validace
+	* Máme-li n vzorů, n-1 učíme a jeden použijeme na testování
+	* provedeme tedy n testů a výsledky zprůměrujeme
+	* metoda může být časově náročná
+* bootstrap
+	* vtory do trénovací množiny z dostupných dat vybíráme tak, že se nětkeré vzory mohou opakovat
+	* zbylé vzory použijeme pro testování
+* na testovacích datech (náhodným výběrem)
+	* z dostupných dat vybereme 75 % pro trénování a 24 % pro testování
+	* vzory se neopakují
+	* testování se provede jen jednou
+
+===== Matice záměn =====
+* Matice, kde řádky odpovídají odpovědím modelu a sloupce správným odpovědím
+* Pro bezchybný klasifikátor jsou nenulové hodnoty pouze na hlavní diagonále
+* Součet všech hodnot v matici je roven počtu vzorů

@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-10T14:43:40+01:00
+
+====== Dataminingový tým ======
+Created Neděle 10 leden 2016
+
+**Máte v podniku sestavit dataminingový tým. Jaké odborníky si vezmete do svého oddělení a jaké úkoly jim přidělíte, abyste pokryli celý proces dobývání znalostí?**
+
+===== Knowledge Discovery in Databases (KDD) =====
+* Dobývání znalostí z databází
+* __Multi-disciplinární obor zahrnující__
+	* __Databáze__
+	* __Statistiku__
+	* __Umělou inteligenci__
+* Cílem je automatické vyhledávání zákonitostí v rozsáhlých souborech dat
+* V současné době je to proces interaktivní (neobejde se bez experta), současné výzkumy smřují k plné automatizaci
+{{../proces_dobývání_znalostí.png}}
+
+==== Selekce dat ====
+Výběr relevantní podmnožiny z dostupných dat (relevance má přímou souvislost se zadáním)
+
+=== Problémy ===
+* Data v různých databázích
+* Data v různých formátech
+* Různý charakter dat (záznamy v databázi, textové dokumenty)
+* Data nelze jednoduše pospojovat do jedné tabulky
+
+==== Předzpracování ====
+Příprava dat pro další zpracování
+* Čištění dat od odlehlých hodnot
+* Doplňování chybějících hodnot
+* Agregace dat
+* Extrakci příznaků
+* Detekce závislých atributů
+* Odstranění offsetů a trendů
+__Významný krok procesu zpracování, který může významně ovlivnit výsledek analýzy (negativně i pozitivně)__
+
+==== Transformace dat ====
+Nezbytné __transformace dat podle potřeb použitých analytických metod__
+* Selekce atributů (feature selection)
+* Vážení atributů (feature ranking)
+* Normalizace atributů
+* Funkční transformace a doplňování atributů vypočtenými hodnotami
+
+==== Dolování znalostí ====
+Založeno na modelování závislostí v datech, klasifikaci dat do tříd a shlukové analýze. Je to iterativní a interaktivní proces, který je řízen expertem. Současný výzkum směřuje k plné automatizaci tohoto procesu.
+* Využívá metody umělé inteligence, metody založené na strojovém učení
+* Využívá metod shlukové analýzy
+* Využívá metod modelování a automatické tvorby modelu
+* Využívá širokou škálu klasifikátorů
+
+==== Vizualizace ====
+* Klíčový nástroj pro interpretaci výsledků.
+* Využívá širokou škálu grafů (např. Scatter, Scatter Matrix, Bubble atd.)
+* Řeší problém zobrazení vícerozměrných dat (člověk se přirozeně orientuje pouze v grafech max. 3D) → Vícerozměrné veličiny různě mapovány např. na tvar, rozměr a barvu objekt.
+
+==== Interpretace dat a reportování ====
+* Výsledky analýzy jsou opět čísla, musí se proto převést do srozumitelné řeči (formulace zákonitostí, vizualizace grafy, komentáře)
+* Při interpretaci výsledků má hlavní slovo expert.
+* Výstupy analýzy se prezentují ve formě zpráv (reportů)
+* Současný výzkum v oblasti smřuje k automatizaci generování reportů.

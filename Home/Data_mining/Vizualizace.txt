@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-10T23:53:03+01:00
+
+====== Vizualizace ======
+Created Neděle 10 leden 2016
+
+**Vizualizace je významnou součástí procesu dobývání znalostí. Uplatňuje se nejen k prezentaci výsledků ale i v průběhu analýzy nám může poskytnout cenné informace. Popište, jak lze data vizualizovat, jaký problém nám přináší zobrazení vícedimenzionálních dat a jak se řeší.**
+
+===== Vizualizace =====
+* Klíčový nástroj pro interpretaci výsledků.
+* Využívá širokou škálu grafů (např. Scatter, Scatter Matrix, Bubble atd.)
+* __Řeší problém zobrazení vícerozměrných dat (člověk se přirozeně orientuje pouze v grafech max. 3D) → Vícerozměrné veličiny různě mapovány např. na tvar, rozměr a barvu objekt.__
+
+===== Základní grafy =====
+{{../základní_grafy.png}}
+
+===== Pokročilé grafy =====
+
+==== Scatter plot ====
+{{../scatter_plot.png}}
+
+==== Paralelní graf ====
+{{../paralelní_křivka.png}}
+
+==== Roc křivka ====
+* ROC (Receiver Operating Curve) se využívá u hodnocení klasifikátorů
+* Konkrétní příklad: čtečka otisků prstů – výstup akceptovat/neakceptovat otisk
+{{../roc_křivka.png}}
+
+===== Zpracování textu =====
+* Slovníky
+* N-gramy
+	* Bi-gramy
+	* Trigramy
+* Stemming
+	* Nahrazení slova jeho základem
+* Lematization
+	* Obdobné jako stemming, ale s ohledem na kontext
+

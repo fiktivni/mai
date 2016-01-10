@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-10T22:17:30+01:00
+
+====== Shluková analýza ======
+Created Neděle 10 leden 2016
+
+**Pro získání prvotní informace z neznámých dat lze použít metody shlukové analýzy. Na čem je shluková analýza založena? Jaké algoritmy shlukové analýzy byste využili? Popište je.**
+
+Z pohledu neuronových sítí viz [[Home:Výpočetní inteligence:Analýza podobnosti|Analýza podpobnosti]].
+
+===== Shluková analýza =====
+* Důležitá metoda analýzy dat
+* Řeší problém nalezení podobností v neznámích datech
+* Podobná data typicky leží v prostoru blízko sebe (tvoří shluky)
+* Zajímají nás parametry shluku jako je střed (těžiště) a velikost (rozptyl). Vzory v okolí středu můžeme považovat za reprezentanty shluku (typycké hodnoty)
+
+==== Shlukování dat ====
+* Hledání podmnožin podobných vzorů
+* Definice podobnosti na rozdíl od shodnosti je nejasná, používají se různé metriky
+	* Hammingova
+	* Euklidovská
+	* Čebyševova
+* Výsledkem jsou sobě podobné množiny vzorů, interpretace je na expertovi a výsledcích analýz
+
+=== Hiearchické shlukování ===
+* Shlukování metodou zdola nahoru
+* Na začátku je každý vzor umístěn do samostatného shluku
+* Pak opakovaně shluky spojujeme, až získáme jeden shluk, obsahující všechny vzory
+* __Spojujeme blízké shluky, spojování si poznamenáváme ve formě stromu.__
+
+==== Určení vzdálenosti mezi shluky ====
+* Metoda nejbližšího souseda
+	* Vzdálenost mezi shluky A a B je dána __minimem__ vzdálenosti mezi vzory shluků A a B
+* Metoda nejvzdálenějšího souseda
+	* Vzdálenost mezi shluky A a B je dána __maximem__ vzdálenosti mezi vzory shluků A a B
+* Metoda průměrné vzdálenosti
+	* je dána __průměrnou__ vzdáleností
+* Metoda centroidní
+	* je __dána vzdáleností středů__
+
+===== K-means algoritmus =====
+1. Odhadneme počet shluků
+2. Náhodně vygenerujeme středy shluků. Počet středů je roven počtu shluků, střed je reprezentován vektorem se stejnou dimenzí, jako je dimenze vektorů, které tvoří shlukovaná data.
+3. Určíme, k jakému shluku patří jaký vektor z dat. Daný vektor patří do toho shluku, k jehož středu je nejblíže (minimální Euclideovská vzdálenost od daného středu)
+4. Z dat, která náleží shluku vypočteme nový střed (postupně po složkách průměr přes všechny vektory shluku) a nahradíme jím původní střed shluku. Toto provedeme pro všechny shluky
+5. Body 3 a 4 opakujeme do ustálení (tj. do doby, kdy se středy posunou o mén než je zadaná hodnota), konec
+

@@ -6,14 +6,14 @@ Creation-Date: 2016-01-05T14:06:18+01:00
 Created Úterý 05 leden 2016
 
 ===== Témata =====
-[ ] Máte v podniku sestavit dataminingový tým. Jaké odborníky si vezmete do svého oddělení a jaké úkoly jim přidělíte, abyste pokryli celý proces dobývání znalostí?
-[ ] Proces předzpracování dat může významným způsobem ovlivnit výsledek analýzy dat. Popište, jaké algoritmy v tomto procesu uplatníte a jaký budou mít dopad na výsledná data.
-[ ] Řada dataminingových algoritmů pro extrakci znalostí je založena na podobnosti dat. Jaké jsou míry podobnosti a na jaké druhy dat je lze použít?
-[ ] Klasifikace dat je základní úlohou v dataminingu. Vysvětlete princip klasifikace a pro jaký typ dat lze použít. Popište klasifikaci s pomocí rozhodovacích stromů.
-[ ] Pro získání prvotní informace z neznámých dat lze použít metody shlukové analýzy. Na čem je shluková analýza založena? Jaké algoritmy shlukové analýzy byste využili? Popište je.
-[ ] Obchodní řetězce, e-shopy a jiné subjekty mají velké množství dat. Aby je bylo možné využít pro marketing je třeba extrahovat asociační pravidla, která popisují chování zákazníků. Vysvětlete princip této metody, výběr a hodnocení pravidel.
-[ ] Významnou složkou procesu dobývání znalostí je vytváření modelů. Popište základní modely založené na lineární regresi pro jedno čí vícerozměrná data a metodu pro linearizaci nelineárních modelů. Na čem jsou založeny moderní trendy ve vytváření složitých modelů?
-[ ] Vizualizace je významnou součástí procesu dobývání znalostí. Uplatňuje se nejen k prezentaci výsledků ale i v průběhu analýzy nám může poskytnout cenné informace. Popište, jak lze data vizualizovat, jaký problém nám přináší zobrazení vícedimenzionálních dat a jak se řeší.
+[*] [[+Dataminingový tým|Máte v podniku sestavit dataminingový tým. Jaké odborníky si vezmete do svého oddělení a jaké úkoly jim přidělíte, abyste pokryli celý proces dobývání znalostí?]]
+[*] [[+Předzpracování|Proces předzpracování dat může významným způsobem ovlivnit výsledek analýzy dat. Popište, jaké algoritmy v tomto procesu uplatníte a jaký budou mít dopad na výsledná data.]]
+[*] [[+Míry podobnosti|Řada dataminingových algoritmů pro extrakci znalostí je založena na podobnosti dat. Jaké jsou míry podobnosti a na jaké druhy dat je lze použít?]]
+[*] [[+Klasifikace dat|Klasifikace dat je základní úlohou v dataminingu. Vysvětlete princip klasifikace a pro jaký typ dat lze použít. Popište klasifikaci s pomocí rozhodovacích stromů.]]
+[*] [[+Shluková analýza|Pro získání prvotní informace z neznámých dat lze použít metody shlukové analýzy. Na čem je shluková analýza založena? Jaké algoritmy shlukové analýzy byste využili? Popište je.]]
+[*] [[+Asociační pravidla|Obchodní řetězce, e-shopy a jiné subjekty mají velké množství dat. Aby je bylo možné využít pro marketing je třeba extrahovat asociační pravidla, která popisují chování zákazníků. Vysvětlete princip této metody, výběr a hodnocení pravidel.]]
+[*] [[+Modely|Významnou složkou procesu dobývání znalostí je vytváření modelů. Popište základní modely založené na lineární regresi pro jedno čí vícerozměrná data a metodu pro linearizaci nelineárních modelů. Na čem jsou založeny moderní trendy ve vytváření složitých modelů?]]
+[*] [[+Vizualizace|Vizualizace je významnou součástí procesu dobývání znalostí. Uplatňuje se nejen k prezentaci výsledků ale i v průběhu analýzy nám může poskytnout cenné informace. Popište, jak lze data vizualizovat, jaký problém nám přináší zobrazení vícedimenzionálních dat a jak se řeší.]]
 
 ===== Materiály =====
 [[../Data mining.pdf|Data Mining od Miroslava Skrbka]]

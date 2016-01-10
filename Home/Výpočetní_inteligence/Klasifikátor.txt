@@ -7,6 +7,8 @@ Created Sobota 09 leden 2016
 
 **Máte pro dataminigovou úlohu vytvořit klasifikátor. Jaký typ neuronové sítě použijete? Jak připravíte trénovací a testovací množiny? Popište proces učení a nastavení jeho parametrů. Jak klasifikátor vyhodnotíte?**
 
+Z pohledu Dataminingu viz [[Home:Data mining:Klasifikace dat|Klasifikace dat]][[Home:Výpočetní inteligence:Klasifikátor|.]]
+
 ===== Klasifikace =====
 __Klasifikátor zařazuje data do tříd (skupin) na základě nějakého pozorování. Vstupním hodnotám přiřazuje výstupní kategorii.__
 (příznaky-druh nemoci, vlastnosti-zvíře (rostlina, ...), obrázek-písmeno, zvuk-promluva, ...)
