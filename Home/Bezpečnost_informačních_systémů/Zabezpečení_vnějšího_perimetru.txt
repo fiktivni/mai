@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-12T12:50:30+01:00
+
+====== Zabezpečení vnějšího perimetru ======
+Created Úterý 12 leden 2016
+
+**Pomocí jakých prostředků a opatření byste provedl zabezpečení vnějšího perimetru (Internet, veřejně dostupné sítě apod.) informačních technologií v organizaci?**
+
+===== Fyzická bezpečnost =====
+* Vstupy → Ploty, brány, osvětlení, kamery, alarmy
+* Testy monitorovacích zařízení, vstupních zařízení a alarmů
+
+===== Bezpečnost IS =====
+* [[https://cs.wikipedia.org/wiki/Intrusion_Detection_System|Intrusion detection system]]
+* __Záloha → obnova dat__
+* Monitorování  sítě (odhalování DOS a jiných útoků)
+* __detekce útoku __→ autodetekce
+	* porovnávání signatur
+	* porovnávací pravidla
+	* porovnávání založený na profiluz
+* Možnost izoilace napadené oblasti
+* honeypot
+* honeynet
+* Antivirový program (pokud používáme Windows)
+* Firewall
+* Bezpečnostní/šifrovací systémy (VPN, SSL, S/MIME, Kerberos, Radius, atd.)
+* Skenovací nástroje na odhalení chyb v systémech
+

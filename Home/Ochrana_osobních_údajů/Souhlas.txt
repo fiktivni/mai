@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-12T10:44:26+01:00
+
+====== Souhlas ======
+Created Úterý 12 leden 2016
+
+**Jedním z důležitých principů zajištění legitimity zpracování osobních údajů je souhlas dotčené fyzické osoby – subjektu údajů. Pokud byste zastával odpovědnou funkci v organizaci a měl specifikovat všechna nezbytná opatření, aby souhlas od zákazníků organizace ke zpracování jejich osobních údajů byl legitimní (tedy v souladu se zákonem) a organizace měla dostatečné důkazní materiály k prokázání legitimity souhlasu, jaká opatření a postupy při získávání souhlasu zákazníků byste organizaci navrhl?**
+
+===== Souhlas =====
+* Souhlasem subjektu se rozumí svobodný a vědomý projev vůle subjektu, jehož obsahem je __svolení subjektu se zpracováním osobních údajů.__
+* **Informovaný** - jedinec má dostatek informací o okolnostech, k čemu mají informace sloužit, nic není zamlčeno (např. zdravotní zákrok)
+* **Výslovný** - __pro citlivé údaje__, musí být zahrnuto __co a pro jaké účely bude zpracováno__. Prokazatelnost souhlasu → archivace! (papírová, elektronická, ústní forma)
+* __Citlivé údaje je možné zpracovávat, jen jestliže subjekt dal ke zpracování výslovný souhlas__. Subjekt údajů musí být při udělení souhlasu informován o tom, pro jaký účel zpracování a k jakým osobním údajům je souhlas dáván, jakému správci a na jaké období. __Existenci souhlasu subjektu se zpracováním osobních údajů musí být správce schopen prokázat po celou dobu zpracování.__
+* Nástroj legitimity zpracování. Souhlas je svobodné rozhodnutí bez donucení, nutný dostatek informací pro rozhodnutí, __lze ho jedincem odvolat.__

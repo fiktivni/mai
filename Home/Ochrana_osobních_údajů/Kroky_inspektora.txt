@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-11T20:02:43+01:00
+
+====== Kroky inspektora ======
+Created Pondělí 11 leden 2016
+
+**Představte si, že jste pověřen funkcí inspektora ochrany údajů v organizaci, v níž jste zaměstnán. Jaké kroky byste provedl, aby organizace splnila všechny požadavky na bezpečnost a ochranu osobních údajů, které jí ukládá nová legislativa pro ochranu údajů v EU?**
+
+===== Povinnosti správce =====
+Správce odpovídá za legitimitu zpracování, musí:
+* __stanovit účel__, k němuž mají být osobní údaje zpracovány,
+* __stanovit prostředky__ a způsob zpracování osobních údajů,
+* zpracovat pouze přesné osobní údaje, které získal v souladu s tímto zákonem,
+* shromažďovat osobní údaje odpovídající pouze stanovenému účelu a v rozsahu nezbytném pro naplnění stanoveného účelu,
+* uchovávat osobní údaje pouze po dobu, která je nezbytná k účelu jejich zpracování
+* zpracovávat osobní údaje pouze v souladu s účelem, k němuž byly shromážděny,
+* shromažďovat osobní údaje pouze otevřeně; je vyloučeno shromažďovat údaje pod záminkou jiného účelu nebo jiné činnosti,
+* nesdružovat osobní údaje, které byly získány k rozdílným účelům.
+
+==== Inspektor osobních údajů ====
+* V nové legislativě o ochraně osobních údajů EU je navrhována nová povinnost pro některé správce údajů – jmenovat inspektora osobních údajů.
+* Inspektor ochrany údajů je nezávislou kontaktní osobou pro zpracování údajů odpovídající za dodržování zásad OOÚ. Měl by kontrolovat, spolurozhodovat, odsouhlasit zpracování, oznamovat konflikty s OOÚ.
+* Úlohy inspektora: např. proškolit zaměstnance, nebo zřídit nová interní pravidla
+* Zvláštní pozornost je potřeba věnovat ochraně osobních údajů dětí.
+	* Dítě do 13 let včetně je ohrožená skupina. Ovládají PC, jsou na internetu, ale nedokážou odhadnout rizika možného zásahu do soukromí. Na soc. sítích klidně poskytnou informace kriminálním skupinám.

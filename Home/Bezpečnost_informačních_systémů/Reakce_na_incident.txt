@@ -1,0 +1,137 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-13T00:06:25+01:00
+
+====== Reakce na incident ======
+Created Středa 13 leden 2016
+
+**Jakým způsobem a pomocí jakých prostředků byste řešil napadení informačního systému v organizaci?**
+
+===== Cíle =====
+* Potvrdit, nebo vyvrátit zda k incidentu skutečně došlo
+* Shromáždit přesné a objektivní informace
+* Nastavit mechanizmy získávání a zpracování důkazů
+* Zachovat privátnost informací garantovanou zákonem
+* Minimalizovat dopady incidentu na normální fungování organizace
+* Umožnit stíhání útočníků
+* Vytvořit podrobné protokoly a doporučení
+
+===== Metodologie =====
+
+==== Příprava ====
+* Dostatečně se připravit ještě před tím, než k incidentu dojde.
+* Shromáždění nástrojů a postupů pomocí kterých budeme na incident reagovat a
+* úpravy systémů a sítí, které jsou incidentem ohroženy
+* Vytvořit tým, který se bude incidentem zabývat, definovat procedury a připravit
+* nástroje, které budeme během řešení incidentu používat, např.:
+	* http://csirt.cesnet.cz
+		* Identifikace vitálních oblastí.
+		* Zabezpečení systémů.
+		* Hardware
+		* Software
+	* Kopie disku:
+		* Safeback, EnCase, DiskPro, dd
+	* Prohlížení souborů:
+		* Quckview Plus, HandyVue
+	* Ovladače
+
+==== Detekce incidentů ====
+* Odhadnout, zda se jedná o incident.
+* Zaznamenat všechno co jsme schopni zjistit, např.:
+	* Aktuální datum a čas
+	* Kdo, nebo jaký prostředek incident zaznamenal
+	* Podstatu incidentu
+	* Kdy k incidentu došlo
+	* Jakého hardware a software se incident týká
+	* Kontakty na zúčastněné osoby
+
+==== Počáteční reakce ====
+* Provést prvotní analýzu - zajistit informace, které nejsou trvalého charakteru (včetně svědectví zúčastněných) a potvrdit zda skutečně došlo k incidentu.
+* Ověřit, kterých systémů se incident přímo, či nepřímo týká, kteří uživatelé se ho účastní a definovat dopad, který bude incident mít na fungování společnostim, tzn.:
+	* Jak důležité jsou napadené systémy
+	* Jak citlivé jsou ukradené, nebo porušené informace
+	* Kdo je potencionálním útočníkem
+	* Zda je o incidentu informována veřejnost
+	* Úroveň neoprávněného přístupu získaná útočníkem
+	* Schopnosti útočníka
+	* Jak velké výpadky systému je možné tolerovat
+	* Celkové finanční ztráty
+
+==== Formulace strategie ====
+* Na základě všech známých faktů určit nejlepší reakci, ta musí být odsouhlasena vrcholovým managementem.
+
+==== Duplikace kritických dat ====
+* Rozhodnout, zda je nutné kvůli pozdějšímu zkoumání vytvořit fyzickou kopii dat, nebo získat důkazy online.
+* Analýza „živých“ dat versus analýza duplikátu systému
+* Ještě před tím, než bude provedena duplikace systému, je třeba získat živá data z běžícího systému:
+	* Obsahy registrů a vyrovnávacích pamětí
+	* Obsah operační paměti
+	* Informace o síťových spojeních
+	* Informace o běžících procesech
+	* Obsah disků
+	* Obsah výměnných a zálohovacích médií
+
+=== Duplikování disků ===
+* V neobsazeném prostotu disku se mohou nacházet informace, které mohou mít na výsledek pátrání poměrně značný vliv. Existují 3 základní možnosti:
+	A. Vyjmeme odpovídající médium z napadeného systému a zduplikujeme ho v počítači používaném k vyšetřování.
+	B. Duplikát provedeme na napadeném systému, poté co do něho připojíme náš pevný disk.
+	C. Zduplikujeme relevantní médium pomocí uzavřeného síťového spojení na počítač používaný k vyšetřování.
+* Analýza netbiosu:
+	* Určit geometrii důkazního média (pevného disku, který chcete zkoumat)
+	* Určit bootovací sekvenci systému 
+* Nástroje používané k duplikování důkazů musí splňovat následující požadavky:
+	* Aplikace musí umožňovat duplikovat každý bit originálního média. Obraz musí obsahovat všechna data obsažená na disku. Od počátku disku až po služební stopu.
+	* Aplikace se musí spolehlivě vyrovnat s chybami čtení. Jestliže se ani po několika pokusech nepodaří poškozený sektor přečíst, musí být vynechán, identifikován a místo něho musí být do výstupních dat umístěn sektor přesně stejné délky obsahující „výplň“.
+	* Aplikace nesmí žádným způsobem modifikovat data na originálním médiu.
+	* Aplikace musí být schopna prodělat testování a analýzu na vědecké úrovni. Výsledky musí být opakovatelné a musí být možnost je potvrdit třetí stranou (pokud je to nutné).
+	* Vytvořený obraz (kopie) musí být ochráněn kontrolním součtem, nebo signaturou. Kontrolní součet (signatura) může být vytvářena během kopírování dat (Safeback), nebo až po skončení celého procesu (dd a md5sum).
+
+==== Pátrání ====
+* Provést analýzu dat za účelem odhalení toho, co se vlastně stalo, kdo je za incident odpovědný a jak je mu možné do budoucna zabránit.
+* Zjistit kdo, co, kdy, kde a jak měl s daným incidentem souvislost.
+* Chyby, kterým je třeba se při zpracování důkazů vyhnout:
+* Změna časových značek systému ještě před tím, než je zaznamenáte
+* Zrušení podezřelých procesů
+* Aplikace záplat systému před dokončením analýzy dat
+* Nezaznamenání příkazů zadaných během vyšetřování
+* Požití neprověřených příkazů a binárních kódů
+* Přepsání potenciálních důkazů, například instalací software na důkazní média
+* Přepsání potenciálních důkazů spuštěním programů, které ukládají své výstupy na důkazní média.
+
+=== Fyzická analýza ===
+* vyhledávání řetězců na disku
+	* Všechny URL nalezené na analyzovaném médiu
+	* Všechny e-mail adresy nalezené na médiu
+	* Všechny řetězce obsahující specifická klíčová slova relevantní případu
+
+
+=== Logická analýza ===
+* analýza souborů daného souborového systému
+
+==== Implementace bezpečnostních opatření ====
+* Aktivně izolovat útočníkovi systémy a zabránit tak rozšíření incidentu
+	* odpojení od sítě
+	* funkční izolace napadeného počítače
+	* filtrování provozu na síti (fishbowling)
+* __Pokud shromažďujeme důkazy pro případné soudní, nebo administrativní jednání, je třeba tak učinit tak ještě před tím, než implementujeme bezpečnostní opatření.__
+
+==== Monitorování sítě ====
+* Monitorovat síťové aktivity za účelem průzkumu a neutralizace incidentu.
+* Analýza síťových spojení: tcpdump
+	* Jsou některá pole hlaviček IP datagramů podezřelá?
+	* Je podezřelá odchozí IP adresa?
+	* Nedochází ke zbytečným fragmentacím?
+	* Nemají některé pakety podezřelou délku?
+	* Jsou některá pole hlaviček TCP segmentů podezřelá?
+	* Odpovídají cílové porty segmentů provozovaným službám?
+	* Odpovídají data v síti RFC standardům?
+	* Nejsou časové informace o paketech podezřelé?
+
+==== Obnova ====
+* Vrátit napadený systém do původního funkčního stavu a jeho zabezpečení. __Před obnovou, je třeba přesně znát rozsah poškození, typ a umístění poškozeného systému.__
+
+==== Protokolování ====
+* Kompletně zdokumentovat průběh incidentu — všechny kroky pátrání a přijatá bezpečnostních opatření
+
+==== Poučení ====
+* Analyzovat celý proces případu, poučit se z chyb a __napravit všechny bezpečnostní nedostatky systému__.

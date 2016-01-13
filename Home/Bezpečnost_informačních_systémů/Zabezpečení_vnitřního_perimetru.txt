@@ -1,0 +1,156 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-13T00:02:21+01:00
+
+====== Zabezpečení vnitřního perimetru ======
+Created Středa 13 leden 2016
+
+**Pomocí jakých prostředků a opatření byste provedl zabezpečení interních informačních systémů v případě, že je chcete chránit před vnějšími i vnitřními hrozbami?**
+
+===== Penetrační test =====
+
+==== Metodika OSSTMM ====
+* http://www.isecom.org/research/osstmm.html
+* Smlouva
+	* souhlas s testováním, podrobný popis toho, co a kdy testovat
+	* kontakty
+	* odkud budou testy probíhat (IP adresy)
+
+=== Rozsah testů ===
+Testovací plán — časový harmonogram testů
+
+=== Informace o organizaci ===
+* WHOIS
+* DNS
+
+=== Přítomnost organizace na internetu ===
+* WEB servery, FTP servery atd.
+* veřejně dostupné informace (noviny, články, konference, chaty, produkty)
+
+=== Analýza dostupných dokumnetů ===
+* telefonní seznamy
+* e-mail adresy
+* osobný stránky zaměstnanců
+* analýza zveřejňovaných dokumentů
+* extrakce skrytých dat z dokumentů zveřejňěných organizací
+	* [[http://www.slideshare.net/chemai64/tactical-fingerprinting-using-metadata-hidden-info-and-lost-data-1309602|Black Hat Europe 2009: Tactical Fingerprinting Using Metadata. Hidden Info and Lost Data – Chema Alonso, Enrique Rando]]
+
+=== Testování technologií ===
+* dentifikace technologií organizace dostupných z Internetu
+* skenování portů: nmap, netcat — detekce služeb a operačních systémů, typy i verze
+* Pasivní
+	* odposlech: siphon
+* Fyzicky — sbírání informací přímým kontaktem
+	* prohledávání odpadků
+	* poslouchání zaměstnanců
+	* pozorování
+
+=== Testování služeb ===
+* Automatizované nástroje: Nessus, OpenVas
+* Testování konkrétních služeb a aplikací
+	* Autentizace
+	* Relace
+	* Manipulace se vstupy
+	* Manipulace s výstupy
+	* Prosakování informací
+
+== Web ==
+* Metodika OWASP: http://www.owasp.org
+* Web mirroring: [[http://www.gnu.org/software/wget/|wget]], [[http://www.httrack.com/|httrack]]
+* Identifikace aplikací
+* Analýza chybových hlášení
+* Testování konfiguračního managementu SSL, databázové porty, soubory se starými zálohami administrátorská rozhraní
+* Testování logiky
+* Testování autentizačních mechanizmů
+	* nešifrované autentizační údaje
+	* hrubá síla
+	* síla šifer
+* Testování autorizace
+	* path traversal
+	* obcházení autorizačního schématu
+	* eskalace privilegií
+* Testování managementu relací
+	* cookies, session fixation, dostupné parametry relace (SESSIONID)
+* Testování validace dat
+	* XSS
+	* SQL Injection
+	* LDAP, ORM, XML, SSI Xpath, IMAP/SMTP, Code injection
+	* OS Commanding
+	* Buffer overflow
+* Testování DoS
+	* Zamykání uživatelských účtů
+	* zaplnění disků
+	* alokace zdrojů
+* Automatizované nástroje
+	* [[http://w3af.org/|w3af]]
+	* [[http://sqlmap.org/|sqlmap]]
+	* Proxy server
+	* atd.
+
+== Databáze ==
+* [[http://www.imperva.com/products/scuba.html|Scuba]]
+* [[https://www.trustwave.com/Products/Database-Security/|AppDetective]]
+
+== VoIP ==
+* http://www.voipsa.org/
+
+== Router a Firewall ==
+* odolnost proti útokům směrovaným na samotný IDS
+* testování pravidel
+* kapacitní testy
+* testování autentizace
+* hping
+
+=== Testování důvěry ===
+
+=== Testování IDS ===
+→ [[https://cs.wikipedia.org/wiki/Intrusion_Detection_System|Intrusion detection system]]
+* pokrytí
+* pravděpodobnost falešných poplachů
+* pravděpodobnost úspěšné detekce útoku
+* odolnost proti útokům směrovaným na samotný IDS
+* schopnost zpracovávat velké toky dat
+* schopnost korelovat události
+* schponost detekovat nové, dosud neznámé útoky
+* schopnost správně identifikovat útok
+* schopnost detekovat zdroje útoků
+* kapacitní testy NIDS
+* nástroje: Snot, Sneeze, Stick, Mucus, IDSWakeup, Fpg
+
+=== Testování možnosti průniku škodlivého kódu ===
+* e-mail
+* web
+* Antivir
+* sap 27
+* eicar (http://www.eicar.org)
+
+=== Testování síly hesel ===
+* cracking — [[http://www.openwall.com/john/|John the Ripper]]
+* hrubá síla (bruteforce) — Hydra
+
+=== Testování DoS ===
+
+=== Testování klientů ===
+
+=== Kontrola bezpečnostních politik ===
+* [[http://www.security-database.com/ssa.php|SSA (OVAL)]]
+
+=== Testování komunikační bezpečnosti ===
+* VoIP
+* PBX
+* faxy
+* e-mail
+* hlasové schránky
+
+=== Testování bezdrátových sítí ===
+* 802.11
+* Bluetooth
+* Klávesnice, myš
+* Radio-frequency identification = RFID
+* Mobilní zařízení
+
+=== Fyzická bezpečnost ===
+* Vstupy → Ploty, brány, osvětlení, kamery, alarmy
+* Testy monitorovacích zařízení, vstupních zařízení a alarmů
+
+===== Náprava chyb =====

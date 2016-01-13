@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-13T01:13:46+01:00
+
+====== Podklady strategie ======
+Created Středa 13 leden 2016
+
+**Jste před úkolem navrhnout novou IS/IT strategii firmy. Které dokumenty si k tomu vyžádáte? A které z nich pro Vás budou závazné? Zdůvodněte.**
+
+**Strategická obchodní jednotka (SBU)** — určena skupinou zákazníků a jejich potřeb, jež hodlá firma uspokojovat, a k tomu určených technologií výroby. (Kotler)
+**Strategické řízení** — vykonává top management a zahrnuje aktivity na udržení dlouhodobého souladu mezi posláním společnosti, dlouhodobými cíli, dostupnými zdroji a prostředím firmy.
+**Strategie** — množina cílů a způsobů, jak jich dosáhnout
+**Cíle** — stav společnosti, který chce dosáhnout svojí existencí a aktivitami, kritérium **SMART**
+**SMART** cíle — **S**pecific, **M**easurable, **A**ttainable (achievable, acceptable), **R**elevant (realistic), **T**imely
+
+===== Vytvoření strategie =====
+
+==== Koncept strategického řízení ====
+* Proces, kterým lídři definují strategii a určují kurz dlouhodobých zlepšení.
+
+==== Osnova ====
+* Smysl a cíle dokumentu
+* Analýza
+	* "Nadřazené patro"
+	* Stakeholders
+	* Okolí
+		* Obecné okolí
+		* Oborové okolí
+	* Vnitřní prostředí – 7P / výrobní faktory
+* Návrh
+● Zdůvodnění návrhu
+● Doporučení k implementaci

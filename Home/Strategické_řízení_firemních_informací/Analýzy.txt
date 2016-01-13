@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-13T01:40:57+01:00
+
+====== Analýzy ======
+Created Středa 13 leden 2016
+
+**Máte navrhnout IS/IT strategii pro vaši fakultu. Jaké analýzy provedete a co bude jejich hlavním účelem?**
+
+===== Nadřazené patro =====
+* Co chce dosáhnout korporace, resp. co chce dosáhnout business?
+* Generická strategie dle Portera:
+{{../porter.svg}}
+
+===== Analýza očekávání stakeholders =====
+* Zájmové skupiny
+* Kdo jsou stakeholders?
+* Analýza síly a očekávání / cílů.
+
+===== Obecné okolí =====
+* SLEPT / PEST
+* Technika MAP — vývoj, analýza, predikce
+
+==== Oborové okolí ====
+* Porterův pětifaktorový model:
+{{../porters-five-forces.png}}
+* Zákazníci, konkurece, dodavatelé
+	* Kdo jsou?
+	* Jaké mají výsledky?
+	* Co a jak dělají?
+	* Jaký mají vliv na chod naší firmy?
+	* Benchmarking.
+	* V čem jsou dobří / špatní?
+	* Jak vidí oni nás?
+
+==== Vnitřní prostředí ====
+půda, práce, kapitál → výrobní faktory
+* marketingové a distribuční
+* R & D
+* výrobní
+* lidské a firemní zdroje
+* finanční a rozpočtové
+
+===== SWOT =====
+* kategorizace výsledků ostatních analýz
+{{../swot.png}}
+

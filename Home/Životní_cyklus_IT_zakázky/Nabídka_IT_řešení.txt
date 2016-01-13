@@ -1,0 +1,124 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-11T10:45:39+01:00
+
+====== Nabídka IT řešení ======
+Created Pondělí 11 leden 2016
+
+**Představte si, že jste nominován jako manažer přípravy nabídky pro dodávku libovolného IT řešení. Jak budete postupovat do okamžiku předání nabídky zákazníkovi?**
+
+===== Předpoklady =====
+* Umíme nabídnout alternativní řešení, produkt, systém, služby s vysokým poměrem cena/výkon a připravit zákazníkovi nabídku dle podmínek ZD
+* Máme dostatek informací o zadání tak, aby naše nabídka bylo co nejvíce kvalifikovaná
+* Máme konkurenceschopné ceny zohledňující ceny na trhu obvyklé
+* Máme dostatek kompetentních zdrojů
+* Máme několik ověřitelných referencí z úspěšných zákaznických projektů
+* Projekty dodáváme v souladu s propracovanou metodikou projektového ízení, která zajistí dodržení hlavních projektových rámců a bude maximálně eliminovat rizika
+
+* Portfolio – produkty nebo služby (datasheety)
+* Reference, případové studie
+* Profesní životopisy – nejlépe v konvertovatelném tvaru (obvykle velký problém)
+* Ceníky, množstevní/objemové slevy
+* Denní sazby (viz ukázka)
+* Dobrý přehled o interních procesech
+* Existence projektové kanceláře (project/bid office)
+* (Disponibilní) zdroje
+
+===== Fáze výběrových řízení =====
+* NDA (Non-disclosure agreement) - nepovinné - dohoda o mlčenlivosti/utajení
+* RFI (Request for information)
+	* Standardní proces, jehož cílem je indikace a sumarizace informací v poptávané oblasti (business proces, řešení, produkt, platforma) tak, aby bylo možné přijmout rozhodnutí o vypsání vlastního RFP
+	* Reakce na RFI je nevděčným procesem, nic z něj nevyplývá → shortlistování dodavatelů pro RFP
+* RFQ (Request for quotation)
+* RFP (Request for proposal)
+	* Standardní proces, jehož cílem je nabídka na poptávanou oblast
+	* Účast již může znamenat vysokou prestiž pro oslovené dodavatele
+* Last Call – úprava již pouze jen ceny
+* Special Last Call – obdobně jako u Last Call
+* Proof of Concept – obvykle podmnožina RFP
+	* Speciální proces, jehož cílem je zadavateli již předvést určitou funkčnost či vlastnost nabízeného řešení, dát povědomí o tom, jaké rysy bude poptávané řešení mít apod.
+	* PoC je oboustrannou příležitostí pro kontakt/poznání
+	* Probíhá ve speciálních podmínkách a atmosféře, měl by být již „řízen“ a měl by zahrnovat milníky, schůzky apod.
+
+===== Kritéria hodnocení =====
+* Technicko-ekonomická proveditelnost
+* Finanční proveditelnost
+* Efektivnost
+* Udržitelnost
+* Rizikovost
+* Business přínos
+* Reference
+
+===== Bid Office =====
+* Bid Office (BO) je obvykle podmnožina standardní projektové kancelá e (PO), která podporuje jednotlivé projekty během jejich realizace
+* BO nastavuje každý z větších dodavatelů, který má zpracovanou metodiku pro tvorbu nabídek
+* Úloha:
+	* __Nominace role bid managera, tj. osoby, která zastřešuje a řídí přípravu nabídky__ (není ale pravidlem)
+	* Zpracování harmonogramu p ípravy nabídky
+	* Řízení a komunikace jednotlivých zdrojů přidělených na přípravu nabídky
+	* Zpracování dokumentu nabídky a zajištění jeho unifikace a čistoty
+	* Příprava všech nezbytných výpisů a osvědčení
+	* Příprava podkladů pro kalkulaci a určení nabídkové ceny
+	* Příprava podkladů pro jednotlivé schvalovací fáze
+
+==== Bid Process ====
+* Bid proces je součástí obchodního procesu.
+* Většina větších dodavatelů má naimplementovány sofistikované metodiky, které nastavují **schvalovací proces** v různých fázích přípravy nabídky.
+	* Výsledkem schvalovacího procesu je schválení nebo odmítnutí každé obchodní příležitosti (projektu). Proces zajišťuje, že takové rozhodnutí bude učiněno na základě dostatku přesných a relevantních informací.
+
+=== Alokace zdrojů pro zpracování nabídky ===
+	* Lidi
+		* Bid manager (nominuje bid office)
+		* Konzultant
+		* Business konzultant
+		* Architekt
+		* Solution architekt
+		* Finanční administrace
+		* Právník
+		* a další
+	* Pracovní činnosti:
+		* Projektové řízení
+		* Analýza & design
+		* Implementace vč. integrace, podpory při nasazení, migrací, pilotních provozů
+		* Testování
+		* Školení
+		* Dokumentace
+		* Postimplementační podpora
+	* Služby:
+		* Projektová kancelá
+		* Helpdesk
+	* Komodity:
+		* Hardware vč. maintenance
+		* Software vč. maintenance
+	* Záruka
+* __Rámcová kalkulace nákladů těchto zdrojů je obvykle součást schvalovacího procesu, zda vůbec nabídku připravit a podat__
+
+=== Struktura nabídky ===
+* Profil uchazeče – obchodní informace a kontaktní údaje
+* Odborný profil uchazeče
+* Manažerské shrnutí
+* Předmět nabídky
+* Reference & CV
+* Návrh řešení, detailní popis a rozsah dodávky (lze i variantně)
+* Alt.: Vyjádření k požadavkům zadavatele
+* Alt.: Dodatečné služby (např. školení, podpora)
+* Aspekty řízení projektu – metodika, milníky, harmonogram (high level, detailní)
+* Omezení, výluky, záruky
+* Požadavky na součinnost
+* Požadavky na zdroje zadavatele
+* Cena, komerční podmínky
+* Přílohy
+* Alt.: Návrhy smluv
+
+===== Registrace dodavatele =====
+* Základní údaje o společnosti
+	* Obchodní název
+	* Kontaktní údaje
+	* Kontaktní osoba
+* Fakturační údaje
+	* Bankovní účet
+* Finanční ukazatele
+* Profil firmy včetně hlavních prvků portfolia
+* Splnění certifikátů (ISO, QS, ochrana zdraví, životní prostředí, uznávání menšin apod.) – někdy nesmyslně
+* Akceptace všeobecných obchodních podmínek
+* Možnost elektronické fakturace

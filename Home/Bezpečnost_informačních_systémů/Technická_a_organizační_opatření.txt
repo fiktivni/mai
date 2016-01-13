@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-12T11:26:27+01:00
+
+====== Technická a organizační opatření ======
+Created Úterý 12 leden 2016
+
+**Pokud byste byl odpovědný za bezpečnost informačního systému v organizaci, jaká technická a organizační opatření byste své organizaci navrhl, aby byla zajištěna dostatečná úroveň bezpečnosti a ochrany osobních údajů zpracovávaných v informačním systému?**
+
+===== Technická opatření =====
+* [[https://cs.wikipedia.org/wiki/Intrusion_Detection_System|Intrusion detection system]]
+* __Záloha → obnova dat__
+* Monitorování  sítě(odhalování DOS a jiných útoků)
+* __detekce útoku __→ autodetekce
+	* porovnávání signatur
+	* porovnávací pravidla
+	* porovnávání založený na profiluz
+* Možnost izoilace napadené oblasti
+* honeypot
+* honeynet
+* Antivirový program (pokud používáme Windows)
+* Firewall
+* Bezpečnostní/šifrovací systémy (VPN, SSL, S/MIME, Kerberos, Radius, atd.)
+* Skenovací nástroje na odhalení chyb v systémech
+
+===== Organizační opatření =====
+Strategie, pravidla, postupy/scénáře
+
+===== Instruction detection system =====
+Systém IDS by měl po detekci neobvyklé aktivity vygenerovat varování (Alert), provést zápis do __logu__, upozornit správce počítače a případně tuto činnost zastavit. Dále by měl být schopen rozlišit, zda se jedná o útok z vnitřní sítě nebo z externích sítí.
+
+==== Uzlově orientované systémy detekce odhalení průniku ====
+HIDS (Host-based intrusion detection system) sestává ze softwarového agenta, který se snaží detekovat útoky pomocí analýzy systémových volání, činnosti aplikací, úprav na souborovém systému a jiných akcí hostitele. Některé aplikačně zaměřené IDS jsou také součástí této kategorie.
+
+==== Síťově orientované systémy detekce odhalení průniku ====
+NIDS (Network intrusion detection system) jsou nezávislou platformou, která identifikuje narušení tím, že zkoumá síťovou komunikaci a monitoruje více hostitelů. NIDS senzory bývají umístěny přímo na síťových prvcích jako jsou např. HUB, SWITCH konfigurovaný pro zrcadlení portů nebo TAP a zachytí tak veškerý síťový provoz. Systém analyzuje všechny pakety, které procházejí sítí a snaží se v nich odhalit škodlivý kód.

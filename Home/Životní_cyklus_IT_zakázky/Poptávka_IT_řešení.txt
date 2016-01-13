@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-11T18:41:02+01:00
+
+====== Poptávka IT řešení ======
+Created Pondělí 11 leden 2016
+
+**Co je obvykle součástí nabídek IT řešení? Představte si, že jste na straně zákazníka a máte na starosti výběrové řízení. Jak budete postupovat a na co musíte reflektovat, aby toto Vámi řízené výběrové řízení proběhlo transparentním způsobem?**
+
+===== Životní cyklus veřejné zakázky =====
+{{../ZoVZ.png}}

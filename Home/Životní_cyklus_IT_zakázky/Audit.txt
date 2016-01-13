@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-11T19:20:50+01:00
+
+====== Audit ======
+Created Pondělí 11 leden 2016
+
+**Pokud budete auditorem komerčního informačního systému, jaké vlastnosti či atributy budete sledovat a hodnotit?**

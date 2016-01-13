@@ -6,10 +6,10 @@ Creation-Date: 2016-01-05T19:20:53+01:00
 Created Úterý 05 leden 2016
 
 ===== Témata =====
-[ ] Pokud byste byl odpovědný za bezpečnost informačního systému v organizaci, jaká technická a organizační opatření byste své organizaci navrhl, aby byla zajištěna dostatečná úroveň bezpečnosti a ochrany osobních údajů zpracovávaných v informačním systému?
-[ ] Pomocí jakých prostředků a opatření byste provedl zabezpečení vnějšího perimetru (Internet, veřejně dostupné sítě apod.) informačních technologií v organizaci?
-[ ] Pomocí jakých prostředků a opatření byste provedl zabezpečení interních informačních systémů v případě, že je chcete chránit před vnějšími i vnitřními hrozbami?
-[ ] Jakým způsobem a pomocí jakých prostředků byste řešil napadení informačního systému v organizaci?
+[*] [[+Technická a organizační opatření|Pokud byste byl odpovědný za bezpečnost informačního systému v organizaci, jaká technická a organizační opatření byste své organizaci navrhl, aby byla zajištěna dostatečná úroveň bezpečnosti a ochrany osobních údajů zpracovávaných v informačním systému?]]
+[*] [[+Zabezpečení vnějšího perimetru|Pomocí jakých prostředků a opatření byste provedl zabezpečení vnějšího perimetru (Internet, veřejně dostupné sítě apod.) informačních technologií v organizaci?]]
+[*] [[+Zabezpečení vnitřního perimetru|Pomocí jakých prostředků a opatření byste provedl zabezpečení interních informačních systémů v případě, že je chcete chránit před vnějšími i vnitřními hrozbami?]]
+[*] [[+Reakce na incident|Jakým způsobem a pomocí jakých prostředků byste řešil napadení informačního systému v organizaci?]]
 
 ===== Materiály =====
 [[../Bezpečnost informačních systémů.pdf|Bezpečnost informačních systémů od Petra Břehovskýho]]

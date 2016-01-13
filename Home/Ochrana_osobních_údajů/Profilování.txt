@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-12T10:47:46+01:00
+
+====== Profilování ======
+Created Úterý 12 leden 2016
+
+**Nová legislativa EU pro ochranu osobních údajů specifikuje požadavek zákazu automatizovaného zpracování osobních údajů za účelem vyhodnocení určitých rysů, vlastností či charakteristik osobnosti fyzické osoby (tzv. profilování). V kterých oblastech běžného života jedinců spatřujete největší rizika jejich profilování a jaká opatření byste navrhl, aby k profilování osob nedocházelo?**
+
+===== Úmluva Rady Evropy na ochranu osob se zřetelem na automatizované zpracování osobních dat (č. 108) =====
+* Otevřeně posílat osobní informace může být rizikové. Je potřeba užívati kryptografie a šifrování.
+* Zvláštní pozornost je potřeba věnovat ochraně osobních údajů dětí.
+	* Dítě do 13 let včetně je ohrožená skupina. Ovládají PC, jsou na internetu, ale nedokážou odhadnout rizika možného zásahu do soukromí. Na soc. sítích klidně poskytnou informace kriminálním skupinám.
+
+===== Osobní údaj =====
+* Osobním údajem se rozumí jakákoliv informace týkající se určeného nebo určitelného subjektu údajů. Subjekt údajů se považuje za určený nebo určitelný, jestliže lze subjekt údajů přímo či nepřímo identifikovat zejména na základě čísla, kódu nebo jednoho či více prvků, specifických pro jeho fyzickou, fyziologickou, psychickou, ekonomickou, kulturní nebo sociální identitu.
+* Zákon se nevztahuje na zpracování osobních údajů, které provádí fyzická osoba výlučně pro osobní potřebu.
+* Zákon se nevztahuje na nahodilé shromažďování osobních údajů, pokud tyto údaje nejsou dále zpracovávány.
+* __Osobní údaj je jakákoliv informace o fyzické osobě. Zákon o ochraně ososbních údajů  se neaplikuje na čistě soukromé účely, nahodilé shromažďování, bez systematického opakování (poznačím si v prodejně adresu zákazníka).__
+

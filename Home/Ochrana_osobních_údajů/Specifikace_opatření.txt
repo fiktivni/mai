@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-12T09:51:54+01:00
+
+====== Specifikace opatření ======
+Created Úterý 12 leden 2016
+
+**Soukromoprávní subjekty zpracovávají množství osobních údajů, přičemž tyto subjekty musí často samy zajistit legitimitu tohoto zpracování. Představte si, že pracujete na pozici odpovědného managera a máte za úkol specifikovat opatření, která legitimitu zpracování osobních údajů v organizaci zajistí. Jaká opatření a povinnosti pracovníků byste v rámci tohoto úkolu přijal?**
+
+===== Právní předpisy =====
+
+=== Evropská úmluva ochraně lidských práve a základních svobod, článek (č. 8) ===
+* přijata 04.11.1950 v Římě
+* Právo na respektování soukromého života
+	→ Státní orgán nemůže do výkonu toho práva zasahovat kromě případů, kdy je to v souladu se zákonem a nezbytné v demokratické společnosti, v zájmu národní bezpečnosti, veřejné bezpečnosti, hospodářského blahobytu země, ochrany pořádku, předcházení zločinnosti, ochrany zdraví, morálky nebo jiných vobod
+
+=== Úmluva Rady Evropy na ochranu osob se zřetelem na automatizované zpracování osobních dat (č. 108) ===
+* přijata 28.01.1981 ve Štrasburku
+* pro ČR nabyla účinnosti 01.07.2004 vstupem do EU
+* reakce na nedostatečnost úmluvy z roku 1950
+__→ zákon č. 101/2000 sb. o ochraně osobních údajů__
+
+===== Zásady používání rodného čísla =====
+* Rodné číslo je považováno za osobní údaj a na nakládání s ním se vztahují omezení daná zákonem na ochranu osobních údajů.
+* Zákon 133/2000 sb. říká, ře rodné číslo mohou bez souhlasu používat státní orgány a instituce, kde to stanoví zákon + když majitel rodného čílsa vysloví souhlas
+
+===== Souhlas =====
+* Souhlasem subjektu se rozumí svobodný a vědomý projev vůle subjektu, jehož obsahem je __svolení subjektu se zpracováním osobních údajů.__
+* **Informovaný** - jedinec má dostatek informací o okolnostech, k čemu mají informace sloužit, nic není zamlčeno (např. zdravotní zákrok)
+* **Výslovný** - __pro citlivé údaje__, musí být zahrnuto __co a pro jaké účely bude zpracováno__. Prokazatelnost souhlasu → archivace! (papírová, elektronická, ústní forma)
