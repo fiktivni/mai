@@ -2,7 +2,58 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2016-01-11T19:20:50+01:00
 
-====== Audit ======
+====== Audit IT ======
 Created Pondělí 11 leden 2016
 
 **Pokud budete auditorem komerčního informačního systému, jaké vlastnosti či atributy budete sledovat a hodnotit?**
+
+* Obecně představuje audit __objektivní ověření stavu či skutečnosti se stavem požadovaným__, tj. příslušným standardem, normou či modelem.
+* Audit provádí odborník – auditor.
+* Výsledkem je komplexní názor ve formě výroku auditora.
+* Audit představuje jeden z nástrojů řízení.
+* Objektivita vs subjektivita.
+* Audit informačního systému je proces, který se zabývá posuzováním a poradenstvím objektů v prostředí, kde se používají informační technologie.
+* Jedná se o audit, který zahrnuje prověření a hodnocení všech, nebo jen některých, aspektů systémů zpracování dat, včetně navazujících procesů a vazeb mezi nimi.
+* Cílem je kvalitativně a/nebo kvantitativně přispět ke správné organizaci informačního systému tak, aby byly splněny požadavky uživatelů.
+* Objekty mohou být např.:
+	* organizace a řízení IS,
+	* základní i aplikační software,
+	* technické vybavení,
+	* telekomunikační systémy,
+	* procesy tvorby a údržby systémů,
+	* ochrana a bezpečnost systému,
+	* data (databáze).
+* Audit by měl splňovat tyto základní vlastnosti:
+	* **komplexnost** – musí postihnout všechny relevantní aspekty a vazby,
+	* **objektivnost** – musí se opírat o existující standardy, p ípadně zkušenosti, pokud standardy neexistují,
+	* **nezávislost** – auditor nemá s objektem auditu ani se zadavatelem auditu žádné spojení, které by p edstavovalo konflikt zájmů,
+	* **formalizovanost** – proces auditu se musí ídit určitou metodikou a existujícími standardy.
+* Jednotnou platformu a koordinaci práce interních auditorů zajišťuje Český institut interních auditorů ([[www.ciia.cz]]) .
+
+===== Životní cyklus =====
+* Seznámení se se stávajícím stavem (dokumentace)
+* Znalost žádoucího stavu (kritéria, standardy, best practices, zkušenosti)
+* Analýza rozdílů
+* Auditní zpráva a případná doporučení
+
+===== Cíle =====
+* Změna (např. migrace, nová verze, změna vedení, změna financování),
+* Finanční úspora (např. lidské zdroje, finanční rámce),
+* Kontrola stavu a jeho potvrzení či také změna (např. při zjištěných kriminálních činech a deliktech),
+* Operativní revize stavu.
+
+===== Z historie =====
+* Audit má původ daleko v historii
+* V 80. letech minulého století se objevuje audit informačních systémů
+* Vznikla organizace ISACA (Information Systems Audit and Control Association, www.isaca.org, ČR členem od r. 1997) - největší mezinárodní organizace sdružující auditory informačních systémů a udělující __certifikace__:
+	* CISA (Certified Information Systems Auditor),
+	* CISM (Certified Information Security Manager).
+* Zpočátku byl audit IS považován za doplněk finančních auditů a zaměřoval se na hodnocení procesů, které proběhly v minulosti.
+* V několika posledních letech vzhledem ke stále rostoucímu významu informačních technologií a informačních systémů se již chápe jako zcela samostatná disciplina a __významný preventivní nástroj zvyšování kvality a bezpečnosti informačních systémů__ včetně jejich vazeb na systémy řízení.
+
+===== ISACA =====
+* ISACA vydává standardy, které jsou závazné pro interní a externí auditory — členy ISACA a držitele titulu CISA. Standardy se dělí na:
+	* STANDARDS – definují povinné požadavky pro profesi a postup auditu,
+	* GUIDELINES – představují návody pro aplikaci STANDARDS,
+	* PROCEDURES – zahrnují příklady postupů auditu IS, o které se auditor může opřít při provádění různých druhů auditu IT/IS.
+* Kromě auditorských standardů ISACA ještě vydává standardy pro odborníky na kontroly (Standards for Control Professionals). Standardy jsou dostupné na webu ISACA, kde se průběžně doplňují a mění.

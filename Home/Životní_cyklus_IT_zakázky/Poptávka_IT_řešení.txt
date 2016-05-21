@@ -7,5 +7,41 @@ Created Pondělí 11 leden 2016
 
 **Co je obvykle součástí nabídek IT řešení? Představte si, že jste na straně zákazníka a máte na starosti výběrové řízení. Jak budete postupovat a na co musíte reflektovat, aby toto Vámi řízené výběrové řízení proběhlo transparentním způsobem?**
 
-===== Životní cyklus veřejné zakázky =====
-{{../ZoVZ.png}}
+===== Legislativa VZ =====
+* Každý je povinen v souvislosti se zadáváním (veřejné) zakázky povinen dodržet zásady:
+	* transparentnosti,
+		* Jakákoliv zakázka musí být vždy zadána transparentním způsobem. Základním účelem zásady je zajištění co největší průhlednosti řízení, která podstatnou
+		měrou přispívá k přezkoumatelnosti celého ízení a k možnosti kontroly postupu v řízení.
+	* Naplnění této zásady lze spatřovat například v povinnosti:
+		* pořizovat o všech významných úkonech písemnou dokumentaci v dostatečném rozsahu, který případně umožní úkony zadavatele nezávisle přezkoumat,
+		* jasně vymezit kritéria, dle kterých budou hodnoceny nabídky dodavatelů vždy v dostatečném předstihu před samotným vypracováním nabídek,
+		* opatřit všechna rozhodnutí řádným odůvodněním,
+		* uveřejnit smlouvu na plnění VZ,
+		* uveřejnit skutečně uhrazenou cenu VZ.
+	* rovného zacházení,
+		* Každý zadavatel je v průběhu zadávání (veřejné) zakázky, resp. již od okamžiku přípravy řízení, povinen přistupovat stejným způsobem ke všem dodavatelům, kteří mohou podat či podávají nabídky.
+		* K dodržení této zásady ze strany zadavatele dochází například tím, že v souvislosti s přípravou řízení definuje jeho přesné podmínky tak, aby všichni uchazeči předem věděli, jak bude řízení probíhat (tedy např. bude-li omezován počet zájemců, jaké jsou přesné podmínky pro toto omezování, které musí dodavatel splnit, případně jakým způsobem bude probíhat hodnocení nabídek apod.).
+	* zákazu diskriminace.
+		* V průběhu zadávání (veřejné) zakázky je zadavatel povinen postupovat vždy tak, aby jeho jednáním nedošlo k neodůvodněné diskriminaci žádného z dodavatelů. Zadavatel vymezením zadávacích podmínek vždy diskriminuje tu část dodavatelů, kteří zadávací podmínky nemohou splnit, a proto se nemůžou účastnit zadávacího řízení. Veškeré podmínky omezovacího charakteru (požadavky na kvalifikaci, obchodní podmínky, jiná smluvní ustanovení) však musí podstatným způsobem souviset s předmětem VZ. Zadavatel je tedy oprávněn stanovit přesné podmínky pro účast v řízení, nesmí však uzavírat přístup jiným dodavatelům z důvodů, které podstatným způsobem nesouvisejí s předmětem VZ.
+		* Zásadu zákazu diskriminace je třeba důsledně uplatňovat nejen ve vztahu k dodavatelům se sídlem, místem podnikání či bydlištěm na území ČR, ale rovněž ve vztahu k zahraničním dodavatelům.
+		* Za porušení zásady diskriminace však nelze za žádných okolností považovat používání českého jazyka (tedy v průběhu kteréhokoliv řízení dle této metodiky, ať již jde o jednání či předkládání písemností apod.).
+
+===== Princip 3E =====
+* **Hospodárnost (Economy)**
+	* rozumí se takové použití veřejných prostředků k zajištění plnění úkolů, při němž dojde k co nejnižšímu vynaložení svěřených prostředků a zároveň je dodržena odpovídající kvalita plněných úkolů. Jinými slovy jde o minimalizaci nákladů (finanční, lidské, věcné) na plnění svěřených úkolů s tím, že je zároveň také dodržena požadovaná kvalita vykonávaných úkolů. Při sledování kritéria hospodárnosti musí zadavatel brát v potaz nejen náklady prvotní (pořizovací), ale i provozní. Jejich součet (po zohlednění časové hodnoty peněz) je možné označit za náklady celoživotní.
+* **Efektivnost (Efficiency)**
+	* rozumí se takové použití veřejných prostředků, kterým se dosáhne nejvýše možného rozsahu, kvality a přínosu plněných úkolů ve srovnání s objemem prostředků vynaložených na jejich plnění. Jde tak o vztah mezi vstupem (náklady) a výstupem (zboží, služby či jiná činnost). Efektivností dochází k optimalizaci zdrojů využitých k zajištění plnění úkolů.
+* **Účelnost (Expediency)**
+	* rozumí se takové požití veřejných prostředků, které zajistí optimální míru dosažení cílů při plnění stanovených úkolů. Jde tedy o vztah mezi zamýšlenými cíly a skutečnými dopady vykonané činnosti. Zda byla uspokojena potřeba, která danou činnost vyvolala.
+* Nově půjde i o **přiměřenost (Adequacy)**
+
+
+===== Nákupní oddělení =====
+* Plánování nákupů a obstarávání
+* Podpora pro projektový a bid management
+* Vazba na partner management
+* Vyhledávání nejvýhodnějších nabídek
+* řízení dodavatelů vč. dodavatelských aukcí, dohled nad dodržováním všeobecných podmínek apod.
+* Podpora pro vyhodnocení typu „make or buy“
+* Na druhou stranu obvykle byrokratický útvar
+* Ve větších firmách problém se zalistováním menších dodavatelů či takových, kteří nejsou schopni projít tento proces u mateřských firem
