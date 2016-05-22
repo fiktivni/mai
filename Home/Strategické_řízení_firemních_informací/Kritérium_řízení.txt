@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-22T22:15:41+02:00
+
+====== Kritérium řízení ======
+Created Neděle 22 květen 2016
+
+**V jakém kritériu je hlavní rozdíl mezi taktickým, strategickým a operativním řízením? Seřaďte tyto úrovně řízení dle tohoto kritéria.**
+
+__Časový horizont__ - operativní řízení (každodenní), taktické řízení (střednědobé), strategické řízení (dlouhodobé)

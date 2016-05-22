@@ -7,26 +7,30 @@ Created Středa 13 leden 2016
 
 **Jste před úkolem navrhnout novou IS/IT strategii firmy. Které dokumenty si k tomu vyžádáte? A které z nich pro Vás budou závazné? Zdůvodněte.**
 
-**Strategická obchodní jednotka (SBU)** — určena skupinou zákazníků a jejich potřeb, jež hodlá firma uspokojovat, a k tomu určených technologií výroby. (Kotler)
-**Strategické řízení** — vykonává top management a zahrnuje aktivity na udržení dlouhodobého souladu mezi posláním společnosti, dlouhodobými cíli, dostupnými zdroji a prostředím firmy.
-**Strategie** — množina cílů a způsobů, jak jich dosáhnout
-**Cíle** — stav společnosti, který chce dosáhnout svojí existencí a aktivitami, kritérium **SMART**
-**SMART** cíle — **S**pecific, **M**easurable, **A**ttainable (achievable, acceptable), **R**elevant (realistic), **T**imely
+===== Složky strategie =====
+{{../Složky IT strategie.jpg?width=535}}
 
-===== Vytvoření strategie =====
 
-==== Koncept strategického řízení ====
-* Proces, kterým lídři definují strategii a určují kurz dlouhodobých zlepšení.
+===== Vnitrofiremní požadavky na funkci IS/IT =====
+* generická strategie (odlišení / cena, focus), popř. positioning (zákaznická orientace / produktové vůdcovství / provozní dokonalost)
+* business strategie,
+* marketingová strategie (a distribuční kanály)
+* výrobní strategie (IS, JIT vs. sklady)
+* finanční strategie (IS, financování IT!)
+* lidské zdroje (IS, důvěra, firemní kultura)
+* __Stakeholders__
 
-==== Osnova ====
-* Smysl a cíle dokumentu
-* Analýza
-	* "Nadřazené patro"
-	* Stakeholders
-	* Okolí
-		* Obecné okolí
-		* Oborové okolí
-	* Vnitřní prostředí – 7P / výrobní faktory
-* Návrh
-● Zdůvodnění návrhu
-● Doporučení k implementaci
+===== Analýzy z pohledu IS/IT =====
+* SLEPT
+	* https://en.wikipedia.org/wiki/PEST_analysis
+	* **Political** factors are basically how the government intervenes in the economy. Specifically, political factors has areas including tax policy, labor law, environmental law, trade restrictions, tariffs, and political stability. Political factors may also include goods and services which the government aims to provide or be provided (merit goods) and those that the government does not want to be provided (demerit goods or merit bads). Furthermore, governments have a high impact on the health, education, and infrastructure of a nation.
+	* **Economic** factors include economic growth, interest rates, exchange rates, the inflation rate. These factors greatly affect how businesses operate and make decisions. For example, interest rates affect a firm's cost of capital and would therefore to what extent a business grows and expands. Exchange rates can affect the costs of exporting goods and the supply and price of imported goods in an economy.
+	* **Social** factors include the cultural aspects and health consciousness, population growth rate, age distribution, career attitudes and emphasis on safety. High trends in social factors affect the demand for a company's products and how that company operates. For example, the aging population may imply a smaller and less-willing workforce (thus increasing the cost of labor). Furthermore, companies may change various management strategies to adapt to social trends caused from this (such as recruiting older workers).
+	* **Technological** factors include technological aspects like R&D activity, automation, technology incentives and the rate of technological change. These can determine barriers to entry, minimum efficient production level and influence the outsourcing decisions. Furthermore, technological shifts would affect costs, quality, and lead to innovation.
+	* SLEPT adds **legal** factors
+* PORTER
+	* https://en.wikipedia.org/wiki/Porter's_five_forces_analysis
+	* {{../PORTER.svg}}
+* SWOT
+	* https://en.wikipedia.org/wiki/SWOT_analysis
+	* {{../swot.png}}

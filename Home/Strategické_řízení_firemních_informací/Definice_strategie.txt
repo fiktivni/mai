@@ -1,0 +1,54 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-22T11:37:59+02:00
+
+====== Definice strategie ======
+Created Neděle 22 květen 2016
+
+**Co podle Vás znamená IS/IT strategie? Pokuste se ji definovat tak, aby bylo možné si pod definicí něco představit, a uveďte vztah k ostatním úrovním řízení firmy. Pozor na definici kruhem.**
+
+===== Postavení IS/IT strategie v rámci firmy =====
+{{../Postavení IT strategie.png}}
+
+===== Technology strategy =====
+* https://en.wikipedia.org/wiki/Technology_strategy
+* Technology strategy (Information Technology strategy or IT strategy) is __the overall plan which consist of objective(s), principles and tactics relating to use of the technologies within a particular organization__. Such strategies primarily focus on the technologies themselves and in some cases the people who directly manage those technologies. The strategy can be implied from the organization's behaviors towards technology decisions, and may be written down in a document. Potts in FruITion (novel) conveys through the book's characters that __an IT strategy needs to be focused on creating and measuring business value from the business investment in IT, and not as traditionally done which is starting with IT and figuring out how to deliver business value__.
+* Aligned with Statement Of Applicability (SOA) approach, Sophisticated IT strategy is composed of IT Capability Model (ITCM) and IT Operating Model (IT-OM) as proposed by Haloedscape IT Strategy Model.
+* Process of IT Strategy is simplified with framework constituted of IT Service Management ([[https://en.wikipedia.org/wiki/ITIL|ITIL]]), Enterprise Architecture Development ([[https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework|TOGAF]]) and Governance ([[https://en.wikipedia.org/wiki/COBIT|COBIT]]). IT Strategy is modeled as vertical IT service applied to and supported by each horizontal layers of SOA architecture. For details, refer Haloedscape IT Strategy Framework.
+
+==== Typical structure of a (IT) technology strategy ====
+The following are typically sections of a technology strategy:
+* E**xecutive Summary** - This is a summary of the IT strategy
+	* High level organizational benefits
+	* Project objective and scope
+	* Approach and methodology of the engagement
+	* Relationship to overall business strategy
+	* Resource summary
+		* Staffing
+		* Budgets
+		* Summary of key projects
+* **Internal Capabilities**
+	* IT Project Portfolio Management - An inventory of current projects being managed by the information technology department and their status. Note: It is not common to report current project status inside a future-looking strategy document. Show Return on Investment (ROI) and timeline for implementing each application.
+	* An inventory of existing applications supported and the level of resources required to support them
+	* Architectural directions and methods for implementation of IT solutions
+	* Current IT departmental strengths and weaknesses
+* **External Forces**
+	* Summary of changes driven from outside the organization
+	* Rising expectations of users
+		* Example: Growth of high-quality web user interfaces driven by Ajax technology
+		* Example: Availability of open-source learning management systems
+	* List of new IT projects requested by the organization
+* **Opportunities**
+	* Description of new cost reduction or efficiency increase opportunities
+		* Example: List of available Professional Service contractors for short term projects
+	* Description of how Moore's Law (faster processors, networks or storage at lower costs) will impact the organization's ROI for technology p
+* **Threats**
+	* Description of disruptive forces that could cause the organization to become less profitable or competitive
+	* Analysis IT usage by competition
+* **IT Organization structure and Governance**
+	* IT organization roles and responsibilities
+	* IT role description
+	* IT Governance
+* **Milestones**
+	* List of monthly, quarterly or mid-year milestones and review dates to indicate if the strategy is on track
+	* List milestone name, deliverables and metrics

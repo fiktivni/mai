@@ -9,11 +9,11 @@ Created Úterý 05 leden 2016
 
 ==== Velké otázky ====
 [*] [[+Podklady strategie|Jste před úkolem navrhnout novou IS/IT strategii firmy. Které dokumenty si k tomu vyžádáte? A které z nich pro Vás budou závazné? Zdůvodněte.]]
-[ ] [[+Analýzy|Máte navrhnout IS/IT strategii pro vaši fakultu. Jaké analýzy provedete a co bude jejich hlavním účelem?]]
-[ ] Co podle Vás znamená IS/IT strategie? Pokuste se ji definovat tak, aby bylo možné si pod definicí něco představit, a uveďte vztah k ostatním úrovním řízení firmy. Pozor na definici kruhem.
+[*] [[+Analýzy|Máte navrhnout IS/IT strategii pro vaši fakultu. Jaké analýzy provedete a co bude jejich hlavním účelem?]]
+[*] [[+Definice strategie|Co podle Vás znamená IS/IT strategie? Pokuste se ji definovat tak, aby bylo možné si pod definicí něco představit, a uveďte vztah k ostatním úrovním řízení firmy. Pozor na definici kruhem.]]
 
 ==== Menší otázky ====
-[ ] V jakém kritériu je hlavní rozdíl mezi taktickým, strategickým a operativním řízením? Seřaďte tyto úrovně řízení dle tohoto kritéria.
+[*] [[+Kritérium řízení|V jakém kritériu je hlavní rozdíl mezi taktickým, strategickým a operativním řízením? Seřaďte tyto úrovně řízení dle tohoto kritéria.]]
 [ ] Jaké kategorie IS byste použili na následující úlohy?
 	[ ] a) správa nabídek a objednávek spojená s účetnictvím;
 	[ ] b) vyhledání klientů s aktuálně nadprůměrným odběrem zboží, kteří se zajímají o novinky.
