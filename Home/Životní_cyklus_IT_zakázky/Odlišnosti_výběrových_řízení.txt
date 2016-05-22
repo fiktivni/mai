@@ -32,12 +32,24 @@ Created Pondělí 11 leden 2016
 * Proof of Concept – obvykle podmnožina RFP
 	* Speciální proces, jehož cílem je zadavateli již předvést určitou funkčnost či vlastnost nabízeného řešení, dát povědomí o tom, jaké rysy bude poptávané řešení mít apod.
 	* Obvykle se nechává do fáze, kdy jsou např. 2 dodavatelé a není možné se rozhodnout pouze na základě předložených nabídek
-	* Zadavatel by měl být schopen nadefinovat podmínky [[PoC]]
+	* Zadavatel by měl být schopen nadefinovat podmínky PoC
 	* Zadání by mělo být splnitelné, přesto může být náročnost extrémnější (hodnocení flexibility, překonávání problémů apod.)
 	* PoC je oboustrannou příležitostí pro kontakt/poznání
 	* Probíhá ve speciálních podmínkách a atmosféře, měl by být již „řízen“ a měl by zahrnovat milníky, schůzky apod.
 	* Závěrečnou zprávou z PoC může být tzv. testimonial
 	* Některá VŘ již obsahují přímo požadavek na PoC, demoverzi, demonstrační prototyp apod.
+
+===== Veřejná zakázka =====
+* Pojem VZ je vymezen v § 7 zákona. Aby se jednalo o veřejnou zakázku, musí být současně splněny následující podmínky:
+	* zakázka musí být zadávána osobou, která je zadavatelem veřejných zakázek,
+	* zakázka musí zahrnovat prvek úplaty na straně zadavatele (byť i jen potenciální),
+	* musí se jednat o zakázku na dodávky, služby nebo stavební práce.
+* Na realizaci nadlimitní a podlimitní VZ je zadavatel povinen s dodavatelem uzavřít smlouvu, která musí mít písemnou formu (a to i tehdy, pokud je výsledkem zadání VZ uzavření rámcové smlouvy).
+* **Zákon zakazuje, aby zadavatel rozdělil předmět VZ tak, aby tím došlo ke snížení předpokládané hodnoty pod zákonné finanční limity pro zadávání nadlimitních nebo podlimitních veřejných zakázek.**
+* VZ se podle svého p edmětu tedy dělí na:
+	* VZ na dodávky,
+	* VZ na stavební práce,
+	* VZ na služby.
 
 ===== Životní cyklus veřejné zakázky =====
 {{../ZoVZ.png}}

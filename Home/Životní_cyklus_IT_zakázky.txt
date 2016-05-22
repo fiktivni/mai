@@ -8,8 +8,8 @@ Created Úterý 05 leden 2016
 ===== Témata =====
 [*] [[+Nabídka IT řešení|Představte si, že jste nominován jako manažer přípravy nabídky pro dodávku libovolného IT řešení. Jak budete postupovat do okamžiku předání nabídky zákazníkovi?]]
 [*] [[+Poptávka IT řešení|Co je obvykle součástí nabídek IT řešení? Představte si, že jste na straně zákazníka a máte na starosti výběrové řízení. Jak budete postupovat a na co musíte reflektovat, aby toto Vámi řízené výběrové řízení proběhlo transparentním způsobem?]]
-[ ] [[+Odlišnosti výběrových řízení|Jak se liší výběrové řízení vypsané dle zákona o veřejných zakázkách a vypsané standardním způsobem?]]
-[ ] [[+Audit|Pokud budete auditorem komerčního informačního systému, jaké vlastnosti či atributy budete sledovat a hodnotit?]]
+[*] [[+Odlišnosti výběrových řízení|Jak se liší výběrové řízení vypsané dle zákona o veřejných zakázkách a vypsané standardním způsobem?]]
+[*] [[+Audit|Pokud budete auditorem komerčního informačního systému, jaké vlastnosti či atributy budete sledovat a hodnotit?]]
 
 ===== Materiály =====
 [[../Životní cyklus IT zakázky.pdf|Životní cyklus IT zakázky od Miroslava Skokana]]

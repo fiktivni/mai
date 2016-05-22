@@ -28,7 +28,7 @@ Created Pondělí 11 leden 2016
 	* **objektivnost** – musí se opírat o existující standardy, p ípadně zkušenosti, pokud standardy neexistují,
 	* **nezávislost** – auditor nemá s objektem auditu ani se zadavatelem auditu žádné spojení, které by p edstavovalo konflikt zájmů,
 	* **formalizovanost** – proces auditu se musí ídit určitou metodikou a existujícími standardy.
-* Jednotnou platformu a koordinaci práce interních auditorů zajišťuje Český institut interních auditorů ([[www.ciia.cz]]) .
+* Jednotnou platformu a koordinaci práce interních auditorů zajišťuje Český institut interních auditorů ([[http://www.ciia.cz|www.ciia.cz]]) .
 
 ===== Životní cyklus =====
 * Seznámení se se stávajícím stavem (dokumentace)
@@ -41,6 +41,35 @@ Created Pondělí 11 leden 2016
 * Finanční úspora (např. lidské zdroje, finanční rámce),
 * Kontrola stavu a jeho potvrzení či také změna (např. při zjištěných kriminálních činech a deliktech),
 * Operativní revize stavu.
+
+===== Předměty auditu / vlastnosti / atributy =====
+* Z pohledu projektu:
+	* Projektový management
+		* Projektové plány (WBS, milníky, zdroje)
+		* Dokumentace (zápisy interní/externí, komunikace interní/externí, analytické a návrhové podklady, vývojová a testovací dokumentace, protokoly, podpůrné systémy)
+		* Lze auditovat z pohledu různých projektových rolí
+	* Finanční management
+		* Finanční ukazatele (EBIT, marže, cashflow, čerpání zdrojů)
+	* Risk management
+		* Způsob identifikace a řešení rizik
+	* Change management
+		* Způsob identifikace a řešení změn
+	* Z pohledu informačního systému např.:
+		* audit funkcí/funkčností,
+		* audit procesů a služeb,
+		* audit efektivnosti provozu,
+		* audit provozní zátěže,
+		* audit technologických a architektonických prvků,
+		* audit bezpečnostní
+			* audit procesů,
+			* audit ISMS,
+			* technický audit,
+			* audit ochrany proti virům, spamu, spywaru apod.,
+			* ochrana osobních údajů,
+			* penetrační testy,
+		* audit legálnosti SW,
+		* audit legislativní shody,
+		* audit outsourcingu,
 
 ===== Z historie =====
 * Audit má původ daleko v historii
