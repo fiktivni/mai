@@ -7,7 +7,36 @@ Created Neděle 22 květen 2016
 
 **Jaké metody ochrany DDOS navrhujete pro poskytovatele internetu, jaké pro firmu? Zabezpečení portů, autentizační mechanismy, podvržení síťových nastavení, kontrolu síťového provozu, ACL, VPN, bezpečnost WiFi.**
 
+===== Defense techniques =====
 * https://en.wikipedia.org/wiki/Denial-of-service_attack#Defense_techniques
+
+==== Application front end hardware ====
+* Application front end hardware is intelligent hardware placed on the network before traffic reaches the servers. It can be used on networks in conjunction with routers and switches. Application front end hardware analyzes data packets as they enter the system, and then identifies them as priority, regular, or dangerous. There are more than 25 bandwidth management vendors.
+
+==== Application level Key Completion Indicators ====
+* In order to meet the case of application level DDoS attacks against Cloud based applications, approaches may be based on an application layer analysis, to indicate whether an incoming traffic bulk is legitimate or not and thus enable the triggering of elasticity decisions without the economical implications of a DDoS attack.[44] These approaches mainly rely on an identified path of value inside the application and monitor the macroscopic progress of the requests in this path, towards the final generation of profit, through markers denoted as Key Completion Indicators [45]
+
+==== Blackholing and sinkholing ====
+* With blackholing, all the traffic to the attacked DNS or IP address is sent to a "black hole" (null interface or a non-existent server). To be more efficient and avoid affecting network connectivity, it can be managed by the ISP.[46]
+* Sinkholing routes traffic to a valid IP address which analyzes traffic and rejects bad packets. Sinkholing is not efficient for most severe attacks.
+
+==== IPS based prevention ====
+* Intrusion-prevention systems (IPS) are effective if the attacks have signatures associated with them. However, the trend among the attacks is to have legitimate content but bad intent. Intrusion-prevention systems which work on content recognition cannot block behavior-based DoS attacks.
+
+==== DDS based defense ====
+* More focused on the problem than IPS, a DoS Defense System (DDS) can block connection-based DoS attacks and those with legitimate content but bad intent. A DDS can also address both protocol attacks (such as Teardrop and Ping of death) and rate-based attacks (such as ICMP floods and SYN floods).
+
+==== Firewalls ====
+In the case of a simple attack, a firewall could have a simple rule added to deny all incoming traffic from the attackers, based on protocols, ports or the originating IP addresses. More complex attacks will however be hard to block with simple rules...
+
+==== Switches ====
+* Most switches have some rate-limiting and ACL capability. Some switches provide automatic and/or system-wide rate limiting, traffic shaping, delayed binding (TCP splicing), deep packet inspection and Bogon filtering (bogus IP filtering) to detect and remediate denial-of-service attacks through automatic rate filtering and WAN Link failover and balancing.[citation needed]
+
+==== Routers ====
+* Similar to switches, routers have some rate-limiting and ACL capability. They, too, are manually set. Most routers can be easily overwhelmed under a DoS attack. Cisco IOS has optional features that can reduce the impact of flooding.[49]
+
+==== Upstream filtering ====
+* All traffic is passed through a "cleaning center" or a "scrubbing center" via various methods such as proxies, tunnels or even direct circuits, which separates "bad" traffic (DDoS and also other common internet attacks) and only sends good traffic beyond to the server. The provider needs central connectivity to the Internet to manage this kind of service unless they happen to be located within the same facility as the "cleaning center" or "scrubbing center".
 
 ===== Obvyklé hrozby =====
 * Citlivá data
