@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-22T23:11:16+02:00
+
+====== Vztah provozních systémů, datového skladu a business intelligence ======
+Created Neděle 22 květen 2016
+
+**Znázorněte / popište vztah provozních systémů, datového skladu a nástroje tzv. business intelligence. Čím se datový sklad liší od provozních databází?**
+
+* **Business intelligence** aplikace poskytují historické, současné a prediktivní zobrazení obchodních operací, nejčast ji s využitím již získaných dat v [[https://en.wikipedia.org/wiki/Data_warehouse|datovém skladu]] nebo příležitostně přímo z provozních systémů. Běžné funkce BI aplikací zahrnují [[https://en.wikipedia.org/wiki/Online_analytical_processing|OLAP]], reporting, podporu analýz, [[https://en.wikipedia.org/wiki/OLAP_cube|datové kostky]], přehledové zobrazení (dashboard, [[https://cs.wikipedia.org/wiki/Balanced_Scorecard|balanced scorecard]]), [[https://cs.wikipedia.org/wiki/Data_mining|Data mining]], podnikové řízení výkonnosti (CRM) a prediktivní analýzy.
+* __BI aplikace zpracovávají data prodeje, výroby, financí a dalších zdrojů dat pro obchodní účely, především řízení výkonnosti podniku__. BI aplikace mohou shromažďovat informace z různých části společnosti a mohou porovnávat informace ve srovnatelných hodnotách.
+* {{../BI.png}}

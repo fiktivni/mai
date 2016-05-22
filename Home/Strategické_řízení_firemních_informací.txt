@@ -14,10 +14,8 @@ Created Úterý 05 leden 2016
 
 ==== Menší otázky ====
 [*] [[+Kritérium řízení|V jakém kritériu je hlavní rozdíl mezi taktickým, strategickým a operativním řízením? Seřaďte tyto úrovně řízení dle tohoto kritéria.]]
-[ ] Jaké kategorie IS byste použili na následující úlohy?
-	[ ] a) správa nabídek a objednávek spojená s účetnictvím;
-	[ ] b) vyhledání klientů s aktuálně nadprůměrným odběrem zboží, kteří se zajímají o novinky.
-[ ] Znázorněte / popište vztah provozních systémů, datového skladu a nástroje tzv. business intelligence. Čím se datový sklad liší od provozních databází?
+[*] [[+Použité kategorie IS|Jaké kategorie IS byste použili na následující úlohy? a) správa nabídek a objednávek spojená s účetnictvím; b) vyhledání klientů s aktuálně nadprůměrným odběrem zboží, kteří se zajímají o novinky.]]
+[*] [[+Vztah provozních systémů, datového skladu a business intelligence|Znázorněte / popište vztah provozních systémů, datového skladu a nástroje tzv. business intelligence. Čím se datový sklad liší od provozních databází?]]
 
 ===== Materiály =====
 [[../Strategické řízení firemních IS.pdf|Strategické řízení firemních IS od Martina Čížka]]
