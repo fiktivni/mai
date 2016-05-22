@@ -1,0 +1,94 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-22T08:13:52+02:00
+
+====== Metody DDOS ochrany ======
+Created Neděle 22 květen 2016
+
+**Jaké metody ochrany DDOS navrhujete pro poskytovatele internetu, jaké pro firmu? Zabezpečení portů, autentizační mechanismy, podvržení síťových nastavení, kontrolu síťového provozu, ACL, VPN, bezpečnost WiFi.**
+
+* https://en.wikipedia.org/wiki/Denial-of-service_attack#Defense_techniques
+
+===== Obvyklé hrozby =====
+* Citlivá data
+	* přístup k citlivým datům, odposlech, manipulace
+* Session management
+	* odcizení session, reply, man in the middle
+* Kryptografie
+	* špatné generování nebo správa klíčů, slabá kryptografie
+* Parameter manipulation
+	* query, form, cookie, header
+* Exception management
+	* zobrazení citlivých dat, __nedostupnost__
+* Auditing and logging
+	* odmítnutí zodpovědnosti, nedetekovatelný útok
+
+===== Metody zabezpečení =====
+* procesní bezpečnost (politiky, ...)
+* fyzická bezpečnost (zámky, ... )
+* síťová bezpečnost (topologie, aktivní prvky, ...)
+* bezpečnost operačních systémů
+* aplikační bezpečnost (řízení přístupu, ...)
+* datová bezpečnost (zálohy, ...)
+* bezpečnost při vývoji
+
+===== Základní principy =====
+* Určení a oddělení zodpovědnosti
+* Zajištění nejslabšího článku
+* Zabezpečení chybných stavů
+* Jednoduchost návrhu
+* Opatrnost v důvěře
+* Princip nejmenšího práva
+* Princip čtyř očí a obecně dvojité kontroly
+* Auditní stopa
+* Použití ověřených technologií
+
+===== Webová autentizace =====
+* BASIC
+	* jméno a heslo zakódované v BASE64
+	* posílá se s každým requestem
+* DIGEST
+	* HA1=MD5(username:realm:password) v BASE64
+	* HA2=MD5(method:URI)
+	* MD5(HA1:nonce:HA2) – posílá se s každým requestem
+	* nonce (reply attack)
+* Formulářová autentizace
+	* HTML formulář na jméno a heslo
+	* speciální URI na zpracování autentizace
+* Klientské SSL
+	* autentizaci na úrovni SSL
+	* autentizace privátním klíčem (využití asymetrické kryptografie)
+* Další metody
+	* SPNEGO / Kerberos
+	* OAuth
+	* OpenID Connect
+	* SAML
+	* CAS
+	* JWT
+
+===== Spoofing attack =====
+* https://en.wikipedia.org/wiki/Spoofing_attack
+* In the context of network security, a spoofing attack is a situation in which one person or program successfully masquerades as another by falsifying data, thereby gaining an illegitimate advantage.
+* __Many of the protocols in the TCP/IP suite do not provide mechanisms for authenticating the source or destination of a message__. They are thus vulnerable to spoofing attacks when extra precautions are not taken by applications to verify the identity of the sending or receiving host. IP spoofing and ARP spoofing in particular may be used to leverage **man-in-the-middle attacks** against hosts on a computer network. Spoofing attacks which take advantage of TCP/IP suite protocols may be mitigated with the use of __firewalls__ capable of deep packet inspection or by __taking measures to verify the identity of the sender or recipient of a message__.
+
+===== Access control list =====
+* https://en.wikipedia.org/wiki/Access_control_list
+* An access control list (ACL), with respect to a computer file system, is a list of permissions attached to an object. An ACL specifies which users or system processes are granted access to objects, as well as what operations are allowed on given objects.[1] Each entry in a typical ACL specifies a subject and an operation. For instance, if a file object has an ACL that contains (Alice: read,write; Bob: read), this would give Alice permission to read and write the file and Bob to only read it.
+* On some types of proprietary computer hardware (in particular routers and switches), an access control list refers to rules that are applied to port numbers or IP addresses that are available on a host or other layer 3, each with a list of hosts and/or networks permitted to use the service. Although it is additionally possible to configure access control lists based on network domain names, this is generally a questionable idea because individual TCP, UDP, and ICMP headers do not contain domain names. Consequently, the device enforcing the access control list must separately resolve names to numeric addresses. This presents an additional attack surface for an attacker who is seeking to compromise security of the system which the access control list is protecting. Both individual servers as well as routers can have network ACLs. Access control lists can generally be configured to control both inbound and outbound traffic, and in this context they are similar to firewalls. Like firewalls, ACLs could be subject to security regulations and standards such as PCI DSS.
+* ACL algorithms have been ported to SQL and relational database systems. Many "modern" (2000's and 2010's) SQL based systems, like enterprise resource planning and content management systems, have used ACL model in their administration modules.
+
+===== Virtual private network =====
+* https://en.wikipedia.org/wiki/Virtual_private_network
+* A virtual private network (VPN) extends a private network across a public network, such as the Internet. It enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network, and thus benefit from the functionality, security and management policies of the private network.[1] A VPN is created by establishing a virtual point-to-point connection through the use of dedicated connections, virtual tunnelling protocols, or traffic encryption.
+* VPNs cannot make online connections completely anonymous, but they can usually increase privacy and security. To prevent disclosure of private information, VPNs typically allow only authenticated remote access using tunnelling protocols and encryption techniques.
+* The VPN security model provides:
+	* Confidentiality such that even if the network traffic is sniffed at the packet level (see network sniffer and Deep packet inspection), an attacker would only see encrypted data
+	* Sender authentication to prevent unauthorized users from accessing the VPN
+	* Message integrity to detect any instances of tampering with transmitted messages
+
+===== Wireless security =====
+* https://en.wikipedia.org/wiki/Wireless_security
+
+==== Denial of service ====
+* A Denial-of-Service attack (DoS) occurs when an attacker continually bombards a targeted AP (Access Point) or network with bogus requests, premature successful connection messages, failure messages, and/or other commands. These cause legitimate users to not be able to get on the network and may even cause the network to crash. These attacks rely on the abuse of protocols such as the Extensible Authentication Protocol (EAP).
+* The DoS attack in itself does little to expose organizational data to a malicious attacker, since the interruption of the network prevents the flow of data and actually indirectly protects data by preventing it from being transmitted. __The usual reason for performing a DoS attack is to observe the recovery of the wireless network, during which all of the initial handshake codes are re-transmitted by all devices, providing an opportunity for the malicious attacker to record these codes and use various cracking tools to analyze security weaknesses and exploit them to gain unauthorized access to the system.__ This works best on weakly encrypted systems such as WEP, where there are a number of tools available which can launch a dictionary style attack of "possibly accepted" security keys based on the "model" security key captured during the network recovery.
