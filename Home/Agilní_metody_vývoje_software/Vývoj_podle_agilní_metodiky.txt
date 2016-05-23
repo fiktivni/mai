@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-23T11:09:08+02:00
+
+====== Vývoj podle agilní metodiky ======
+Created Pondělí 23 květen 2016
+
+**Představte si, že jako odpovědná osoba dodavatele informačního systému máte řídit projekt u zákazníka s daným rozpočtem a termínem, rozsah (funkcionalita) se může měnit. Vyberte si některou z agilních metodik a navrhněte způsob vývoje IS.**
+
+===== SCRUM =====
+Dělí se na **sprinty** (iterace)
+
+==== Role (Roles) ====
+Každý má primární úkol, ale umí všechno
+* **Scrum master** - nejzkušenější, zodpovědný za postup (Scrum), řeší problémy, neprogramuje
+* **Prodact owner** - zodpovědný za SW (produkt), plní product backlog, určuje priority
+* **Team** (5 až 9 členů) - vybírá si požadavky z product backlogu pro další sprint
+
+==== Setkání (Meetings) ====
+* **Daily scrum** (stand up meeting) - každý den v přesně definovaný čas
+* **Sprint planning meeting** - před začátkem sprintu, aktualizace priorit
+	* Možnost rozšíření o **Sprint analys meeting** a **Sprint design meeting**
+* **Sprint review meeting** - akce pro zákazníka, prezentace nových funkčností na konci sprintu, zpětná vazba, primárně pro product ownera
+* **Sprint Retrospective** - po skončení sprintu, poučení
+
+==== Pomůcky (Artifacts) ====
+* **Product backlog** - prioritizovaný seznam všech požadavků (user stories), každá položka musí mít hrubou časovou estimaci, aktualizace před každým sprintem
+* **Sprint backlog** - výběr týmu z product backlogu pro daný sprint, jednotlivé user stories ve sprint backlogu se rozpadají na tasky a dostávají se na task board
+* **Burndown chart** - graf zobrazující počet zbývajících úloh ve sprint backlogu pro sprint a pro product
+* **Scrum board** - tabule s úkoly, sloupce: user stories, todo, in progress, testing, done

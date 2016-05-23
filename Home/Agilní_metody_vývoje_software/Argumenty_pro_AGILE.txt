@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-23T10:50:38+02:00
+
+====== Argumenty pro AGILE ======
+Created Pondělí 23 květen 2016
+
+**Jako zástupce systémového integrátora máte přesvědčit zákazníka, abyste společně řešili projekty pomocí agilního přístupu. Jaké argumenty použijete, na co se zaměříte?**
+
+**Častá vydání** - Agilně vyvíjený projekt funguje už od ranných fází vývoje. __I předčasně ukončený projekt je funkční, což u tradičního vývoje většinou neplatí.__
+**Zpětná vazba** - Zákazník má díky častým vydáním možnost dodatečně usměrnit vývoj. Při tradiční vývoji se pracuje se zadáním sepsaným na začátku, které se nemění. Zákazník vidí až finální produkt!
+**Priority** - funkcionality se typicky implementují od těch nejdůležitějších po ty méně důležité.
+
+===== What is Agile Software Development? =====
+* Agile Software Development is an umbrella term for a set of methods and practices based on the values and principles expressed in the Agile Manifesto.
+* In the late 1990’s, several methodologies began to gain increasing public attention, each having a different combination of old and new ideas. These methodologies emphasized __close collaboration between the development team and business stakeholders__; __frequent delivery of business value__, __tight, self-organizing teams__; and __smart ways to craft, confirm, and deliver code__.
+* The term "Agile" was applied to this collection of methodologies in early 2001 when 17 software development practitioners gathered in Snowbird, Utah to discuss their shared ideas and various approaches to software development. This joint collection of values and principles was expressed in the Manifesto for Agile Software Development and the corresponding twelve principles.
+* The Agile Alliance was formed shortly after this gathering to encourage practitioners to further explore and share ideas and experiences.
+
+===== Manifesto for Agile Software Development =====
+* The Agile Manifesto was written in February of 2001 by seventeen independent-minded software practitioners . While the participants didn't agree about much, they found consensus around four main values.
+	1. **Individuals and interactions** over processes and tools
+	2. **Working software** over comprehensive documentation
+	3. **Customer collaboration** over contract negotiation
+	4. **Responding to change** over following a plan
+* **12 principů agilního vývoje software**
+	1. Naší nejvyšší prioritou je vyhovět zákazníkovi časným a průběžným dodáváním hodnotného softwaru.
+	2. Vítáme změny v požadavcích, a to i v pozdějších fázích vývoje. Agilní procesy podporují změny vedoucí ke zvýšení konkurenceschopnosti zákazníka.
+	3. Dodáváme fungující software v intervalech týdnů až měsíců, s preferencí kratší periody.
+	4. Lidé z byznysu a vývoje musí spolupracovat denně po celou dobu projektu.
+	5. Budujeme projekty kolem motivovaných jednotlivců. Vytváříme jim prostředí, podporujeme jejich potřeby a důvěřujeme, že odvedou dobrou práci.
+	6. Nejúčinnějším a nejefektnějším způsobem sdělování informací vývojovému týmu z vnějšku i uvnitř něj je osobní konverzace.
+	7. Hlavním měřítkem pokroku je fungující software.
+	8. Agilní procesy podporují udržitelný rozvoj. Sponzoři, vývojáři i uživatelé by měli být schopni udržet stálé tempo trvale.
+	9. Agilitu zvyšuje neustálá pozornost věnovaná technické výjimečnosti a dobrému designu.
+	10. Jednoduchost--umění maximalizovat množství nevykonané práce--je klíčová.
+	11. Nejlepší architektury, požadavky a návrhy vzejdou ze samo-organizujících se týmů.
+	12. Tým se pravidelně zamýšlí nad tím, jak se stát efektivnějším, a následně koriguje a přizpůsobuje své chování a zvyklosti.
+
+

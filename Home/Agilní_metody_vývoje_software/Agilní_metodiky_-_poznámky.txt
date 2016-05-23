@@ -17,38 +17,37 @@ Created Úterý 05 leden 2016
 9. Odstranění
 
 ===== Neagilní Vodopád =====
-Model byl vyvinut přibližně v roce 1970 s cílem lépe se vyrovnat s rostoucí složitostí produktů leteckému průmyslu. Definuje sedm základních fází:
-1. System requirements
-2. Software requirements
-3. Analysis
-4. Program design
-5. Coding
-6. Testing
-7. Operations
-Vstoupit do další fáze mohu až tehdy, pokud je předchozí kompletně dokončena a uzavřena.
-Hlavní nevýhodou Vodopádového modelu je fakt, že v praxi, zejména u rozsáhlejších projektů, nelze prakticky dokončit jednu fázi a zahájit další, beztoho aniž bych se k ní v budoucnu opět vrátil.
-Většina soudobých modelů obsahuje fáze podobné těm z vodopádového modelu - životní cyklus.
+* Model byl vyvinut přibližně v roce 1970 s cílem lépe se vyrovnat s rostoucí složitostí produktů leteckému průmyslu. Definuje sedm základních fází:
+	1. System requirements
+	2. Software requirements
+	3. Analysis
+	4. Program design
+	5. Coding
+	6. Testing
+	7. Operations
+* Vstoupit do další fáze mohu až tehdy, pokud je předchozí kompletně dokončena a uzavřena.
+* Hlavní nevýhodou Vodopádového modelu je fakt, že v praxi, zejména u rozsáhlejších projektů, nelze prakticky dokončit jednu fázi a zahájit další, beztoho aniž bych se k ní v budoucnu opět vrátil.
+* Většina soudobých modelů obsahuje fáze podobné těm z vodopádového modelu - životní cyklus.
 
 ===== Mezičlánek Spirálový model =====
-Spirálový přístup je proces vývoje software, který kombinuje prvky designového přístupu a prototypového přístupu tak, aby zkombinoval výhody obou konceptů shora-dolů (prototypování) a zdola-nahoru (designování). Základní principy spirálového přístupu:
-
-* Zaměřuje se na analýzu rizik a minimalizaci projektových rizik rozdělením projektu na menší segmenty a umožněním změn během procesu vývoje. V průběhu vývoje je také možné vyhodnocovat rizika a zvažovat další pokračování projektu v průběhu životního cyklu.
-* Každý cyklus spirály spouští stejný sled kroků pro každou část produktu a pro každou úroveň elaborace (od konceptuálních dokumentů až po programování jednotlivých programů).
-* Během každého cyklu spirály jsou tak spouštěny čtyři základní fáze (kvadranty):
-	1. Analýza – stanovení cílů, alternativ a rozsahu iterace
-	2. Vyhodnocení – vyhodnocení alternativ, identifikace a řešení rizik
-	3. Vývoj – vývoj produktu a kontrola očekávaných výsledků
-	4. Plánování – plán pro příští iteraci
-V počátku každého cyklu se identifikují zainteresované subjekty a jejich podmínky kladené na úspěch iterace, na konci každého cyklu se provádí revize a předání.
+* Spirálový přístup je proces vývoje software, který kombinuje prvky designového přístupu a prototypového přístupu tak, aby zkombinoval výhody obou konceptů shora-dolů (prototypování) a zdola-nahoru (designování). Základní principy spirálového přístupu:
+	* Zaměřuje se na analýzu rizik a minimalizaci projektových rizik rozdělením projektu na menší segmenty a umožněním změn během procesu vývoje. V průběhu vývoje je také možné vyhodnocovat rizika a zvažovat další pokračování projektu v průběhu životního cyklu.
+	* Každý cyklus spirály spouští stejný sled kroků pro každou část produktu a pro každou úroveň elaborace (od konceptuálních dokumentů až po programování jednotlivých programů).
+	* Během každého cyklu spirály jsou tak spouštěny čtyři základní fáze (kvadranty):
+		* Analýza – stanovení cílů, alternativ a rozsahu iterace
+		* Vyhodnocení – vyhodnocení alternativ, identifikace a řešení rizik
+		* Vývoj – vývoj produktu a kontrola očekávaných výsledků
+		* Plánování – plán pro příští iteraci
+* V počátku každého cyklu se identifikují zainteresované subjekty a jejich podmínky kladené na úspěch iterace, na konci každého cyklu se provádí revize a předání.
 
 ===== Paretův princip =====
-Paretův princip, nebo Paretovo pravidlo, nebo též Pravidlo 80/20, bylo formulováno na základě pozorování italského ekonoma Vilfreda Pareta. Podle Paretova principu pramení 80 % důsledků (např. zisk nebo počet zmetků) z 20 % příčin (např. produkty nebo celková výroba). Příklady Paretova principu lze najít v různých odvětvích lidské činnosti (např. ekonomika, kvalita výroby, životní každodennost aj.).
-V praxi potom bývá snahou odhalit ono malé spektrum příčin, které tak významně ovlivňuje celkový výsledek. Tento proces hledání se nazývá Paretova analýza.
+* Paretův princip, nebo Paretovo pravidlo, nebo též Pravidlo 80/20, bylo formulováno na základě pozorování italského ekonoma Vilfreda Pareta. Podle Paretova principu pramení 80 % důsledků (např. zisk nebo počet zmetků) z 20 % příčin (např. produkty nebo celková výroba). Příklady Paretova principu lze najít v různých odvětvích lidské činnosti (např. ekonomika, kvalita výroby, životní každodennost aj.).
+* V praxi potom bývá snahou odhalit ono malé spektrum příčin, které tak významně ovlivňuje celkový výsledek. Tento proces hledání se nazývá Paretova analýza.
 
 ===== Iterační model =====
-Základ agilních metodik -  následuje po implementaci, testování a prezentaci předchozí iterace
-+ četná zpětná vazba
-+ specifikace požadavků na začátku každé iterace
+* Základ agilních metodik -  následuje po implementaci, testování a prezentaci předchozí iterace
+* + četná zpětná vazba
+* + specifikace požadavků na začátku každé iterace
 
 ===== Agilní manifest =====
 * Analýza a design jen nejobecněji a krátce
@@ -71,63 +70,63 @@ Základ agilních metodik -  následuje po implementaci, testování a prezentac
 12. Tým se pravidelně zamýšlí nad tím, jak se stát efektivnějším, a následně koriguje a přizpůsobuje své chování a zvyklosti.
 
 ===== Feature Driven Development =====
-(Peter Coad, Jeff de Luca, Stephen Palmer)
-FDD nepokrývá celý životní cyklus - zaměřuje se na fáze návrhu a implementace. Rozkládá systém na množinu vlastností, které postupně implementuje. Určuje pouze, co se má dělit. Jak se to má udělat je v rukou týmu.
-Vlastnost (Feature) - malý kousek funkčnosti, přinášející zákazníkovi hodnotu.
-<akce> <předmět> <podrobnosti> (např.: autorizace uživatele oproti zadaným přihlašovacím údajům; vytištění souhrnu na síťové tiskárně; vypsání formuláře pro editaci údajů)
-Měřitelnost - přínos pro zákazníka
-Srozummitelnost - jasný účel a výsledek vlastnosti
-Realizovatelnost - vlastnost musí jít implementovat během jedné iterace
-Procesy - FDD zavádí 5 procesů. U každého uvádí popis, vstupní kritéria, úkoly, verifikaci a výstupní kritéria. Entry criteria, Task, Verification, Exit criteria - ETVX
+* (Peter Coad, Jeff de Luca, Stephen Palmer)
+* FDD nepokrývá celý životní cyklus - zaměřuje se na fáze návrhu a implementace. Rozkládá systém na množinu vlastností, které postupně implementuje. Určuje pouze, co se má dělit. Jak se to má udělat je v rukou týmu.
+* Vlastnost (Feature) - malý kousek funkčnosti, přinášející zákazníkovi hodnotu.
+* <akce> <předmět> <podrobnosti> (např.: autorizace uživatele oproti zadaným přihlašovacím údajům; vytištění souhrnu na síťové tiskárně; vypsání formuláře pro editaci údajů)
+* Měřitelnost - přínos pro zákazníka
+* Srozummitelnost - jasný účel a výsledek vlastnosti
+* Realizovatelnost - vlastnost musí jít implementovat během jedné iterace
+* Procesy - FDD zavádí 5 procesů. U každého uvádí popis, vstupní kritéria, úkoly, verifikaci a výstupní kritéria. Entry criteria, Task, Verification, Exit criteria - ETVX
 
 ==== 1  Vytvoření celkového modelu 10 % ====
-Vstupní kritéria: klíčové role stanoveny
-Úkoly: sestavit tým, průzkoumat doménu (seznámit se s relevantními dokumenty, zaměřením projektu, očekáváním, požadavky atd. Používají se náčrtky, komentáře a přirozený jazyk.), vytvořit globální model, prověřit ho, vyladit a popsat
-Verifikace: posudková řízení s týmem (interní) a zákazníkem (externí)
-Výstupní kritéria: objektový model - diagram tříd s identifikovanými atributy a metodami, sekvenční diagramy, detaily v poznámkách
+* Vstupní kritéria: klíčové role stanoveny
+* Úkoly: sestavit tým, průzkoumat doménu (seznámit se s relevantními dokumenty, zaměřením projektu, očekáváním, požadavky atd. Používají se náčrtky, komentáře a přirozený jazyk.), vytvořit globální model, prověřit ho, vyladit a popsat
+* Verifikace: posudková řízení s týmem (interní) a zákazníkem (externí)
+* Výstupní kritéria: objektový model - diagram tříd s identifikovanými atributy a metodami, sekvenční diagramy, detaily v poznámkách
 
 ==== 2  Vypracování seznamu vlastností 4 % ====
-Vstupní kritéria: klíčové role stanoveny
-Úkoly: sestavit tým, vytvořit nehomogenní (rozdělený podle vztahů apod.) seznam vlastností
-Verifikace: posudková řízení s týmem (interní) a zákazníkem (externí)
-Výstupní kritéria: seznam vlastností - seznam oblastí domény, pro každou oblast seznam procesů, identifikace vlastností realizujících procesy + minimální množina vlastností
+* Vstupní kritéria: klíčové role stanoveny
+* Úkoly: sestavit tým, vytvořit nehomogenní (rozdělený podle vztahů apod.) seznam vlastností
+* Verifikace: posudková řízení s týmem (interní) a zákazníkem (externí)
+* Výstupní kritéria: seznam vlastností - seznam oblastí domény, pro každou oblast seznam procesů, identifikace vlastností realizujících procesy + minimální množina vlastností
 
 ==== 3  Plánování podle vlastností 2 % ====
-Vstupní kritéria: seznam vlastností sestaven
-Úkoly: sestavit tým, sestavit pořadí implementace vlastností
-Verifikace: průběžná posudková řízení s týmem (interní)
-Výstupní kritéria: plán vývoje - přibližná data dokončení, pořadí podle priorit a závislostí, seznam tříd
+* Vstupní kritéria: seznam vlastností sestaven
+* Úkoly: sestavit tým, sestavit pořadí implementace vlastností
+* Verifikace: průběžná posudková řízení s týmem (interní)
+* Výstupní kritéria: plán vývoje - přibližná data dokončení, pořadí podle priorit a závislostí, seznam tříd
 
 ==== 4  Návrh podle vlastností ====
-Vstupní kritéria: plánování podle vlastností dokončeno
-Úkoly: sestavit tým, vyladit objektový model, napsat hlavičky tříd a metod, sekvenční diagram vlastnosti
-Verifikace: inspekce návrhu
-Výstupní kritéria: balíček návrhu (Design Package) - obecné informace o vlastnosti, sekvenční diagram, alternativy návrhu, objektový model vlastnosti, hlavičky tříd a metod, harmonogram prací na implementaci vlastnosti
+* Vstupní kritéria: plánování podle vlastností dokončeno
+* Úkoly: sestavit tým, vyladit objektový model, napsat hlavičky tříd a metod, sekvenční diagram vlastnosti
+* Verifikace: inspekce návrhu
+* Výstupní kritéria: balíček návrhu (Design Package) - obecné informace o vlastnosti, sekvenční diagram, alternativy návrhu, objektový model vlastnosti, hlavičky tříd a metod, harmonogram prací na implementaci vlastnosti
 
 ==== 5  Implementace podle vlastností ====
-Vstupní kritéria: návrh podle vlastnosti dokončen
-Úkoly: implementovat třídy a metody pro danou vlastnost, inspekce kódu (refactoring), testování, integrace do systému
-Verifikace: průběžná inspekce kódu, testování
-Výstupní kritéria: schválené třídy a metody, vlastnost implementována
+* Vstupní kritéria: návrh podle vlastnosti dokončen
+* Úkoly: implementovat třídy a metody pro danou vlastnost, inspekce kódu (refactoring), testování, integrace do systému
+* Verifikace: průběžná inspekce kódu, testování
+* Výstupní kritéria: schválené třídy a metody, vlastnost implementována
 
 === Praktiky ===
-Objektové modelování domény: objektové a sekvenční diagramy, nezabíhat do detailů (Na začátku se tvoří celkový - globální - model, podrobnosti se dotváří v každé iteraci.)
-Vývoj podle vlastností: omezení množiny funkčních požadavků na funkce hodnotné pro zákazníka
-Vlastnictví tříd: odpovědnost za implementaci, testování, itegritu
-Dynamické týmy sestavované podle vlastností: tým má za úkol implementovat vlastnost, s dokončením vlastnosti tým zaniká, při vývoji více vlastností paralelně existuje paralelně i více týmů
-Inspekce: hledání a eliminace chyb
-Pravidelné dodávky nových verzí a správa konfigurací: integrace tříd musí být úplná, tak aby v každém okamžiku bylo možné aplikaci sestavit a spustit (Git, CVS, Subversion)
-Zprávy o stavu: Podle definovaných šablon, tabulek a schémat se zapisuje vše, co je hotovo, rozpracováno (a na kolik) a naplánováno
+* Objektové modelování domény: objektové a sekvenční diagramy, nezabíhat do detailů (Na začátku se tvoří celkový - globální - model, podrobnosti se dotváří v každé iteraci.)
+* Vývoj podle vlastností: omezení množiny funkčních požadavků na funkce hodnotné pro zákazníka
+* Vlastnictví tříd: odpovědnost za implementaci, testování, itegritu
+* Dynamické týmy sestavované podle vlastností: tým má za úkol implementovat vlastnost, s dokončením vlastnosti tým zaniká, při vývoji více vlastností paralelně existuje paralelně i více týmů
+* Inspekce: hledání a eliminace chyb
+* Pravidelné dodávky nových verzí a správa konfigurací: integrace tříd musí být úplná, tak aby v každém okamžiku bylo možné aplikaci sestavit a spustit (Git, CVS, Subversion)
+* Zprávy o stavu: Podle definovaných šablon, tabulek a schémat se zapisuje vše, co je hotovo, rozpracováno (a na kolik) a naplánováno
 
 === Role ===
-Jedna osoba může zastávat více rolí a jednu roli může zastávat více osob.
-Klíčové: projektový manažer, hlavní architekt, vývojový manažer, hlavní programátor, vlastník třídy, doménový expert
-Podpůrné: manažer pro dodávky, jazykový specialista, konstruktér, nástrojař, administrátor
-Další: tester, správce nasazování nových verzí, písař
+* Jedna osoba může zastávat více rolí a jednu roli může zastávat více osob.
+* Klíčové: projektový manažer, hlavní architekt, vývojový manažer, hlavní programátor, vlastník třídy, doménový expert
+* Podpůrné: manažer pro dodávky, jazykový specialista, konstruktér, nástrojař, administrátor
+* Další: tester, správce nasazování nových verzí, písař
 
 ===== Scrum =====
-Aktuálně nejpoužívanější agilní metodika
-Dělí se na “sprinty” (iterace)
+* Aktuálně nejpoužívanější agilní metodika
+* Dělí se na “sprinty” (iterace)
 
 ==== Roles ====
 Každý má primární úkol, ale umí všechno
@@ -149,26 +148,26 @@ Každý má primární úkol, ale umí všechno
 * Scrum board - tabule s úkoly, sloupce: user stories, todo, in progress, testing, done
 
 ===== XP =====
-© 1999 - jedna z prvních agilních metodik
-Nedefinuje přesný postup, definuje praktiky
-Values: comunication, simplicity, feedback, courage, respect
-Whole team - stejná úroveň
-Planning game - příprava iterace
-Small release - iterativně, časté dodávky
-System metaphor - a story that everyone – customers, programmers, and managers -  can tell about how the system works
-Collection code ownership - společná odpovědnost
-Continuous integration - každý den zakončit funkční verzí - dělat po malých částech
-Coding standards - všichni píšou stejně
-Substainable pace - týden má 40 hodin, přetížení programátorů zvyšuje počet chyb
-Pair programming - jeden píše, druhý kontroluje - čistší kód, méně chyb, méně rozptýlení, senior-junior
-Simple design - minimalismus
-Refactoring - projít celý kód, každý den
-Test-driven development - test first
+* © 1999 - jedna z prvních agilních metodik
+* Nedefinuje přesný postup, definuje praktiky
+* Values: comunication, simplicity, feedback, courage, respect
+* Whole team - stejná úroveň
+* Planning game - příprava iterace
+* Small release - iterativně, časté dodávky
+* System metaphor - a story that everyone – customers, programmers, and managers -  can tell about how the system works
+* Collection code ownership - společná odpovědnost
+* Continuous integration - každý den zakončit funkční verzí - dělat po malých částech
+* Coding standards - všichni píšou stejně
+* Substainable pace - týden má 40 hodin, přetížení programátorů zvyšuje počet chyb
+* Pair programming - jeden píše, druhý kontroluje - čistší kód, méně chyb, méně rozptýlení, senior-junior
+* Simple design - minimalismus
+* Refactoring - projít celý kód, každý den
+* Test-driven development - test first
 
 ===== Kanban =====
-Rozšiřuje Scrum, © Toyota
-Pravidla má jednodušší (méně omenzení)
-Obecně nedefinuje role
-Klade důraz na vizualizaci
-Počet štítků v jednom sloupci je omezen na 4
-Denní schůzky nejsou povinné
+* Rozšiřuje Scrum, © Toyota
+* Pravidla má jednodušší (méně omezení)
+* Obecně nedefinuje role
+* Klade důraz na vizualizaci
+* Počet štítků v jednom sloupci je omezen na 4
+* Denní schůzky nejsou povinné

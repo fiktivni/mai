@@ -6,9 +6,9 @@ Creation-Date: 2016-01-05T16:49:47+01:00
 Created Úterý 05 leden 2016
 
 ===== Témata =====
-[ ] Jako zástupce systémového integrátora máte přesvědčit zákazníka, abyste společně řešili projekty pomocí agilního přístupu. Jaké argumenty použijete, na co se zaměříte?
-[ ] Představte si, že jako odpovědná osoba dodavatele informačního systému máte řídit projekt u zákazníka s daným rozpočtem a termínem, rozsah (funkcionalita) se může měnit. Vyberte si některou z agilních metodik a navrhněte způsob vývoje IS.
-[ ] Jste projektový manažer ve firmě, u které si můžete vybrat metodiku vývoje podle vlastního uvážení. Na jaké parametry případného nového projektu se zaměříte při výběru vhodné metodiky vývoje?
+[*] [[+Argumenty pro AGILE|Jako zástupce systémového integrátora máte přesvědčit zákazníka, abyste společně řešili projekty pomocí agilního přístupu. Jaké argumenty použijete, na co se zaměříte?]]
+[*] [[+Vývoj podle agilní metodiky|Představte si, že jako odpovědná osoba dodavatele informačního systému máte řídit projekt u zákazníka s daným rozpočtem a termínem, rozsah (funkcionalita) se může měnit. Vyberte si některou z agilních metodik a navrhněte způsob vývoje IS.]]
+[*] [[+Důležité parametry projektu|Jste projektový manažer ve firmě, u které si můžete vybrat metodiku vývoje podle vlastního uvážení. Na jaké parametry případného nového projektu se zaměříte při výběru vhodné metodiky vývoje?]]
 
 ===== Materiály =====
 [[+Agilní metodiky - poznámky|Agilní metodiky - poznámky]]

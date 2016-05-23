@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-23T21:50:25+02:00
+
+====== Důležité parametry projektu ======
+Created Pondělí 23 květen 2016
+
+**Jste projektový manažer ve firmě, u které si můžete vybrat metodiku vývoje podle vlastního uvážení. Na jaké parametry případného nového projektu se zaměříte při výběru vhodné metodiky vývoje?**
+
+Rozpočet - fixní / může narůst?
+Deadline - fixní / může se opozdit?
+Požadovaná funkcionalita - jak moc se může měnit? Jak je pravděpodobné, že se bude měnit?
+
+Agilní metodiky jsou vhodné zejména u projektů "fix time + fix price", kde jediné, co se mění je rozsah implementace požadovaných funkcionalit.
