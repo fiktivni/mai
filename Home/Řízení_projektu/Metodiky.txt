@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-24T08:24:58+02:00
+
+====== Metodiky ======
+Created Úterý 24 květen 2016
+
+**Jaké jsou hlavní metodiky řízení projektu a možnosti použití (v závislosti na věcném obsahu projektu)?**
+
+* https://en.m.wikipedia.org/wiki/Project_management
+* Regardless of the methodology employed, __careful consideration must be given to the overall project objectives, timeline, and cost, as well as the roles and responsibilities of all participants and stakeholders__.
+
+===== The traditional approach =====
+* A traditional phased approach identifies a sequence of steps to be completed. In the "traditional approach", five developmental components of a project can be distinguished (four stages plus control):{{../Project_Management_(phases).png?width=535}}
+	1. initiation
+	2. planning and design
+	3. execution and construction
+	4. monitoring and controlling systems
+	5. completion and finish point
+* In software development many organizations have adapted the [[https://en.m.wikipedia.org/wiki/Rational_Unified_Process|Rational Unified Process]] (**RUP**) to fit this methodology, although RUP does not require or explicitly recommend this practice.
+* **Waterfall** development works well for small, well defined projects, but often fails in larger projects of undefined and ambiguous nature.
+* While the terms may differ from industry to industry, the actual stages typically follow common steps to problem solving—"__defining the problem, weighing options, choosing a path, implementation and evaluation.__"
+
+===== PRINCE2 =====
+* PRINCE2 provides a method for managing projects within a clearly defined framework.{{../Prince2_procces_model_.jpg?width=535}}
+* **PRINCE2 focuses on the definition and delivery of products**, in particular their quality requirements. As such, it defines a successful project as being __output-oriented__ (not activity- or task-oriented) through creating an agreed set of products that define the scope of the project and provides the basis for planning and control, that is, how then to coordinate people and activities, how to design and supervise product delivery, and what to do if products and therefore the scope of the project has to be adjusted if it does not develop as planned.
+* In the method, **each process is specified with its key inputs and outputs** **and with specific goals and activities to be carried out to deliver a project's outcomes** as defined by its Business Case. This allows for __continuous assessment__ and adjustment when deviation from the Business Case is required.
+
+===== Critical chain project management =====
+* CCPM is an application of the [[https://en.m.wikipedia.org/wiki/Theory_of_constraints|theory of constraints]] (TOC) to projects. The goal is to increase the flow of projects in an organization.
+* The project plan should typically undergo resource leveling, and the longest sequence of resource-constrained tasks should be identified as the critical chain.
+
+===== Process-based management =====
+* The incorporation of process-based management has been driven by the use of Maturity models such as the [[https://en.m.wikipedia.org/wiki/OPM3|OPM3]] and the [[https://en.m.wikipedia.org/wiki/CMMI|CMMI]] and [[https://en.m.wikipedia.org/wiki/ISO_15504|ISO/IEC15504]]
+
+===== Lean project management =====
+* Lean project management uses the principles from [[https://en.m.wikipedia.org/wiki/Lean_manufacturing|lean manufacturing]] to __focus on delivering value with less waste and reduced time__.
+
+===== Extreme project management =====
+{{../Xp-loop_with_time_frames.svg?width=535}}
+* The generalization of Extreme Programming to other kinds of projects is [[https://en.m.wikipedia.org/wiki/Extreme_project_management|extreme project management]], which may be used in combination with the [[https://en.m.wikipedia.org/wiki/Process_modeling|process modeling]] and management principles of [[https://en.m.wikipedia.org/wiki/Human_interaction_management|human interaction management]].
+* Extreme project management differs from traditional project management mainly in its **open, elastic and undeterministic approach**. __The main focus of XPM is on the human side of project management (e.g. managing project stakeholders), rather than on intricate scheduling techniques and heavy formalism.__
+* Extreme project management corresponds to [[https://en.m.wikipedia.org/wiki/Extreme_programming|extreme programming]].
+
+===== Benefits realization management =====
+* Benefits realization management (BRM) enhances normal project management techniques through a **focus on outcomes** **(the benefits)** of a project rather than products or outputs, and then measuring the degree to which that is happening to keep a project on track. This can help to reduce the risk of a completed project being a failure by delivering agreed upon requirements/outputs but failing to deliver the benefits of those requirements.
+* In addition, BRM practices aim to ensure the **alignment between project outcomes and business strategies**.
+
+
+

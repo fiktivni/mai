@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="794px" height="600px" viewBox="-142.736 -66.148 794 600" enable-background="new -142.736 -66.148 794 600" xml:space="preserve">
+<g id="Laag_x0020_1">
+	<g id="_156430384">
+		<rect id="_82117400" x="-142.736" y="-63.607" fill="#FFFFFF" stroke="#DEDEDD" stroke-width="0.0762" width="794" height="600"/>
+		<path id="_82117328" fill="#DEDEDD" stroke="#DEDEDD" stroke-width="0.5" d="M40.079,6.17C14.194,12.939-6,23.954-20.342,39.369    l270.955,258.8L40.079,6.17z"/>
+		<path id="_82019672" fill="#C2C1C1" d="M-76.408,230.14C-67.078,36.53,156.726-10.707,261.086,0.589    c247.175,26.751,375.045,333.811-89.662,392.32v51.769L59.925,347.955l111.499-79.016v51.769    c439.973-0.033,250.65-296.244,33.521-295.236C-12.187,26.481-61.346,162.357-76.408,230.142V230.14z"/>
+		<path id="_81661112" fill="none" stroke="#838281" stroke-width="0.7" d="M174.958,332.057    c-214.516-67.574,131.776-373.742,221.368-76.231l34.354,0.87l-61.044,50.586l-55.588-53.541l34.357,0.871    c-1.556-25.756,0.703-15.293-5.701-32.524"/>
+		<path id="_31226648" fill="none" stroke="#969594" stroke-width="0.7" d="M163.342,366.562    C-93.03,277.604,66.717,77.821,203.336,63.209c136.617-14.614,146.043,33.568,255.639,114.933l49.991-15.288l-53.667,95.951    L339.26,214.75l49.989-15.288"/>
+		<path id="_82827840" fill="none" stroke="#838281" stroke-width="0.7" d="M222.222,313.33    c-66.937-59.069-22.124-107.038,23.737-115.527c47.22-8.74,133.386,39.265,29.531,126.001l10.137,14.564l-48.312-7.82    l13.902-41.629l10.136,14.567c14.487-9.569,9.106-5.006,17.136-13.635"/>
+		
+			<text id="_80287096" transform="matrix(0.704 -1.0344 0.8267 0.5627 289.248 125.7378)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Releaseplan</text>
+		
+			<text id="_82926584" transform="matrix(1.161 -0.4665 0.3729 0.9279 345.5938 150.4136)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Iteration plan</text>
+		
+			<text id="_82927616" transform="matrix(1.2508 -0.0343 0.0274 0.9996 365.1504 201.5527)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Acceptance Test</text>
+		
+			<text id="_82927496" transform="matrix(1.0836 0.6257 -0.5001 0.866 360.6084 255.0137)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Stand up meeting</text>
+		
+			<text id="_82828704" transform="matrix(0.744 1.006 -0.804 0.5946 310.5938 299.1504)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Pair Negotiation</text>
+		
+			<text id="_82827168" transform="matrix(0.4227 1.1777 -0.9412 0.3378 262.25 362.2266)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Unit Test</text>
+		
+			<text id="_82827408" transform="matrix(0.3012 1.2144 -0.9706 0.2408 149.9165 238.5898)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Pair Programming</text>
+		
+			<text id="_81744064" transform="matrix(-0.034 1.2508 -0.9996 -0.0272 91.3384 313.957)" fill="#1F1A17" font-family="'MyriadPro-Regular'" font-size="26.2292">Code</text>
+		
+			<text id="_82117616" transform="matrix(1.2513 0 0 1 105.9956 99.125)" fill="#1F1A17" font-family="'Arial-BoldItalicMT'" font-size="22.199">weeks</text>
+		
+			<text id="_82926776" transform="matrix(1.2513 0 0 1 155.915 169.1978)" fill="#1F1A17" font-family="'Arial-BoldItalicMT'" font-size="19.7704">days</text>
+		
+			<text id="_82927400" transform="matrix(1.2513 0 0 1 60.8213 36.687)" fill="#1F1A17" font-family="'Arial-BoldItalicMT'" font-size="24.2864">months</text>
+		
+			<text id="_82711264" transform="matrix(1.2513 0 0 1 197.3613 227.082)" fill="#1F1A17" font-family="'Arial-BoldItalicMT'" font-size="15.6075">hours</text>
+		
+			<text id="_81661088" transform="matrix(1.0367 0 0 1 231.6309 272.6465)" fill="#1F1A17" font-family="'Arial-BoldItalicMT'" font-size="12.0345">minutes</text>
+	</g>
+</g>
+</svg>
