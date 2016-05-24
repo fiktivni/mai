@@ -6,3 +6,79 @@ Creation-Date: 2016-05-24T08:25:27+02:00
 Created Úterý 24 květen 2016
 
 **Jaké jsou základní fáze řízení projektu (postupy, etapy, organizační a personální) a jaká základní projektová dokumentace tyto fáze provází?**
+
+{{../Project_development_stages.jpg}}
+
+* https://en.m.wikipedia.org/wiki/Project_management
+* Traditionally, project management includes a number of elements: four to five project management process groups, and a control system. Regardless of the methodology or terminology used, the same basic project management processes or stages of development will be used. Major process groups generally include:
+	* Initiation
+	* Planning
+	* Production or execution
+	* Monitoring and controlling
+	* Closing
+
+===== Initiating =====
+{{../Initiating_Process_Group_Processes.jpg?width=535}}
+* The initiating stage should include a plan that encompasses the following areas:
+	* analyzing the business [[https://en.m.wikipedia.org/wiki/Requirement|needs/requirements]] in measurable goals
+	* reviewing of the current  [[https://en.m.wikipedia.org/wiki/Business_operations|business operations]]
+	* [[https://en.m.wikipedia.org/wiki/Financial_analysis|financial analysis]] of the costs and benefits including a budget
+	* [[https://en.m.wikipedia.org/wiki/Stakeholder_analysis|stakeholder analysis]], including users, and support personnel for the project
+	* [[https://en.m.wikipedia.org/wiki/Project_charter|project charter]] including costs, tasks, deliverables, and schedules
+
+===== Planning =====
+* [[https://en.m.wikipedia.org/wiki/Project_planning|Project planning]] generally consists of:
+	* determining how to plan (e.g. by level of detail or [[https://en.m.wikipedia.org/wiki/Rolling_Wave_planning|Rolling Wave planning]]);
+	* developing the [[https://en.m.wikipedia.org/wiki/Scope_statement|scope statement]];
+	* selecting the planning team;
+	* identifying deliverables and creating the work breakdown structure;
+	* identifying the activities needed to complete those deliverables and networking the activities in their logical sequence;
+	* estimating the resource requirements for the activities;
+	* estimating time and cost for activities;
+	* developing the schedule;
+	* developing the budget;
+	* risk planning;
+	* gaining formal approval to begin work.
+
+===== Executing =====
+{{../Executing_Process_Group_Processes.jpg?width=535}}
+* The execution/implementation phase ensures that the project management plan’s deliverables are executed accordingly. This phase involves proper allocation, co-ordination and management of human resources and any other resources such as material and budgets. The output of this phase is the project deliverables.
+
+===== Monitoring and controlling =====
+{{../Monitoring_and_Controlling_Process_Group_Processes.jpg?width=535}}
+* **Monitoring and controlling** __cycle__ includes:
+	* Measuring the ongoing project activities ('where we are');
+	* Monitoring the project variables (cost, effort, scope, etc.) against the project management plan and the project performance baseline (where we should be);
+	* Identify corrective actions to address issues and risks properly (How can we get on track again);
+	* Influencing the factors that could circumvent integrated change control so only approved changes are implemented.
+* Project **maintenance** is an ongoing process, and it includes:
+	* Continuing support of end-users
+	* Correction of errors
+	* Updates to the product over time
+
+===== Closing =====
+{{../Closing_Process_Group_Processes.jpg?width=535}}
+* This phase consists of:
+	* **Contract closure**: Complete and settle each contract (including the resolution of any open items) and close each contract applicable to the project or project phase.
+	* **Project close**: Finalize all activities across all of the process groups to formally close the project or a project phase
+
+===== Project controlling and project control systems =====
+* Project controlling should be established as __an independent function in project management__. It implements verification and controlling function during the processing of a project in order to reinforce the defined performance and formal goals. The **tasks of project controlling** are also:
+	* the creation of infrastructure for the supply of the right information and its update
+	* the establishment of a way to communicate disparities of project parameters
+	* the development of project information technology based on an intranet or the determination of a project key performance indicator system (KPI)
+	* divergence analyses and generation of proposals for potential project regulations
+	* the establishment of methods to accomplish an appropriate project structure, project workflow organization, project control and governance
+	* creation of transparency among the project parameters
+* The following **methods of project controlling** can be applied:
+	* investment analysis
+	* cost–benefit analysis
+	* value benefit analysis
+	* expert surveys
+	* simulation calculations
+	* risk-profile analysis
+	* surcharge calculations
+	* [[https://en.m.wikipedia.org/wiki/Milestone_(project_management)|milestone]] trend analysis
+	* cost trend analysis
+	* target/actual-comparison
+* __Project control is that element of a project that keeps it on-track, on-time and within budget.__
