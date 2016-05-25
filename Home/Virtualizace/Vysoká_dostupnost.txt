@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-25T08:07:40+02:00
+
+====== Vysoká dostupnost ======
+Created Středa 25 květen 2016
+
+**Popište komponenty a techniky, které se používají v oblasti virtualizace pro zajištění vysoké dostupnosti (High Availability).**
+
+* https://en.m.wikipedia.org/wiki/Virtualization
+
+===== Snapshots =====
+* https://en.m.wikipedia.org/wiki/Snapshot_%28computer_storage%29
+* A snapshot is the state of a virtual machine, and generally its storage devices, at an exact point in time.
+* A snapshot enables the virtual machine's state at the time of the snapshot to be restored later, __effectively undoing any changes__ that occurred afterwards. This capability is useful as a backup technique, for example, prior to performing a risky operation.
+* Other components of a virtual machine can also be included in a snapshot, such as the contents of its random-access memory (RAM), BIOS settings, or its configuration settings.
+
+===== Migration =====
+* https://en.m.wikipedia.org/wiki/Migration_%28virtualization%29
+* The snapshots described above can be moved to another host machine with its own hypervisor; when the VM is temporarily stopped, snapshotted, moved, and then resumed on the new host, this is known as migration. If the older snapshots are kept in sync regularly, this operation can be quite fast, and allow the VM to provide __uninterrupted service__ while its prior physical host is, for example, taken down for physical maintenance.
+
+===== Failover =====
+* https://en.m.wikipedia.org/wiki/Failover
+* Similarly to the migration mechanism described above, __failover allows the VM to continue operations if the host fails__. However, in this case, the __VM continues operation from the last-known coherent state,__ rather than the current state, based on whatever materials the backup server was last provided with.
