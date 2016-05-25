@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-25T09:16:30+02:00
+
+====== Intrusion detection system ======
+Created Středa 25 květen 2016
+
+**Představte si, že jste odpovědný za bezpečnost infrastruktury podniku. Navrhněte a popište architekturu, která bude monitorovat útoky na tuto infrastrukturu, detekovat je a bude jim zabraňovat. Nezapomeňte zmínit metody zabezpečení na aplikační vrstvě.**
+
+* https://en.m.wikipedia.org/wiki/Intrusion_detection_system
+* https://en.m.wikipedia.org/wiki/Application_firewall
+* [[../../Infrastruktura.pdf|Bezpečnost infrastruktury od Petra Břehovskýho]]
+
+* An intrusion detection system (IDS) is __a device or software application that monitors network or system activities for malicious activities or policy violations and produces electronic reports to a management station__.
+* There are **network based** (NIDS) and **host based** (HIDS) intrusion detection systems.
+
+===== Network Intrusion Detection Systems =====
+* Network Intrusion Detection Systems (NIDS) are __placed at a strategic point or points within the network to monitor traffic__ to and from all devices on the network. __It performs an analysis of passing traffic on the entire subnet__, and matches the traffic that is passed on the subnets to the library of known attacks.
+* Once an attack is identified, or abnormal behavior is sensed, the __alert can be sent to the administrator__. 
+* When we classify the designing of the NIDS according to the system interactivity property, there are two types: on-line and off-line NIDS.
+	* **On-line NIDS** deals with the network in real time. It analyses the Ethernet packets and applies some rules, to decide if it is an attack or not.
+	* **Off-line NIDS** deals with stored data and passes it through some processes to decide if it is an attack or not.
+
+===== Host Intrusion Detection Systems =====
+* https://en.m.wikipedia.org/wiki/Host-based_intrusion_detection_system
+* Host Intrusion Detection Systems (HIDS) __run on individual hosts or devices on the network__.
+* __A HIDS monitors the inbound and outbound packets from the device only and will alert the user or administrator if suspicious activity is detected__.
+* __It takes a snapshot of existing system files and matches it to the previous snapshot__. If the critical system files were modified or deleted, an alert is sent to the administrator to investigate.
+* An example of HIDS usage can be seen on mission critical machines, which are not expected to change their configurations.
+
+===== Passive and reactive systems =====
+* In a **passive** system, the intrusion detection system (IDS) sensor detects a potential security breach, logs the information and signals an alert on the console or owner.
+* In a **reactive** system, also known as an **intrusion prevention system** (IPS), the IPS auto-responds to the suspicious activity by resetting the connection or by reprogramming the firewall to block network traffic from the suspected malicious source.
+
+===== Limitations =====
+* __Noise can severely limit an intrusion detection system's effectiveness.__ Bad packets generated from software bugs, corrupt DNS data, and local packets that escaped can create a significantly high false-alarm rate.
+* __It is not uncommon for the number of real attacks to be far below the number of false-alarms__. Number of real attacks is often so far below the number of false-alarms that the real attacks are often missed and ignored.[5]
+* __Many attacks are geared for specific versions of software that are usually outdated__. A constantly changing library of signatures is needed to mitigate threats. Outdated signature databases can leave the IDS vulnerable to newer strategies.
+* __For signature-based IDSes there will be lag between a new threat discovery and its signature being applied to the IDS__. During this lag time the IDS will be unable to identify the threat.
+* __It cannot compensate for a weak identification and authentication mechanisms or for weaknesses in network protocols__. When an attacker gains access due to weak authentication mechanism then IDS cannot prevent the adversary from any malpractise.
+* __Encrypted packets are not processed by the intrusion detection software__. Therefore, the encrypted packet can allow an intrusion to the network that is undiscovered until more significant network intrusions have occurred.
+* Intrusion detection software provides information based on the network address that is associated with the IP packet that is sent into the network. This is beneficial if the network address contained in the IP packet is accurate. However, t__he address that is contained in the IP packet could be faked or scrambled__.
+* Due to the nature of NIDS systems, and the need for them to analyse protocols as they are captured, __NIDS systems can be susceptible to same protocol based attacks that network hosts may be vulnerable.__ Invalid data and TCP/IP stack attacks may cause an NIDS to crash.
+
+===== Evasion techniques =====
+* **Fragmentation**: by sending fragmented packets, the attacker will be under the radar and can easily bypass the detection system's ability to detect the attack signature.
+* **Avoiding defaults**: The TCP port utilised by a protocol does not always provide an indication to the protocol which is being transported. For example, an IDS may expect to detect a trojan on port 12345. If an attacker had reconfigured it to use a different port the IDS may not be able to detect the presence of the trojan.
+* **Coordinated, low-bandwidth attacks**: coordinating a scan among numerous attackers (or agents) and __allocating different ports or hosts to different attackers makes it difficult for the IDS to correlate the captured packets and deduce that a network scan is in progress__.
+* **Address spoofing/proxying**: attackers can increase the difficulty of the ability of Security Administrators to determine the source of the attack by using poorly secured or incorrectly configured proxy servers to bounce an attack. If the source is spoofed and bounced by a server then it makes it very difficult for IDS to detect the origin of the attack.
+* **Pattern change evasion**: IDSs generally rely on ‘pattern matching’ to detect an attack. __By changing the data used in the attack slightly, it may be possible to evade detection.__ For example, an IMAP server may be vulnerable to a buffer overflow, and an IDS is able to detect the attack signature of 10 common attack tools. By modifying the payload sent by the tool, so that it does not resemble the data that the IDS expects, it may be possible to evade detection.
+

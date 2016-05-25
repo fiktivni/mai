@@ -22,7 +22,7 @@ Toto je [[../LICENSE|otevřená]] wiki k magisterským státním závěrečný z
 
 ===== Informační systémy a technologie =====
 [ ] [[+Architektura počítačů|Architektura počítačů]]
-[ ] [[+Virtualizace|Virtualizace]]
+[*] [[+Virtualizace|Virtualizace]]
 [ ] [[+Cloud|Cloud]]
 [ ] [[+Datová centra|Datová centra]]
 [ ] [[+Pokročilé databázové systémy|Pokročilé databázové systémy]]
