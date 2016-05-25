@@ -1,0 +1,49 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-25T06:47:27+02:00
+
+====== Dělení ======
+Created Středa 25 květen 2016
+
+**Popište základní rozdělení virtualizace dle druhu (typu). Zaměřte se především na způsob obsluhy procesoru a jeho privilegovaných instrukcí.**
+
+===== Hardware virtualization =====
+* Different types of hardware virtualization include:
+	* [[https://en.m.wikipedia.org/wiki/Full_virtualization|Full virtualization]] – almost complete simulation of the actual hardware to allow software, which typically consists of a guest operating system, to run unmodified.
+		* A key challenge for full virtualization is the interception and simulation of privileged operations, such as I/O instructions. The effects of every operation performed within a given virtual machine must be kept within that virtual machine – virtual operations cannot be allowed to alter the state of any other virtual machine, the control program, or the hardware.
+	* [[https://en.m.wikipedia.org/wiki/Partial_virtualization|Partial virtualization]] – some but __not all of the target environment attributes are simulated__. As a result, some guest __programs may need modifications to run in such virtual environments__.
+	* [[https://en.m.wikipedia.org/wiki/Paravirtualization|Paravirtualization]] – __a hardware environment is not simulated__; however, the guest __programs are executed in their own isolated domains, as if they are running on a separate system__. Guest __programs need to be specifically modified to run in this environment__.
+
+===== Desktop virtualization =====
+* Desktop virtualization is the concept of separating the logical desktop from the physical machine.
+* One form of desktop virtualization, virtual desktop infrastructure (VDI), can be thought of as __a more advanced form of hardware virtualization__. __Rather than interacting with a host computer directly via a keyboard, mouse, and monitor, the user interacts with the host computer using another desktop computer or a mobile device by means of a network connection__, such as a LAN, Wireless LAN or even the Internet. In addition, __the host computer in this scenario becomes a server computer capable of hosting multiple virtual machines at the same time for multiple users__.
+* Moving virtualized desktops into the cloud creates hosted virtual desktops (HVDs), in which the desktop images are centrally managed and maintained by a specialist hosting firm. Benefits include scalability and the reduction of capital expenditure, which is replaced by a monthly operational cost.
+
+===== Software =====
+* [[https://en.m.wikipedia.org/wiki/Operating_system-level_virtualization|Operating system-level virtualization]], hosting of __multiple virtualized environments within a single OS instance__.
+* [[https://en.m.wikipedia.org/wiki/Application_virtualization|Application virtualization]] and [[https://en.m.wikipedia.org/wiki/Workspace_virtualization|workspace virtualization]], the __hosting of individual applications in an environment separated from the underlying OS__. Application virtualization is closely associated with the concept of [[https://en.m.wikipedia.org/wiki/Portable_application|portable applications]].
+* [[https://en.m.wikipedia.org/wiki/Service_virtualization|Service virtualization]], emulating the behavior of dependent (e.g., third-party, evolving, or not implemented) system components that are needed to exercise an [[https://en.m.wikipedia.org/wiki/Application_under_test|application under test]] (AUT) for development or testing purposes. __Rather than virtualizing entire components, it virtualizes only specific slices of dependent behavior critical to the execution of development and testing tasks.__
+
+===== Memory =====
+* [[https://en.m.wikipedia.org/wiki/Memory_virtualization|Memory virtualization]], aggregating [[https://en.m.wikipedia.org/wiki/Random-access_memory|random-access memory]] (RAM) resources from networked systems into a single [[https://en.m.wikipedia.org/wiki/Memory_pool|memory pool]]
+* [[https://en.m.wikipedia.org/wiki/Virtual_memory|Virtual memory]], giving an application program the impression that it has contiguous working memory, isolating it from the underlying physical memory implementation
+
+===== Storage =====
+* [[https://en.m.wikipedia.org/wiki/Storage_virtualization|Storage virtualization]], the process of completely abstracting logical storage from physical storage; See [[https://en.m.wikipedia.org/wiki/Logical_volume_management|LVM]] & [[https://en.m.wikipedia.org/wiki/Logical_Volume_Manager_%28Linux%29|LVM in Linux]]
+* [[https://en.m.wikipedia.org/wiki/Distributed_file_system|Distributed file system]], any [[https://en.m.wikipedia.org/wiki/File_system|file system]] that allows access to files from multiple hosts sharing via a computer network
+* [[https://en.m.wikipedia.org/wiki/Virtual_file_system|Virtual file system]], an abstraction layer on top of a more concrete file system, allowing client applications to access different types of concrete file systems in a uniform way
+* [[https://en.m.wikipedia.org/wiki/Storage_hypervisor|Storage hypervisor]], the software that manages storage virtualization and combines physical storage resources into one or more flexible pools of logical storage
+* [[https://en.m.wikipedia.org/wiki/Vdisk|Virtual disk drive]], a computer program that emulates a disk drive such as a hard disk drive or optical disk drive (see comparison of disc image software)
+
+===== Data =====
+* [[https://en.m.wikipedia.org/wiki/Data_virtualization|Data virtualization]], the presentation of data as an abstract layer, independent of underlying database systems, structures and storage.
+* [[https://en.m.wikipedia.org/wiki/Database_virtualization|Database virtualization]], the decoupling of the database layer, which lies between the storage and application layers within the application stack over all.
+
+===== Network =====
+* [[https://en.m.wikipedia.org/wiki/Network_virtualization|Network virtualization]], creation of a virtualized network a[[https://en.m.wikipedia.org/wiki/Address_space|ddressing space]] within or across network subnets
+* [[https://en.m.wikipedia.org/wiki/Virtual_private_network|Virtual private network]] (VPN), a [[https://en.m.wikipedia.org/wiki/Network_protocol|network protocol]] that replaces the actual wire or other physical media in a network with an abstract layer, allowing a network to be created over the [[https://en.m.wikipedia.org/wiki/Internet|Internet]]
+
+===== Nested virtualization =====
+* Nested virtualization refers to the ability of running a [[https://en.m.wikipedia.org/wiki/Virtual_machine|virtual machine]] within another, having this general concept extendable to an arbitrary depth.
+
+
