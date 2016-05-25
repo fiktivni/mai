@@ -8,7 +8,7 @@ Created Čtvrtek 07 leden 2016
 ===== Témata =====
 [*] [[+Výhody|Jaké přináší hlavní výhody virtualizace a konsolidace?]]
 [*] [[+Dělení|Popište základní rozdělení virtualizace dle druhu (typu). Zaměřte se především na způsob obsluhy procesoru a jeho privilegovaných instrukcí.]]
-[ ] Uveďte základní definici virtualizace v serverovém prostředí. Jaké jsou její hlavní výhody a přínosy. Doplňující otázka: co je to virtualizace desktopů?
+[*] [[+Virtualizace serverů a desktopů|Uveďte základní definici virtualizace v serverovém prostředí. Jaké jsou její hlavní výhody a přínosy. Doplňující otázka: co je to virtualizace desktopů?]]
 [*] [[+Vysoká dostupnost|Popište komponenty a techniky, které se používají v oblasti virtualizace pro zajištění vysoké dostupnosti (High Availability).]]
 
 ===== Materiály =====

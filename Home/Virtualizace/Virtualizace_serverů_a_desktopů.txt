@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-25T08:17:30+02:00
+
+====== Virtualizace serverů a desktopů ======
+Created Středa 25 květen 2016
+
+**Uveďte základní definici virtualizace v serverovém prostředí. Jaké jsou její hlavní výhody a přínosy. Doplňující otázka: co je to virtualizace desktopů?**
+
+* viz [[Dělení]] a [[Výhody]]
+
+===== Virtual private server =====
+* https://en.m.wikipedia.org/wiki/Virtual_private_server
+* A VPS runs its own copy of an operating system, and customers have superuser-level access to that operating system instance, so they can install almost any software that runs on that OS. For many purposes __they are functionally equivalent to a dedicated physical server, and being software-defined, are able to be much more easily created and configured__. They are priced much lower than an equivalent physical server, but as they share the underlying physical hardware with other VPSs, performance may be lower, and may depend on the workload of other instances on the same hardware node.
+* See [[https://en.m.wikipedia.org/wiki/Kernel-based_Virtual_Machine|KVM]]
