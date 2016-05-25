@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-25T06:33:07+02:00
+
+====== Výhody ======
+Created Středa 25 květen 2016
+
+**Jaké přináší hlavní výhody virtualizace a konsolidace?**
+
+* https://software.intel.com/en-us/articles/the-advantages-of-using-virtualization-technology-in-the-enterprise
+* {{../aspose.words.demos.001.png?width=535}}
+
+===== Advantages of Using Virtualization =====
+
+Today’s IT intensive enterprise must always be on the lookout for the latest technologies that allow businesses to run with fewer resources while providing the infrastructure to meet today and future customer needs. Virtualization utilizing Intel Virtualization Technology is the cutting edge of enterprise information technology. Intel is closely working with VMware, XENSource, Jaluna, Parallels, tenAsys, VirtualIron, RedHat, Novell and other VMM developers.
+
+==== Server Consolidation ====
+* __It is not unusual to achieve 10:1 virtual to physical machine consolidation.__ This means that ten server applications can be run on a single machine that had required as many physical computers to provide the unique operating system and technical specification environments in order to operate. Server utilization is optimized and l__egacy software can maintain old OS configurations while new applications are running in VMs with updated platforms__.
+* Although a server supporting many VMs will probably have more memory, CPUs, and other hardware it will __use little or no more power and occupy the same physical space reducing utilities costs and real estate expenditures__.
+
+==== Testing and development ====
+* __Use of a VM enables rapid deployment by isolating the application in a known and controlled environment__. Unknown factors such as mixed libraries caused by numerous installs can be eliminated. Severe crashes that required hours of reinstallation now take moments by simply copying a virtual image.
+
+==== Dynamic Load Balancing and Disaster Recovery ====
+* As server workloads vary, virtualization provides the ability for virtual machines that are over utilizing the resources of a server to be moved to underutilized servers.  This __dynamic load balancing creates efficient utilization of server resources__.
+* Disaster recovery is a critical component for IT, as system crashes can create huge economic losses. __Virtualization technology enables a virtual image on a machine to be instantly re-imaged on another server if a machine failure occurs__.
+
+==== Virtual Desktops ====
+* Multinational flexibility __provides seamless transitions between different operating systems on a single machine reducing desktop footprint and hardware expenditure__.
+* “…Parallels Desktop for Mac, a virtual machine application. Instead of Boot Camp's dual-boot approach, Parallels Desktop runs Windows XP directly on the Mac OS desktop (in what Parallels calls "near-native performance")--allowing you to run both OSs simultaneously and switch back and forth seamlessly.” Daniel A. Begun, CNet: Heresy: Windows XP performance on a Mac.
+
+==== Improved System Reliability and Security ====
+* Virtualization of systems __helps prevent system crashes due to memory corruption caused by software like device drivers__. VT-d for Directed I/O Architecture provides methods to better control system devices by defining the architecture for DMA and interrupt remapping to ensure improved isolation of I/O resources for greater reliability, security, and availability.

@@ -11,7 +11,8 @@ Created Úterý 24 květen 2016
 * Regardless of the methodology employed, __careful consideration must be given to the overall project objectives, timeline, and cost, as well as the roles and responsibilities of all participants and stakeholders__.
 
 ===== The traditional approach =====
-* A traditional phased approach identifies a sequence of steps to be completed. In the "traditional approach", five developmental components of a project can be distinguished (four stages plus control):{{../Project_Management_(phases).png?width=535}}
+* A traditional phased approach identifies a sequence of steps to be completed. In the "traditional approach", five developmental components of a project can be distinguished (four stages plus control):
+* {{../Project_Management_(phases).png?width=535}}
 	1. initiation
 	2. planning and design
 	3. execution and construction
@@ -22,7 +23,8 @@ Created Úterý 24 květen 2016
 * While the terms may differ from industry to industry, the actual stages typically follow common steps to problem solving—"__defining the problem, weighing options, choosing a path, implementation and evaluation.__"
 
 ===== PRINCE2 =====
-* PRINCE2 provides a method for managing projects within a clearly defined framework.{{../Prince2_procces_model_.jpg?width=535}}
+* PRINCE2 provides a method for managing projects within a clearly defined framework.
+* {{../Prince2_procces_model_.jpg?width=535}}
 * **PRINCE2 focuses on the definition and delivery of products**, in particular their quality requirements. As such, it defines a successful project as being __output-oriented__ (not activity- or task-oriented) through creating an agreed set of products that define the scope of the project and provides the basis for planning and control, that is, how then to coordinate people and activities, how to design and supervise product delivery, and what to do if products and therefore the scope of the project has to be adjusted if it does not develop as planned.
 * In the method, **each process is specified with its key inputs and outputs** **and with specific goals and activities to be carried out to deliver a project's outcomes** as defined by its Business Case. This allows for __continuous assessment__ and adjustment when deviation from the Business Case is required.
 
@@ -37,7 +39,7 @@ Created Úterý 24 květen 2016
 * Lean project management uses the principles from [[https://en.m.wikipedia.org/wiki/Lean_manufacturing|lean manufacturing]] to __focus on delivering value with less waste and reduced time__.
 
 ===== Extreme project management =====
-{{../Xp-loop_with_time_frames.svg?width=535}}
+* {{../Xp-loop_with_time_frames.svg?width=535}}
 * The generalization of Extreme Programming to other kinds of projects is [[https://en.m.wikipedia.org/wiki/Extreme_project_management|extreme project management]], which may be used in combination with the [[https://en.m.wikipedia.org/wiki/Process_modeling|process modeling]] and management principles of [[https://en.m.wikipedia.org/wiki/Human_interaction_management|human interaction management]].
 * Extreme project management differs from traditional project management mainly in its **open, elastic and undeterministic approach**. __The main focus of XPM is on the human side of project management (e.g. managing project stakeholders), rather than on intricate scheduling techniques and heavy formalism.__
 * Extreme project management corresponds to [[https://en.m.wikipedia.org/wiki/Extreme_programming|extreme programming]].

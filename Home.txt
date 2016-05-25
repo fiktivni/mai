@@ -14,7 +14,7 @@ Toto je [[../LICENSE|otevřená]] wiki k magisterským státním závěrečný z
 
 ===== Informační management =====
 [*] [[+Životní cyklus IT zakázky|Životní cyklus IT zakázky]]
-[ ] [[+Řízení projektu|Řízení projektu]]
+[*] [[+Řízení projektu|Řízení projektu]]
 [*] [[+Agilní metody vývoje software|Agilní metody vývoje software]]
 [*] [[+Strategické řízení firemních informací|Strategické řízení firemních informací]]
 [*] [[+Ochrana osobních údajů|Ochrana osobních údajů]]

@@ -10,7 +10,7 @@ Created Úterý 12 leden 2016
 ===== Technická opatření =====
 * [[https://cs.wikipedia.org/wiki/Intrusion_Detection_System|Intrusion detection system]]
 * __Záloha → obnova dat__
-* Monitorování  sítě(odhalování DOS a jiných útoků)
+* Monitorování  sítě (odhalování DOS a jiných útoků)
 * __detekce útoku __→ autodetekce
 	* porovnávání signatur
 	* porovnávací pravidla

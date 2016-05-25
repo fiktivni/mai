@@ -11,4 +11,4 @@ Created Čtvrtek 07 leden 2016
 
 ===== Materiály =====
 [[../Databázové systémy.pdf|Databázové systémy]]
-[[https://en.wikipedia.org/wiki/Database|Database @Wikipedia]]
+https://en.m.wikipedia.org/wiki/Database

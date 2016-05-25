@@ -7,8 +7,7 @@ Created Úterý 24 květen 2016
 
 **Jaké jsou základní fáze řízení projektu (postupy, etapy, organizační a personální) a jaká základní projektová dokumentace tyto fáze provází?**
 
-{{../Project_development_stages.jpg}}
-
+* {{../Project_development_stages.jpg}}
 * https://en.m.wikipedia.org/wiki/Project_management
 * Traditionally, project management includes a number of elements: four to five project management process groups, and a control system. Regardless of the methodology or terminology used, the same basic project management processes or stages of development will be used. Major process groups generally include:
 	* Initiation
@@ -18,7 +17,7 @@ Created Úterý 24 květen 2016
 	* Closing
 
 ===== Initiating =====
-{{../Initiating_Process_Group_Processes.jpg?width=535}}
+* {{../Initiating_Process_Group_Processes.jpg?width=535}}
 * The initiating stage should include a plan that encompasses the following areas:
 	* analyzing the business [[https://en.m.wikipedia.org/wiki/Requirement|needs/requirements]] in measurable goals
 	* reviewing of the current  [[https://en.m.wikipedia.org/wiki/Business_operations|business operations]]
@@ -41,11 +40,11 @@ Created Úterý 24 květen 2016
 	* gaining formal approval to begin work.
 
 ===== Executing =====
-{{../Executing_Process_Group_Processes.jpg?width=535}}
+* {{../Executing_Process_Group_Processes.jpg?width=535}}
 * The execution/implementation phase ensures that the project management plan’s deliverables are executed accordingly. This phase involves proper allocation, co-ordination and management of human resources and any other resources such as material and budgets. The output of this phase is the project deliverables.
 
 ===== Monitoring and controlling =====
-{{../Monitoring_and_Controlling_Process_Group_Processes.jpg?width=535}}
+* {{../Monitoring_and_Controlling_Process_Group_Processes.jpg?width=535}}
 * **Monitoring and controlling** __cycle__ includes:
 	* Measuring the ongoing project activities ('where we are');
 	* Monitoring the project variables (cost, effort, scope, etc.) against the project management plan and the project performance baseline (where we should be);
@@ -57,7 +56,7 @@ Created Úterý 24 květen 2016
 	* Updates to the product over time
 
 ===== Closing =====
-{{../Closing_Process_Group_Processes.jpg?width=535}}
+* {{../Closing_Process_Group_Processes.jpg?width=535}}
 * This phase consists of:
 	* **Contract closure**: Complete and settle each contract (including the resolution of any open items) and close each contract applicable to the project or project phase.
 	* **Project close**: Finalize all activities across all of the process groups to formally close the project or a project phase

@@ -7,7 +7,7 @@ Created Úterý 05 leden 2016
 
 ===== Témata =====
 [*] [[+Metodiky|Jaké jsou hlavní metodiky řízení projektu a možnosti použití (v závislosti na věcném obsahu projektu)?]]
-[ ] [[+Fáze|Jaké jsou základní fáze řízení projektu (postupy, etapy, organizační a personální) a jaká základní projektová dokumentace tyto fáze provází?]]
+[*] [[+Fáze|Jaké jsou základní fáze řízení projektu (postupy, etapy, organizační a personální) a jaká základní projektová dokumentace tyto fáze provází?]]
 
 ===== Materiály =====
 https://en.m.wikipedia.org/wiki/Project_management
