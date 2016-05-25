@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-25T11:06:35+02:00
+
+====== Firewall ======
+Created Středa 25 květen 2016
+
+**Jakým způsobem zabezpečíte síťovou část infrastruktury proti neoprávněnému přístupu či zneužití? Zaměřte se na Fyzické zabezpečení, ochranu aktivních prvků.**
+
+* https://en.m.wikipedia.org/wiki/Firewall_%28computing%29
+* First generation: **packet filters**
+* Second generation: **"stateful" filters**
+	* https://en.m.wikipedia.org/wiki/Stateful_firewall
+* Third generation: **application layer**
+	* https://en.m.wikipedia.org/wiki/Application_level_firewall
+
+===== Network layer or packet filters =====
+* Network layer firewalls, also called packet filters, operate at a relatively low level of the [[https://en.m.wikipedia.org/wiki/Internet_protocol_suite|TCP/IP]] [[https://en.m.wikipedia.org/wiki/Protocol_stack|protocol stack]], __not allowing packets to pass through the firewall unless they match the established rule set__. The firewall administrator may define the rules; or default rules may apply. The term "packet filter" originated in the context of [[https://en.m.wikipedia.org/wiki/BSD|BSD]] [[https://en.m.wikipedia.org/wiki/Operating_systems|operating systems]].
+* Network layer firewalls generally fall into two sub-categories, [[https://en.m.wikipedia.org/wiki/Stateful_firewall|stateful]] and [[https://en.m.wikipedia.org/wiki/Stateless_firewall|stateless]].
+* __Stateful firewalls maintain context about active sessions, and use that "state information" to speed packet processing__. Any existing network connection can be described by several properties, including source and destination IP address, UDP or TCP ports, and the current stage of the connection's lifetime (including session initiation, handshaking, data transfer, or completion connection). If a packet does not match an existing connection, it will be evaluated according to the ruleset for new connections. If a packet matches an existing connection based on comparison with the firewall's state table, it will be allowed to pass without further processing.
+* __Stateless firewalls require less memory, and can be faster for simple filters that require less time to filter than to look up a session__. They may also be necessary for filtering stateless network protocols that have no concept of a session. However, they cannot make more complex decisions based on what stage communications between hosts have reached.
+
+===== Application-layer =====
+* https://en.m.wikipedia.org/wiki/Application_firewall
+* An application firewall is a form of [[https://en.m.wikipedia.org/wiki/Firewall_(computing)|firewall]] that controls [[https://en.m.wikipedia.org/wiki/Input/output|input]], [[https://en.m.wikipedia.org/wiki/Output_(computing)|output]], and/or access from, to, or by an application or service. It operates by monitoring and potentially blocking the input, output, or [[https://en.m.wikipedia.org/wiki/System_call|system service calls]] that do not meet the configured policy of the firewall. The application firewall is typically built to control all network traffic on any [[https://en.m.wikipedia.org/wiki/OSI_model|OSI layer]] up to the [[https://en.m.wikipedia.org/wiki/OSI_model#Layer_7:_application_layer|application layer]].
+* It is able to control applications or services specifically, unlike a [[https://en.m.wikipedia.org/wiki/Stateful_firewall|stateful network firewall]], which is - without additional software - unable to control network traffic regarding a specific application. There are two primary categories of application firewalls, **network-based application firewalls** and **host-based application firewalls**.
+
+==== Network-based application firewalls ====
+* A network-based application layer firewall is a computer networking [[https://en.m.wikipedia.org/wiki/Firewall_(networking)|firewall]] operating at the [[https://en.m.wikipedia.org/wiki/Application_layer|application layer]] of a [[https://en.m.wikipedia.org/wiki/Protocol_stack|protocol stack]], and is also known as a proxy-based or reverse-proxy firewall. Application firewalls specific to a particular kind of network traffic may be titled with the service name, such as a web application firewall. They may be implemented through software running on a host or a stand-alone piece of network hardware. Often, it is a host using various forms of [[https://en.m.wikipedia.org/wiki/Proxy_server|proxy servers]] to proxy traffic before passing it on to the client or server. Because it acts on the application layer, it may inspect the contents of traffic, blocking specified content, such as certain websites, viruses, or attempts to exploit known logical flaws in client software.
+* Modern application firewalls may also [[https://en.m.wikipedia.org/wiki/SSL_acceleration|offload encryption from servers]], block application input/output from detected [[https://en.m.wikipedia.org/wiki/Intrusion_prevention|intrusions]] or [[https://en.m.wikipedia.org/wiki/Mangled_packet|malformed communication]], manage or consolidate [[https://en.m.wikipedia.org/wiki/Authentication|authentication]], or [[https://en.m.wikipedia.org/wiki/Data_loss_prevention_products|block content that violates policies]].
+
+==== Host-based application firewalls ====
+* A host-based application firewall can monitor any application input, output, and/or system service calls made from, to, or by an application. This is done by examining information passed through system calls instead of or in addition to a network stack. A host-based application firewall can only provide protection to the applications running on the same host.
+* See [[https://en.m.wikipedia.org/wiki/AppArmor|AppArmor]]

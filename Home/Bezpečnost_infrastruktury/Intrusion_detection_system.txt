@@ -8,7 +8,6 @@ Created Středa 25 květen 2016
 **Představte si, že jste odpovědný za bezpečnost infrastruktury podniku. Navrhněte a popište architekturu, která bude monitorovat útoky na tuto infrastrukturu, detekovat je a bude jim zabraňovat. Nezapomeňte zmínit metody zabezpečení na aplikační vrstvě.**
 
 * https://en.m.wikipedia.org/wiki/Intrusion_detection_system
-* https://en.m.wikipedia.org/wiki/Application_firewall
 * [[../../Infrastruktura.pdf|Bezpečnost infrastruktury od Petra Břehovskýho]]
 
 * An intrusion detection system (IDS) is __a device or software application that monitors network or system activities for malicious activities or policy violations and produces electronic reports to a management station__.
