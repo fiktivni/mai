@@ -6,7 +6,7 @@ Creation-Date: 2016-01-07T00:45:41+01:00
 Created Čtvrtek 07 leden 2016
 
 ===== Témata =====
-[ ] Cloud Computing a jeho využití, popište výhody, nevýhody a rizika.
+[*] [[+Využití, výhody a rizika|Cloud Computing a jeho využití, popište výhody, nevýhody a rizika.]]
 [ ] Model nasazení (to jak je Cloud poskytován) – popište a vysvětlete základní modely nasazení. (Privátní, veřejný, hybridní, komunitní)
 [ ] Distribuční model se zabývá tím, co je v rámci cloudové služby nabízeno. Vysvětlete termíny: PaaS, IaaS, SaaS.
 [ ] Jaký je nejrozšířenější platební model v oblasti cloudových služeb (platba za spotřebovaný výkon/paměť/přenos).

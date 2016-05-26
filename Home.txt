@@ -30,6 +30,6 @@ Toto je [[../LICENSE|otevřená]] wiki k magisterským státním závěrečný z
 [ ] [[+Počítačová grafika|Počítačová grafika]]
 [ ] [[+PKI|PKI]]
 [ ] [[+Identity a Access Management|Identity a Access Management]]
-[ ] [[+Bezpečnost infrastruktury|Bezpečnost infrastruktury]]
+[*] [[+Bezpečnost infrastruktury|Bezpečnost infrastruktury]]
 [*] [[+Návrh a implementace bezpečnosti|Návrh a implementace bezpečnosti]]
 [ ] [[+Počítačová kriminalita|Počítačová kriminalita]]

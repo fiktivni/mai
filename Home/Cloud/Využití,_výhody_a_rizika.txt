@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-26T07:33:50+02:00
+
+====== Využití, výhody a rizika ======
+Created Čtvrtek 26 květen 2016
+
+**Cloud Computing a jeho využití, popište výhody, nevýhody a rizika.**
+
+* https://en.m.wikipedia.org/wiki/Cloud_computing
+* Cloud computing is a model for __enabling ubiquitous, on-demand access to a shared pool of configurable computing resources__ (e.g., networks, servers, storage, applications and services), __which can be rapidly provisioned and released with minimal management effort__.
+
+===== Characteristics =====
+* **Agility** improves with users' ability to re-provision technological infrastructure resources.
+* **Cost** reductions claimed by cloud providers.
+* **Device and location independence** enable users to access systems using a web browser regardless of their location or what device they use (e.g., PC, mobile phone).
+* **Maintenance** of cloud computing applications **is easier**, because they do not need to be installed on each user's computer and can be accessed from different places.
+* [[https://en.m.wikipedia.org/wiki/Multitenancy|Multitenancy]] enables sharing of resources and costs across a large pool of users thus allowing for: 
+	* **centralization** of infrastructure in locations with lower costs (such as real estate, electricity, etc.)
+	* **peak-load capacity** increases (users need not engineer for highest possible load-levels)
+	* **utilisation and efficiency** improvements for systems that are often only 10–20% utilised.
+* **Performance** **is monitored, and consistent** and loosely coupled architectures are constructed using web services as the system interface..
+* **Productivity may be increased** when multiple users can work on the same data simultaneously, rather than waiting for it to be saved and emailed. **Time may be saved** as information does not need to be re-entered when fields are matched, nor do users need to install application software upgrades to their computer.
+* **Reliability improves** with the use of multiple redundant sites, which makes well-designed cloud computing suitable for business continuity and disaster recovery.
+* **Scalability and elasticity** via dynamic ("on-demand") provisioning of resources on a fine-grained, self-service basis in near real-time (Note, the VM startup time varies by VM type, location, OS and cloud providers), without users having to engineer for peak loads.
+* **Security** **can improve** due to centralization of data, increased security-focused resources, etc., but concerns can persist about loss of control over certain sensitive data, and the lack of security for stored kernels. __The complexity of security is greatly increased when data is distributed over a wider area or over a greater number of devices, as well as in multi-tenant systems shared by unrelated users.__
+
+===== Limitations =====
+* According to Bruce Schneier, "__The downside is that you will have limited customization options__. Cloud computing is cheaper because of economics of scale, and like any outsourced task, you tend to get what you get. A restaurant with a limited menu is cheaper than a personal chef who can cook anything you want. Fewer options at a much cheaper price: it's a feature, not a bug and the cloud provider might not meet your legal needs. As a business, you need to weigh the benefits against the risks."
+

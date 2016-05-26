@@ -7,7 +7,7 @@ Created Čtvrtek 07 leden 2016
 
 ===== Témata =====
 [*] [[+Intrusion detection system|Představte si, že jste odpovědný za bezpečnost infrastruktury podniku. Navrhněte a popište architekturu, která bude monitorovat útoky na tuto infrastrukturu, detekovat je a bude jim zabraňovat. Nezapomeňte zmínit metody zabezpečení na aplikační vrstvě.]]
-[ ] [[+Firewall|Jakým způsobem zabezpečíte síťovou část infrastruktury proti neoprávněnému přístupu či zneužití? Zaměřte se na Fyzické zabezpečení, ochranu aktivních prvků.]]
+[*] [[+Firewall|Jakým způsobem zabezpečíte síťovou část infrastruktury proti neoprávněnému přístupu či zneužití? Zaměřte se na Fyzické zabezpečení, ochranu aktivních prvků.]]
 
 ===== Materiály =====
 [[../Infrastruktura.pdf|Bezpečnost infrastruktury od Petra Břehovskýho]]
