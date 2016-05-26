@@ -6,9 +6,11 @@ Creation-Date: 2016-01-07T15:41:21+01:00
 Created Čtvrtek 07 leden 2016
 
 ===== Témata =====
-[ ] Představte si, že jste zodpovědný za WEB infrastrukturu organizace. Jaké útoky hrozí, jaké mohou mít důsledky a jak jim zabráníte?
-[ ] Představte si, že jste zodpovědný za síťovou infrastrukturu organizace. Jaké jsou možnosti jejího zneužití? Jaké jsou možnosti jejího monitorování s důrazem na bezpečnost informačních systémů? Jak může bezpečnosti IT infrastruktury napomoci topologie sítě?
-[ ] Jak byste jako člověk zodpovědný za bezpečnost IT v organizaci ochránil zaměstnance organizace a v důsledku zabránil útokům na kritickou infrastrukturu vedeným prostřednictvím uživatelů?
+[x] [[+WEB|Představte si, že jste zodpovědný za WEB infrastrukturu organizace. Jaké útoky hrozí, jaké mohou mít důsledky a jak jim zabráníte?]]
+[x] [[+Sítě|Představte si, že jste zodpovědný za síťovou infrastrukturu organizace. Jaké jsou možnosti jejího zneužití? Jaké jsou možnosti jejího monitorování s důrazem na bezpečnost informačních systémů? Jak může bezpečnosti IT infrastruktury napomoci topologie sítě?]]
+[x] [[+Zaměstnanci|Jak byste jako člověk zodpovědný za bezpečnost IT v organizaci ochránil zaměstnance organizace a v důsledku zabránil útokům na kritickou infrastrukturu vedeným prostřednictvím uživatelů?]]
 
 ===== Materiály =====
-[[../Kybernalita.pdf|Kybernalita]]
+* [[../Kybernalita.pdf|Kybernalita]]
+* [[+Cybercrime|Cybercrime]]
+

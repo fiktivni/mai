@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-26T13:43:07+02:00
+
+====== Zaměstnanci ======
+Created Čtvrtek 26 květen 2016
+
+**Jak byste jako člověk zodpovědný za bezpečnost IT v organizaci ochránil zaměstnance organizace a v důsledku zabránil útokům na kritickou infrastrukturu vedeným prostřednictvím uživatelů?**

@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-26T13:45:27+02:00
+
+====== Cybercrime ======
+Created Čtvrtek 26 květen 2016
+
+* https://www.owasp.org/index.php/Main_Page
+* https://en.m.wikipedia.org/wiki/Cybercrime
+
+===== Fraud and financial crimes =====
+* https://en.m.wikipedia.org/wiki/Internet_fraud
+* __Computer fraud is any dishonest misrepresentation of fact intended to let another to do or refrain from doing something which causes loss__. In this context, the fraud will result in obtaining a benefit by:
+	* __Altering in an unauthorized way__. This requires little technical expertise and is common form of theft by employees altering the data before entry or entering false data, or by entering unauthorized instructions or using unauthorized processes;
+	* __Altering, destroying, suppressing, or stealing output__, usually to conceal unauthorized transactions. This is difficult to detect;
+	* __Altering or deleting stored data__;
+
+===== Cyber terrorism =====
+* https://en.m.wikipedia.org/wiki/Cyberterrorism
+* A cyberterrorist is someone who intimidates or coerces a government or organization to advance his or her political or social objectives by launching a computer-based attack against computers, networks, or the information stored on them.
+
+===== Cyberextortion =====
+* https://en.m.wikipedia.org/wiki/Extortion
+* Cyberextortion occurs when a website, e-mail server, or __computer system is subjected to or threatened with repeated denial of service or other attacks by malicious hackers__. These hackers demand money in return for promising to stop the attacks and to offer "protection".
+
+===== Cyberwarfare =====
+* https://en.m.wikipedia.org/wiki/Cyberwarfare
+* The U.S. Department of Defense (DoD) notes that the cyberspace has emerged as a __national-level__ concern through several recent events of geo-strategic significance.
+
+===== Computer as a target =====
+* These crimes are committed by a selected group of criminals. Unlike crimes using the computer as a tool, __these crimes require the technical knowledge of the perpetrators__.
+* Crimes that primarily target computer networks or devices include:
+	* [[https://en.m.wikipedia.org/wiki/Computer_viruses|Computer viruses]]
+	* [[https://en.m.wikipedia.org/wiki/Denial-of-service_attacks|Denial-of-service attacks]]
+	* [[https://en.m.wikipedia.org/wiki/Malware|Malware]] (malicious code)
+
+===== Computer as a tool =====
+* [[https://en.m.wikipedia.org/wiki/Internet_fraud|Internet fraud]], [[https://en.m.wikipedia.org/wiki/Spamming|Spamming]], [[https://en.m.wikipedia.org/wiki/Phishing|Phishing]], [[https://en.m.wikipedia.org/wiki/Carding_(fraud)|Carding (fraud)]]
+* When the individual is the main target of cybercrime, the computer can be considered as the tool rather than the target.
+* These crimes generally involve less technical expertise. Human weaknesses are generally exploited.
+* The damage dealt is largely psychological and intangible, making legal action against the variants more difficult.
+* Crimes that use computer networks or devices to advance other ends include:
+	* [[https://en.m.wikipedia.org/wiki/Fraud|Fraud]] and [[https://en.m.wikipedia.org/wiki/Identity_theft|Identity theft]]  (although this increasingly uses malware, hacking and/or phishing, making it an example of both "computer as target" and "computer as tool" crime)
+	* [[https://en.m.wikipedia.org/wiki/Information_warfare|Information warfare]]
+	* [[https://en.m.wikipedia.org/wiki/Phishing|Phishing scams]]
+	* [[https://en.m.wikipedia.org/wiki/E-mail_spam|Spam]]
+	* Propagation of illegal obscene or offensive content, including harassment and threats
+
