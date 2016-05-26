@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-26T08:50:02+02:00
+
+====== Pojmy ======
+Created Čtvrtek 26 květen 2016
+
+**Vysvětlete tyto pojmy v kontextu cloud computingu: multitenantnost, škálovatelnost, On-demand self-service, Resource pooling, Rapid elasticity, Measured service.**
+
+===== Multitenancy =====
+* __meaning that any machine may serve more than one cloud-user organization.__
+* https://en.m.wikipedia.org/wiki/Multitenancy
+* The term "software multitenancy" refers to __a software architecture in which a single instance of software runs on a server and serves multiple tenants__. A tenant is a group of users who share a common access with specific privileges to the software instance.
+* With a multitenant architecture, a software application is designed to provide every tenant a dedicated share of the instance - including its data, configuration, user management, tenant individual functionality and non-functional properties.
+* __Multitenancy contrasts with multi-instance architectures, where separate software instances operate on behalf of different tenants.__
+
+===== Scalability =====
+* Scalability can be achieved by cloning tasks onto multiple virtual machines at run-time to meet changing work demand.
+* Load balancers distribute the work over the set of virtual machines.
+
+===== On-demand self-service =====
+* https://www.techopedia.com/definition/27915/on-demand-self-service
+* **Definition**:
+	* On-demand self service refers to __the service provided by cloud computing vendors that enables the provision of cloud resources on demand whenever they are required__. In on-demand self service, the user accesses cloud services through an online control panel.
+	* On-demand self service resource sourcing is a prime feature of most cloud offerings where the user can scale the required infrastructure up to a substantial level without disrupting the host operations.
+* **Explanation**:
+	* Cloud computing enables end users to provision computing power, storage, networks and software in a simple and flexible way. Most users begin by using limited resources and increase them over time. __On-demand self service methodology authorizes users to request resources on run time.__ This transition mostly takes place immediately, although it can depend on the architecture and resource availability of the cloud provider.
+	* __On-demand self service is also related to utility computing and the pay-as-you-grow subscription method,__ where rather than pay for the entire production infrastructure, the user is billed only for the amount of resources used under a subscription-based billing method. 
+
+===== Resource pooling =====
+* https://www.techopedia.com/definition/29545/resource-pooling
+* **Definition**:
+	* Resource pooling is an IT term used in cloud computing environments to describe __a situation in which providers serve multiple clients, customers or "tenants" with provisional and scalable services.__ __These services can be adjusted to suit each client's needs without any changes being apparent to the client or end user.__
+* **Explanation**:
+	* The idea behind resource pooling is that through modern scalable systems involved in cloud computing and software as a service (SaaS), providers can create a sense of infinite or immediately available resources by controlling resource adjustments at a meta level. __This allows customers to change their levels of service at will without being subject to any of the limitations of physical or virtual resources.__
+	* Other related terms include **rapid elasticity**, which also involves the dynamic provisioning of services, and on-demand self-service, where customers could change their levels of service without actually contacting a service provider.
+
+===== Rapid elasticity =====
+* https://www.techopedia.com/definition/29526/rapid-elasticity
+* **Definition**:
+	* Rapid elasticity is __a cloud computing term for scalable provisioning, or the ability to provide scalable services__. Experts point to this kind of scalable model as __one of five fundamental aspects of cloud computing__.
+* **Explanation**:
+	* __Rapid elasticity allows users to automatically request additional space in the cloud or other types of services__. Because of the setup of cloud computing services, provisioning can be seamless for the client or user.
+	* The fact that providers still need to allocate and de-allocate resources is often irrelevant on the client or user's side. This is a very essential aspect of cloud technology. __In a sense, cloud computing resources appear to be infinite or automatically available__. That’s much different from older systems, where the limits of storage or memory were immediately visible to a user.
+
+===== Measured service =====
+* https://www.techopedia.com/definition/14469/measured-service-cloud-computing
+* **Definition**:
+	* Measured service is a term that IT professionals apply to cloud computing. __This is a reference to services where the cloud provider measures or monitors the provision of services for various reasons, including billing, effective use of resources, or overall predictive planning.__
+* **Explanation**:
+	* The idea of measured service is __one of five components of a definition of cloud computing__ supported by the [[http://www.nist.gov/|National Institute of Standards and Technology]] or **NIST**. These five principles support a higher-level definition of cloud services and describe how they are typically designed. Other aspects of this definition include the terms '**rapid elasticity**’ and '**resource pooling**,’ which cover different kinds of resource allocation. There’s also '**on-demand self-service**,’ which refers to more automated service changes, and '**broad network access**,’ which refers to the overall footprint and capabilities of cloud systems.
+	* The NIST talks about measured service as a setup where cloud systems may control a user or tenant’s use of resources by leveraging a metering capability somewhere in the system. __The general idea is that in automated remote services, these measurement tools will provide both the customer and the provider with an account of what has been used.__ In more traditional systems, items like invoices and service change agreements would fill these same roles. __Measured service ensures that even when there is no specific interaction for a service change, that service change is still noted so that it can be negotiated or dealt with a later date, for instance, in a billing cycle.__
+
