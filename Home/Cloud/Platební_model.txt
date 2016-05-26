@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-26T09:43:41+02:00
+
+====== Platební model ======
+Created Čtvrtek 26 květen 2016
+
+**Jaký je nejrozšířenější platební model v oblasti cloudových služeb (platba za spotřebovaný výkon/paměť/přenos).**
+
+* https://en.m.wikipedia.org/wiki/Cloud_computing
+* Cloud providers typically use a "**pay as you go**" model. This can lead to unexpectedly high charges if administrators do not adapt to the cloud pricing model [http://www.forbes.com/sites/centurylink/2014/02/27/wheres-the-rub-cloud-computings-hidden-costs/#7fc55d83b514]
+* SaaS is sometimes referred to as "on-demand software" and is usually priced on a **pay-per-use** basis or using a subscription fee.
+* IaaS example: https://www.digitalocean.com/pricing/
+	* **monthly** vs **hourly**
