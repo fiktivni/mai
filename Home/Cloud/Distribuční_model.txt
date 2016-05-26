@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-26T08:30:52+02:00
+
+====== Distribuční model ======
+Created Čtvrtek 26 květen 2016
+
+**Distribuční model se zabývá tím, co je v rámci cloudové služby nabízeno. Vysvětlete termíny: PaaS, IaaS, SaaS.**
+
+* https://en.m.wikipedia.org/wiki/Cloud_computing
+* {{../Cloud_computing_layers.png}}
+
+===== Infrastructure as a service (IaaS) =====
+* In the most basic cloud-service model—and according to the IETF (Internet Engineering Task Force)—__providers of IaaS offer computers—physical or (more often) virtual machines__—and other resources.
+* IaaS refers to __online services that abstract the user from the details of infrastructure like physical computing resources, location, data partitioning, scaling, security, backup etc.__
+* A hypervisor such as [[https://en.m.wikipedia.org/wiki/Kernel-based_Virtual_Machine|KVM]] runs the virtual machines as guests.
+* __To deploy their applications, cloud users install operating-system images and their application software on the cloud infrastructure.__
+* In this model, the cloud __user patches and maintains the operating systems and the application software__.
+* Cloud providers typically bill IaaS services on a utility computing basis: cost reflects the amount of resources allocated and consumed.
+
+
+===== Platform as a service (PaaS) =====
+* https://en.m.wikipedia.org/wiki/Platform_as_a_service
+* __In the PaaS models, cloud providers deliver a computing platform__, typically including operating system, programming-language execution environment, database, and web server.
+* Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.
+* __The underlying computer and storage resources scale automatically to match application demand__ so that the cloud user does not have to allocate resources manually.
+* Platform as a Service (PaaS) __consumers do not manage or control the underlying cloud infrastructure including network, servers, operating systems, or storage, but have control over the deployed applications and possibly configuration settings for the application-hosting environment.__
+
+
+===== Software as a service (SaaS) =====
+* https://en.m.wikipedia.org/wiki/Software_as_a_service
+* In the software as a service (SaaS) model, __users gain access to application software and databases__. __Cloud providers manage the infrastructure and platforms__ that run the applications. SaaS is sometimes referred to as "on-demand software" and is usually priced on a pay-per-use basis or using a subscription fee.
+* __Cloud applications differ from other applications in their scalability__—which can be achieved by cloning tasks onto multiple virtual machines at run-time to meet changing work demand. Load balancers distribute the work over the set of virtual machines. This process is transparent to the cloud user, who sees only a single access-point.
+* __The pricing model for SaaS applications is typically a monthly or yearly flat fee per user, so prices become scalable and adjustable if users are added or removed at any point.__
+* __Proponents claim that SaaS gives a business the potential to reduce IT operational costs by outsourcing hardware and software maintenance and support to the cloud provider__. This enables the business to reallocate IT operations costs away from hardware/software spending and from personnel expenses, towards meeting other goals. __In addition, with applications hosted centrally, updates can be released without the need for users to install new software__.
+* __One drawback__ of SaaS comes with storing the users' data on the cloud provider's server. As a result, __there could be unauthorized access to the data__.
