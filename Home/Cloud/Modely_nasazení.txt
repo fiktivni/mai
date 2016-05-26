@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-26T08:11:11+02:00
+
+====== Modely nasazení ======
+Created Čtvrtek 26 květen 2016
+
+**Model nasazení (to jak je Cloud poskytován) – popište a vysvětlete základní modely nasazení. (Privátní, veřejný, hybridní, komunitní)**
+
+* https://en.m.wikipedia.org/wiki/Cloud_computing
+* {{../800px-Cloud_computing_types.svg.png?width=535}}
+
+===== Private cloud =====
+* Private cloud is __cloud infrastructure operated solely for a single organization__, whether managed internally or by a third-party, and hosted either internally or externally.
+* When done right, it can improve business, but every step in the project raises security issues that must be addressed to prevent serious vulnerabilities.
+* __Self-run data centers are generally capital intensive.__ They have attracted criticism because users "still have to buy, build, and manage them" and thus do not benefit from less hands-on management, essentially "[lacking] the economic model that makes cloud computing such an intriguing concept".
+
+===== Public cloud =====
+* __A cloud is called a "public cloud" when the services are rendered over a network that is open for public use.__
+* __Technically there may be little or no difference between public and private cloud architecture__, however, __security consideration may be substantially different__ for services (applications, storage, and other resources) that are made available by a service provider for a public audience and when communication is effected over a non-trusted network. 
+
+===== Hybrid cloud =====
+* Hybrid cloud is a composition of two or more clouds (private, community or public) that remain distinct entities but are bound together, offering the benefits of multiple deployment models.
+* A hybrid cloud service crosses isolation and provider boundaries so that it can't be simply put in one category of private, public, or community cloud service.
+* __It allows one to extend either the capacity or the capability of a cloud service, by aggregation, integration or customization with another cloud service.__
+
+===== Others =====
+
+==== Community cloud ====
+* Community cloud __shares infrastructure between several organizations from a specific community with common concerns__ (security, compliance, jurisdiction, etc.), whether managed internally or by a third-party, and either hosted internally or externally. The costs are spread over fewer users than a public cloud (but more than a private cloud), so only some of the cost savings potential of cloud computing are realized.
+
+==== Distributed cloud ====
+* A cloud computing platform can be assembled from a distributed set of machines in different locations, connected to a single network or hub service. It is possible to distinguish between two types of distributed clouds: **public-resource computing** and **volunteer cloud**.
+
+==== Intercloud ====
+* https://en.m.wikipedia.org/wiki/Intercloud
+* The Intercloud is an interconnected global "cloud of clouds" and an extension of the Internet "network of networks" on which it is based. __The focus is on direct interoperability between public cloud service providers__, more so than between providers and consumers (as is the case for hybrid- and multi-cloud).
+
+==== Multicloud ====
+* https://en.m.wikipedia.org/wiki/Multicloud
+* Multicloud is the use of multiple cloud computing services in __a single heterogeneous architecture to reduce reliance on single vendors, increase flexibility through choice, mitigate against disasters, etc.__ It differs from hybrid cloud in that it refers to multiple cloud services, rather than multiple deployment modes (public, private, legacy).
